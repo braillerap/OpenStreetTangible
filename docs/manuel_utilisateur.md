@@ -1,5 +1,5 @@
 # Introduction
-OpenStreetTangible est une démonstration de ce qu'il est possible de réaliser en terme de plan de transport en commun accessible à l'aide du lgiciel OpenStreetTouch, d'une BrailleRAP et de divers outils de fabication numérique.
+OpenStreetTangible est une démonstration de ce qu'il est possible de réaliser en terme de plan de transport en communs accessible à l'aide du logiciel OpenStreetTouch, d'une BrailleRAP et de divers outils de fabrication numérique.
 
 C'est un plan de métro tactile et parlant de la ville de Rennes qui est destiné aux personnes déficientes visuelles.  
 
