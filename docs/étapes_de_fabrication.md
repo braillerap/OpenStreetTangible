@@ -26,7 +26,7 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
   
   Si vous avez bien coché l'otion "Polygones pour tracés" lors de l'export vous devriez avoir les contours de lignes visibles comme sur cette image.
   
-  ![Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/ Export_option_polygone_traces_lignes_active.png)
+  ![Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/Export_option_polygone_traces_lignes_active.png)
   
   Si vous avez une image avec un seul trait représentant la ligne de métro comme sur l'image ci-dessous, recommencer l'export dans OpenStreetTouch
   
