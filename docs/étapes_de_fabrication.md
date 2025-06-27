@@ -257,8 +257,12 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 - Étamer les boutons
 - Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelqus cm de plus
 - Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo.
-- Préparer l'ensemble des boutons pour une ligne pour commencer en s'assurant d'avoir la même couleur de fil pour tous les boutons de cette ligne. On prendra une autre couleur pour la 2 e ligne.
 
+![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur.jpg)
+
+
+- Préparer l'ensemble des boutons pour une ligne pour commencer en s'assurant d'avoir la même couleur de fil pour tous les boutons de cette ligne. On prendra une autre couleur pour la 2 e ligne.
+![Préparation de l'ensemble des boutons avec le fil de rallonge et connecteur](IMG/boutons_fils_connecteurs.jpg)
 
 
 ### Montage des boutons sur le plan
