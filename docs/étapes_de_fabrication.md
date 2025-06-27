@@ -130,7 +130,7 @@ Créer deux calques pour travailler sur le fichier. L’un sert pour graver le c
 
 Graver le contour de l’ensemble du plan des deux lignes de métros sur la grande plaque de 80 x60cm avec le SVG correspondant, et couper les cercles internes (stations, légendes) prévus pour y insérer les boutons. 
 
-to do :Ajouter photo 
+ ![Plan avec traçage des contours des deux lignes de métro sur la plaque de peuplier 80cm x60cm ](/IMG/gravure_et_percage_plan_global_laser.jpg)
 
 
 **Découpe des lignes de transport**
@@ -138,6 +138,8 @@ to do :Ajouter photo
 Découper ensuite chaque ligne de métro redécoupée en plusieurs parties numériquement (dans Inkscape) (cf:transformation des fichiers) sur  leur matériau respectif (Peuplier 3mm et PMMA blanc 3mm). Préférer la ligne la plus courte ou la plus simple pour le matériau bois/papier de verre puisqu’elle nécessite plus de travail. Pour notre cas, nous choisissons la ligne A. (JF Kennedy-Poterie)
 
 Ne pas enlever le plastique protecteur du PMMA lors de la découpe.
+
+
 To do : ajouter photos 
 
 
@@ -171,7 +173,17 @@ Peindre à la bombe rouge les deux stations de correspondances
 
 * Mettre le plan 80 X60 face gravée contre une table (propre !).
 
-* Coller les tasseaux sur l’autre face avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. 
+* Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque. Dessiner au crayon à papier leur contour pour bien avoir le repère au moment du collage
+
+* Coller les tasseaux avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum avant d'enlever kes pinces et les serre-joints.
+
+* Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité)
+
+ ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
+ 
+
+
+### Collage des lignes de métro
 
 * Coller les deux lignes de métro découpées à la laser sur le plan
 
@@ -215,6 +227,10 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 #### Découpe des étiquettes
 - Découper ensuite les étiquettes ligne par ligne de préférence à l’aide d’un massicot sinon cutter ou ciseaux.
 - Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible
+
+
+![Etiquette imprimée en caractère noir avec surimpression braille ](/IMG/etiquette_braille1_Clemenceau.jpg)
+
 
 ## Montage du circuit électronique
 ### Préparation des boutons
