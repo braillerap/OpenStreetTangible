@@ -16,9 +16,14 @@
 
 * Extraire également le nom des stations pour chacune des lignes avec le bouton "Enregistrer les stations en TXT"
 
+* ''TO DO : Ajouter ICI les fichiers source issus de l'extraction''
 
-### 2- Transformation des fichiers
+
+### 2- Transformation des fichiers avec Inkscape
 Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (logiciel libre et gratuit).
+
+
+#### 2-1 Vérification des fichiers
 
 * Ouvrir le svg de l'ensemble des lignes avec Inkscape et passer en mode "vue des contours"
 
@@ -32,7 +37,9 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
   
   ![Vue de l’export SVG avec l’option « polygones pour tracés de lignes » qui n'est pas cochée](/IMG/Export_option_polygone_traces_inactive.png)
   
- 
+
+
+#### 2-2 Mise à l'échelle du plan
 * Mettre le SVG à l’échelle du plan choisi (redimensionner le document à la taille souhaitée)
 
   Fichier>propriétés du document ou en anglais File>document properties>Display
@@ -41,10 +48,12 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
   
   Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document
   
-  
-* Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station).
+#### 2-3 Préparation des fichiers pour la découpe laser
+* Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
 * Simplifier ou décaler les lignes quand elles se touchent pour faciliter la lisibilité
 * Redessiner les stations en fin de ligne pour les remplacer par des cercles si vous le jugez nécessaire
 * Faire un cercle plus grand pour chacune des stations de correspondance
 * Ajuster la taille des cercle de chaque station et ajouter un cercle interne à chaque station pour faire une découpe qui correspond à la taille du bouton que vous avez choisi. Pour notre exemple, les cercles externes font Xmm et les cercles internes Xmm
+* '' TO DO : Ajouter ICI les fichiers source transformés''
+
 
