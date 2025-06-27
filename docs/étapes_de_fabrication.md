@@ -130,7 +130,7 @@ Créer deux calques pour travailler sur le fichier. L’un sert pour graver le c
 
 Graver le contour de l’ensemble du plan des deux lignes de métros sur la grande plaque de 80 x60cm avec le SVG correspondant, et couper les cercles internes (stations, légendes) prévus pour y insérer les boutons. 
 
- ![Plan avec traçage des contours des deux lignes de métro sur la plaque de peuplier 80cm x60cm ](/IMG/gravure_et_percage_plan_global_laser.jpg)
+ ![Plan avec traçage des contours des deux lignes de métro sur la plaque de peuplier 80cm x60cm ](/IMG/gravure_et_percage_plan_global_laser_fait.jpg)
 
 
 **Découpe des lignes de transport**
@@ -181,7 +181,13 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 ![Collage tasseaux](/IMG/collage_tasseaux.jpg)
 
+![Collage tasseaux avec plaques de protection](/IMG/collage_tasseau_sur_plaque_plan.jpg)
+
 ![Finalisation collage tasseaux](/IMG/finalisation_collage_tasseaux.jpg)
+
+
+
+
 
 
 * Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité)
@@ -196,11 +202,13 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 * Coller ensuite chacune des lignes en vous repérant à la gravure. Utiliser la colle à bois pour la ligne A en peuplier et la colle cyano pour la ligne B en PMMA (enlever la protection sur la face qui sera collée juste avant d’appliquer la colle . 
 
-* Coller ensuite les cercles correspondant aux stations de correspondance ici peintes à la bombe de peinture rouge.
+* Coller ensuite les cercles correspondant aux stations de correspondance  ici peintes à la bombe de peinture rouge.
 
 ### Assemblage et collage des deux lignes et des deux stations de correspondance sur le plan
 - Avec la colle cyano, coller la ligne B en PMMA. 
 - Avec la colle à bois coller la ligne A préparée avec le papier de verre peint en noir
+
+
 
 
 ### Préparation des étiquettes
