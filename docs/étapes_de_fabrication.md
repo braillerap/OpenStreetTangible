@@ -169,13 +169,20 @@ Peindre à la bombe rouge les deux stations de correspondances
 
 
 
-### Préparation du cadre du plan
+### Préparation du chassis du plan
 
 * Mettre le plan 80 X60 face gravée contre une table (propre !).
 
 * Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque. Dessiner au crayon à papier leur contour pour bien avoir le repère au moment du collage
 
-* Coller les tasseaux avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum avant d'enlever kes pinces et les serre-joints.
+* Coller les tasseaux avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. Pour ne pas faire de marquage ou déformer les tasseaux avec les pinces et étaux, ajouter des plaue de protection entre le tasseau et la pince de serrage.
+Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum avant d'enlever les pinces et les serre-joints.
+
+
+![Collage tasseaux](/IMG/collage_tasseaux.jpg)
+
+![Finalisation collage tasseaux](/IMG/finalisation_collage_tasseaux.jpg)
+
 
 * Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité)
 
