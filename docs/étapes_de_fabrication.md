@@ -198,6 +198,8 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
  ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
  
 
+### Vérification assemblage avant le collage des lignes de métro
+- Positionner les éléments des deux lignes pour vérifier que tous les éléments sont présents et correspondent bien au tracé de repérage.
 
 ### Collage des lignes de métro
 
@@ -247,7 +249,7 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 - Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible
 
 
-![Etiquette imprimée en caractère noir avec surimpression braille ](/IMG/etiquette_braille1_Clemenceau.jpg)
+![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille1_Clemenceau.jpg)
 
 
 ## Montage du circuit électronique
@@ -262,6 +264,15 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 ### Montage des boutons sur le plan
 - Insérer la rondelle sur le bouton pour qu'elle se trouve sous la plaque . Insérer ensuite le bouton avec sa rondelle par dessous et le fixer à la main (sans clé pour commencer)
 - Procéder ainsi pour tous les botuons de l'ensemble de la ligne
+
+![Montage des boutons sur le plan](/IMG/montage_bouton_apres_collage_lignes_metros.jpg)
+
+
+### Pré-positionnement des étiquettes et vérification de l'ensemble des éléments
+- Positionner chaque étiquette face à la station correspondante en respectant une logique d'accessibilité au maximum pour sentir l'étiquette correspondante à la station au toucher. 
+
+![Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord](/IMG/pre_positionnement_etiquettes.jpg)
+
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
 - Positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
