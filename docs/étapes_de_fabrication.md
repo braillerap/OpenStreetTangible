@@ -130,6 +130,9 @@ Créer deux calques pour travailler sur le fichier. L’un sert pour graver le c
 
 Graver le contour de l’ensemble du plan des deux lignes de métros sur la grande plaque de 80 x60cm avec le SVG correspondant, et couper les cercles internes (stations, légendes) prévus pour y insérer les boutons. 
 
+Sur la photo ci-dessous, nous avions oublié de faire les trous pour placer les boutons sur la légende lors de la découpe laser. Nous ferons les trous à la perceuse ce qui nous permet aussi de positionner la légende là où cela nous arrange en fonction du positionnement du circuit électronique sur l'envers de la plaque.
+
+
  ![Plan avec traçage des contours des deux lignes de métro sur la plaque de peuplier 80cm x60cm ](/IMG/gravure_et_percage_plan_global_laser_fait.jpg)
 
 
