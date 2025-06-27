@@ -56,7 +56,7 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
 * Ajuster la taille des cercle de chaque station et ajouter un cercle interne à chaque station pour faire une découpe qui correspond à la taille du bouton que vous avez choisi. Pour notre exemple, les cercles externes font Xmm et les cercles internes Xmm
 * '' TO DO : Ajouter ICI les fichiers source transformés''
 
-## Fabrication du plan de métro à partir des fichiers retravaillés
+## Fabrication du plan de métro avec son chassis
 
 ### Fichiers sources extraits d’open street map et retravaillés dans Inkscape
 - l'ensemble du plan de métro retravaillé (les deux lignes : ligne A et ligne B) sur un seul fichier (à graver)
