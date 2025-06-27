@@ -274,12 +274,17 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 
 ### Pré-positionnement des étiquettes et vérification de l'ensemble des éléments
 - Positionner chaque étiquette face à la station correspondante en respectant une logique d'accessibilité au maximum pour sentir l'étiquette correspondante à la station au toucher. 
-
+- Positionner aussi la légende et le triangle qui indique le nord
 ![Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord](/IMG/pre_positionnement_etiquettes.jpg)
+
+Une fois validé la position des étiquettes, les retirer et les conserver dans une boîte avec les éléments de la légende et le triangle.
+
+### Positionner la carte clavier et la coller
+- Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
+- Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !
 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
-- Positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
 - Connecter les connecteurs des boutons si possible dans l'ordre es stations de la ligne
 
 ### Plan fritzing du schéma électronique
