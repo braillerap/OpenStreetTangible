@@ -109,7 +109,7 @@ Imprimer en PLA ou PETG :
 
 
 **Machines et outils**
-* BrailleRAP.
+* Une [BrailleRAP](https://github.com/braillerap/BrailleRap).
 * Découpe laser.
 * imprimante laser (vous pouvez utiliser une imprimante jet d'encre en utilisant les feuilles transparentes adaptées)
 * Perceuse.

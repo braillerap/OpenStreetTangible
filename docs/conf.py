@@ -32,11 +32,11 @@ source_suffix = ['.rst', '.md']
 myst_enable_extensions = ["attrs_inline", "html_image"]
 
 master_doc = 'index'
-project = u'OpenStreetTouch'
+project = u'OpenStreetTangible'
 copyright = 'GPL V3'
 
-version = '0.2.5'
-release = '0.2.5-conf'
+version = '0.1.1'
+release = '0.1.1'
 exclude_patterns = ['_build']
 default_role = 'obj'
 pygments_style = 'sphinx'
@@ -46,10 +46,10 @@ pygments_style = 'sphinx'
 #    'django': ('http://django.readthedocs.io/en/1.8.x/', None),
 #    'sphinx': ('http://sphinx.readthedocs.io/en/latest/', None),
 #}
-htmlhelp_basename = 'DesktopBrailleRAPdoc'
+htmlhelp_basename = 'OpenStreetTangibledoc'
 latex_documents = [
-    ('index', 'DesktopBrailleRap.tex', u'DesktopBrailleRAP Documentation',
-     u'BrailleRap Team', 'manual'),
+    ('index', 'OpenStreetTangible.tex', u'OpenStreetTangible Documentation',
+     u'BrailleRap Team / MyHuman Kit', 'manual'),
 ]
 
 #man_pages = [
