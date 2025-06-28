@@ -14,7 +14,7 @@ Bienvenue sur la documentation OpenStreetTangible
    sourcecode
    licence 
 
-.. index:: manuel_utilisateur,étapes_de_fabrication,sourcecode, licence
+.. index:: manuel_utilisateur,building_step,sourcecode, licence
 
 Mise à jour: |today|
 
