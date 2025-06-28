@@ -42,6 +42,7 @@ Pour des raisons esthétiques et pratiques non avons effectué les modifications
 * Les cercles des stations sont redimensionnés a 15 mm de diamètre.
 * La largeur des tracés de lignes est défini a 8 mm.
 * Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériaux, donc un touché différent.
+* A proximité des stations en correspondance, nous avons espacé les lignes de transport pour obtenir un tracé moins ambigu au niveau des corresponances et conserver une largeur de ligne de 8mm.
 * Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des etiquettes trop proches les unes des autres.
 
 Le fichier svg résultat est le suivant
@@ -83,14 +84,13 @@ Pour la ligne A
 Pour la ligne B
 ![Le fichier de découpe de la ligne A](/IMG/rennes_subway_line_b.svg)
 
-#### 2-3 Préparation des fichiers pour la découpe laser
-* Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
-* Simplifier ou décaler les lignes quand elles se touchent pour faciliter la lisibilité
-* Redessiner les stations en fin de ligne pour les remplacer par des cercles si vous le jugez nécessaire
-* Faire un cercle plus grand pour chacune des stations de correspondance
-* Ajuster la taille des cercle de chaque station et ajouter un cercle interne à chaque station pour faire une découpe qui correspond à la taille du bouton que vous avez choisi. Pour notre exemple, les cercles externes font Xmm et les cercles internes Xmm
+#### Réalisation à l'aide de la découpe laser
 
-* '' TO DO : Ajouter ICI les fichiers source transformés''
+En utilisant le logiciel de la découpe laser, nous avons réalisé la plaque de fond en marquant les tracé en noir et en découpant les tracés en rouge sur une plaque de contreplaqué peuplier 5mm.
+
+Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis les tracés noirs. Chaque ligne est découpées dans un matériau différents, du PMMA blanc 3mm et du contreplaqué peuplier 3mm.
+
+Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de découpe pour découper les lignes dans du papier de verre 120.
 
 ## Fabrication du plan de métro avec son chassis
 
@@ -123,6 +123,8 @@ Imprimer en PLA ou PETG :
 **Partie design**
 * Soudure pour électronique
 * fils de cablage
+* Embase Alimentation jack 2.5mm. 
+* Alimentation 12V 6A avec connecteur Jack 2.5mm.
 * colle cyano pour coller plexi sur bois
 * colle à bois
 * papier de verre (grammage 120)
@@ -132,7 +134,7 @@ Imprimer en PLA ou PETG :
 * 1 tasseau de 53,5cm (section 3x5cm)
 * 1 tasseau de 41cm (section 3x5cm)
 * 2 tasseaux de 80 cm (section 3x5cm)
-* ~10 Feuilles transparentes pour impression laser pour imprimer les étiquettes brailles
+* ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille.
 * 8 x inserts M6 x23mm 
 * 8 x Vis M6
 * bombe de peinture noire
@@ -143,7 +145,7 @@ Imprimer en PLA ou PETG :
 
 **Circuit électronique**
 
-* une raspberry pi (version?)
+* Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio.
 * carte clavier
 * cable USB (type?)
 * X nb de boutons vissables (ref?)
@@ -192,25 +194,20 @@ Découper les stations de correspondance qui ont un cercle externe légèrement 
 Découper également la légende pour les deux lignes. (une avec le papier de verre collé sur le bois et l’autre en PMMA)
 
 
+### Peinture
 
+Pour augmenter les contrastes, les lignes en papier de verre sont peintes en noir, les stations de correspondance sont peintes en rouge.
 
-**Collage du papier de verre sur la ligne A**
+* Peindre à la bombe de couleur noire la ligne en papier de verre.
+* Peindre à la bombe rouge les deux stations de correspondances
+
+### Collage du papier de verre sur la ligne A
 
 Coller la ligne découpée dans le papier de verre sur sa ligne correspondante en bois (ligne A) avec la colle à bois
 
-
-
-### Peinture
-
-Peindre à la bombe de couleur noire la ligne en papier de verre.
-
-Peindre à la bombe rouge les deux stations de correspondances
-
-
-
 ### Préparation du chassis du plan
 
-* Mettre le plan 80 X60 face gravée contre une table (propre !).
+* Mettre le plan 80 X 60 face gravée contre une table (propre !).
 
 * Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque. Dessiner au crayon à papier leur contour pour bien avoir le repère au moment du collage
 
@@ -311,6 +308,7 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 ### Pré-positionnement des étiquettes et vérification de l'ensemble des éléments
 - Positionner chaque étiquette face à la station correspondante en respectant une logique d'accessibilité au maximum pour sentir l'étiquette correspondante à la station au toucher. 
 - Positionner aussi la légende et le triangle qui indique le nord
+
 ![Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord](/IMG/pre_positionnement_etiquettes.jpg)
 
 Une fois validé la position des étiquettes, les retirer et les conserver dans une boîte avec les éléments de la légende et le triangle.
