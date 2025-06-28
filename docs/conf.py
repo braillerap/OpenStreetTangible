@@ -33,7 +33,7 @@ myst_enable_extensions = ["attrs_inline", "html_image"]
 
 master_doc = 'index'
 project = u'OpenStreetTangible'
-copyright = 'GPL V3'
+copyright = 'CERN-OHL-W V2.0'
 
 version = '0.1.1'
 release = '0.1.1'

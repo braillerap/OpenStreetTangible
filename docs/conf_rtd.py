@@ -54,9 +54,9 @@ def get_git_branch():
 
 # -- Project information -----------------------------------------------------
 
-project = u'OpenStreetTouch'
-copyright = u'GPL V3'
-author = u'BrailleRAP team'
+project = u'OpenStreetTangible'
+copyright = u'CERN-OHL-W V2.0'
+author = u'BrailleRAP team / My Human Kit'
 
 # The short X.Y version
 version = u'0.1.1'
