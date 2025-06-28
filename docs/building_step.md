@@ -18,32 +18,15 @@
 ![Le fichier d'extraction SVG obtenu est le suivant](/IMG/rennes_metro.svg)
 
 
-### 2- Transformation des fichiers avec Inkscape
+###  Transformation des fichiers avec Inkscape
 Le SVG issue d'OpenStreetTouch doit être modifié avec un logiciel de dessin vectoriel comme Inkscape (logiciel libre et gratuit).
 
-
-#### 2-1 Vérification des fichiers
-
-* Ouvrir le svg de l'ensemble des lignes avec Inkscape et passer en mode "vue des contours"
-
-  Vue>Mode d’affichage>Contours ou en anglais View>Display mode>Outline 
-  
-  Si vous avez bien coché l'otion "Polygones pour tracés" lors de l'export vous devriez avoir les contours de lignes visibles comme sur cette image.
-  
-  ![Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/Export_option_polygone_traces_lignes_active.png)
-  
-  Si vous avez une image avec un seul trait représentant la ligne de métro comme sur l'image ci-dessous, recommencer l'export dans OpenStreetTouch
-  
-  ![Vue de l’export SVG avec l’option « polygones pour tracés de lignes » qui n'est pas cochée](/IMG/Export_option_polygone_traces_inactive.png)
-  
-
-
-#### 2-2 Mise à l'échelle du plan
-* Mettre le SVG à l’échelle du plan choisi (redimensionner le document à la taille souhaitée)
+#### Mise à l'échelle du plan
+*  Ouvrir le svg de l'ensemble des lignes avec Inkscape et mettre le SVG à l’échelle du plan choisi (redimensionner le document à la taille souhaitée)
 
   Fichier>propriétés du document 
   
-  Ajuster la taille du document aux dimensions souhaitées (ici 800 x600 mm)
+  Ajuster la taille du document aux dimensions souhaitées (ici 800 x 600 mm)
   
   Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document. Penser a garder un peu de marge sur les bords (dans notre cas 50 mm).
   Ce fichier servira ensuite à la réalisation de :
@@ -51,7 +34,21 @@ Le SVG issue d'OpenStreetTouch doit être modifié avec un logiciel de dessin ve
   * Un fichier pour la gravure et le perçage de laplaque de fond. La gravure permettra d'avoir un repère pour le collage des lignes. Les percage permettront le passage des boutons qui sont vissés sur les lignes des stations.
   * Plusieurs fichiers pour la découpe de chaque ligne de métro.
 
+####  Mise en forme du réseau
+
+Pour des raisons esthétiques et pratiques non avons effectué les modifications suivantes :
+
+* Les débuts et fin de lignes ont été remplacés par des cercles.
+* Les cercles des stations sont redimensionnés a 15 mm de diamètre.
+* La largeur des tracés de lignes est défini a 8 mm.
+* Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériaux, donc un touché différent.
+* Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des etiquettes trop proches les unes des autres.
+
+![Le fichier svg résultat est le suivant](/IMG/rennes_metro_worked2.svg)
+
 #### Préparation du fichier pour la gravure et le percage de la plaque de fond
+
+#### Préparation des fichiers pour la découpe des lignes
 
 #### 2-3 Préparation des fichiers pour la découpe laser
 * Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
