@@ -10,7 +10,7 @@ Bienvenue sur la documentation OpenStreetTangible
    :maxdepth: 3
 
    manuel_utilisateur
-   étapes_de_fabrication
+   building_step
    sourcecode
    licence 
 
