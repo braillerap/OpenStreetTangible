@@ -67,37 +67,37 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
 
 
 ### Fichier 3D à imprimer
-Imprimer en PLA :
-
+Imprimer en PLA ou PETG :
 * le fichier 3D qui sert à faire sortir le câble pour alimenter le prototype
 * Le passe cable 
 
 
 **Machines et outils**
-* Braillerap
-* découpe laser
-* imprimante laser à jet d’encre. (Attention à utiliser une photocopieuse laser sinon le rhodoïde risque de casser la machine!)
-* perceuse 
-* fer à souder
-* multimètre
-* serre joints ou grosses pinces
+* BrailleRAP.
+* Découpe laser.
+* imprimante laser (vous pouvez utiliser une imprimante jet d'encre en utilisant les feuilles transparentes adaptées)
+* Perceuse.
+* Fer à souder
+* Multimètre
+* Serre joints ou grosses pinces
 
 
 **Consommables**
 
 **Partie design**
-* étain
+* Soudure pour électronique
+* fils de cablage
 * colle cyano pour coller plexi sur bois
 * colle à bois
-* papier de verre (grammage 80)
-* PMMA blanc 5mm
+* papier de verre (grammage 120)
 * 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm 
-* contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
-* 1 tasseau de 53,5cm (3x5cm)
-* 1 tasseau de 41cm
-* 2 tasseaux de 80 cm (3x5cm)
-* Feuilles de rhodoïde pour imprimer les étiquettes brailles
-* 8 x inserts M6 x23mm (chevilles laitons pour tige filetée diam 6mm)
+* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 tasseau de 53,5cm (section 3x5cm)
+* 1 tasseau de 41cm (section 3x5cm)
+* 2 tasseaux de 80 cm (section 3x5cm)
+* ~10 Feuilles transparentes pour impression laser pour imprimer les étiquettes brailles
+* 8 x inserts M6 x23mm 
 * 8 x Vis M6
 * bombe de peinture noire
 * bombe de peinture rouge
