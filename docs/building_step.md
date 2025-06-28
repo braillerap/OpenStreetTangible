@@ -1,5 +1,59 @@
 # Étapes de fabrication
 
+## Liste du matériel
+
+### Outillage
+* Une [BrailleRAP](https://github.com/braillerap/BrailleRap).
+* Découpe laser.
+* imprimante laser (vous pouvez utiliser une imprimante jet d'encre en utilisant les feuilles transparentes adaptées)
+* Perceuse.
+* Fer à souder.
+* Multimètre.
+* Serre joints ou grosses pinces.
+
+
+### Consommables
+
+* Soudure pour électronique
+* fils de cablage
+* colle cyano pour coller plexi sur bois
+* colle à bois
+* bombe de peinture noire
+* bombe de peinture rouge
+
+
+### Réalisation du plan
+
+* papier de verre (grammage 120)
+* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm 
+* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 tasseau de 53,5cm (section 3x5cm)
+* 1 tasseau de 41cm (section 3x5cm)
+* 2 tasseaux de 80 cm (section 3x5cm)
+* ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille.
+* 8 x inserts M6 x23mm 
+* 8 x Vis M6
+
+
+
+
+### Electronique
+
+* Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio.
+* carte clavier [shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys).
+* 2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison shapeless_rp2040_40keys / raspberry pi.
+* 30 boutons poussoir a souder, fixation par écrou (autant de boutons que de stations + la légende)
+* fils de cablage pour connecter les boutons à la raspi (deux couleurs différentes, pour dissocier chaque ligne)
+* connecteurs dupont femelle 2 fil pour la connexion des boutons à la carte shapeless_rp2040_40keys.
+* ampli audio avec entrée mini jack.
+* cable mini jack audio
+* 1 Haut parleur 3~5 W
+* Embase Alimentation jack 2.5mm. 
+* Alimentation 12V 6A avec connecteur Jack 2.5mm.
+
+
+
 ## Partie logicielle : Open Street Touch & Inkscape
 
 ### 1-Extraction des données de lignes de transport avec OpenStreetTouch
@@ -106,54 +160,6 @@ Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de
 Imprimer en PLA ou PETG :
 * le fichier 3D qui sert à faire sortir le câble pour alimenter le prototype
 * Le passe cable 
-
-
-**Machines et outils**
-* Une [BrailleRAP](https://github.com/braillerap/BrailleRap).
-* Découpe laser.
-* imprimante laser (vous pouvez utiliser une imprimante jet d'encre en utilisant les feuilles transparentes adaptées)
-* Perceuse.
-* Fer à souder
-* Multimètre
-* Serre joints ou grosses pinces
-
-
-**Consommables**
-
-**Partie design**
-* Soudure pour électronique
-* fils de cablage
-* Embase Alimentation jack 2.5mm. 
-* Alimentation 12V 6A avec connecteur Jack 2.5mm.
-* colle cyano pour coller plexi sur bois
-* colle à bois
-* papier de verre (grammage 120)
-* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm 
-* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
-* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
-* 1 tasseau de 53,5cm (section 3x5cm)
-* 1 tasseau de 41cm (section 3x5cm)
-* 2 tasseaux de 80 cm (section 3x5cm)
-* ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille.
-* 8 x inserts M6 x23mm 
-* 8 x Vis M6
-* bombe de peinture noire
-* bombe de peinture rouge
-
-
-
-
-**Circuit électronique**
-
-* Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio.
-* carte clavier
-* cable USB (type?)
-* X nb de boutons vissables (ref?)
-* fil pour connecter les boutons à la raspi (deux couleurs différentes, pour dissocier chaque ligne)
-* connecteurs (?)
-* ampli speaker (REF?)
-* prise mini jack audio
-* connecteurs
 
 
 
