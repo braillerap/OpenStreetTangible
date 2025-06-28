@@ -46,7 +46,7 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
   
   Ajuster la taille du document aux dimensions souhaitées (ici 800 x600 mm)
   
-  Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document
+  Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document. Penser a garder un peu de marge sur les bords (dans notre cas 50 mm).
   
 #### 2-3 Préparation des fichiers pour la découpe laser
 * Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
