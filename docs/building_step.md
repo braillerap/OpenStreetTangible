@@ -49,10 +49,10 @@ Le fichier svg résultat est le suivant
 
 #### Préparation du fichier pour la gravure et le percage de la plaque de fond
 
-A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape
+A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape :
 
 * Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction Path/Object to path.
-* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour fixer le bouton poussoir (trou de 7mm)
+* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour faire passer le bouton poussoir (trou de 10.7 mm)
 * Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction Path/Object to path.
 * Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction Path/Union.
 * Les lignes sont découpés au niveau des stations en correspondances avec la fonction Path/difference.
@@ -64,6 +64,24 @@ Le fichier svg résultat est le suivant
 
 
 #### Préparation des fichiers pour la découpe des lignes
+
+A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape :
+
+* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction Path/Object to path.
+* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station fixer le bouton poussoir (trou de 7 mm)
+* Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction Path/Object to path.
+* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction Path/Union.
+* Les lignes sont découpés au niveau des stations en correspondances avec la fonction Path/difference.
+
+Pour les lignes de transport, les lignes noires correspondent à des découpes extérieures, les lignes rouges correpondent aux découpes pour les boutons poussoirs. Pour chaque lignes ont regroupe les différentes parties pour optimiser l'utilisation du matériau.
+
+Les fichiers svg résultats sont les suivants :
+
+Pour la ligne A
+![Le fichier de découpe de la ligne A](/IMG/rennes_subway_line_a.svg)
+
+Pour la ligne B
+![Le fichier de découpe de la ligne A](/IMG/rennes_subway_line_b.svg)
 
 #### 2-3 Préparation des fichiers pour la découpe laser
 * Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
