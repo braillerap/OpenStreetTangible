@@ -146,6 +146,15 @@ Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis
 
 Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de découpe pour découper les lignes dans du papier de verre 120.
 
+> [!IMPORTANT]  
+> Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
+
+Une fois les éléments découpé, on effectue un test de mise en place sans collage.
+
+![test des différents éléments découpés une seule ligne](/IMG/test_decoupe1.jpg)
+![test des différents éléments découpés les deux lignes](/IMG/test_decoupe2.jpg)
+![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
+
 ## Fabrication du plan de métro avec son chassis
 
 ### Fichiers sources extraits d’open street map et retravaillés dans Inkscape
@@ -184,7 +193,7 @@ Sur la photo ci-dessous, nous avions oublié de faire les trous pour placer les 
 
 Découper ensuite chaque ligne de métro redécoupée en plusieurs parties numériquement (dans Inkscape) (cf:transformation des fichiers) sur  leur matériau respectif (Peuplier 3mm et PMMA blanc 3mm). Préférer la ligne la plus courte ou la plus simple pour le matériau bois/papier de verre puisqu’elle nécessite plus de travail. Pour notre cas, nous choisissons la ligne A. (JF Kennedy-Poterie)
 
-Ne pas enlever le plastique protecteur du PMMA lors de la découpe.
+
 
 
 To do : ajouter photos 
