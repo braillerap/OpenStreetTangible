@@ -259,10 +259,11 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 #### Préparation du fichier
 Préparer le fichier contenant l’ensemble du nom des stations  avec les consignes suivantes :
-- redimensionner la taille de la police sur 24 pts
-- Changer la police sur Arial black ou Luciole (TO DO: dire quelle police on a choisi)
-- Remettre en page les noms de manière à ce qu’ils ne soient pas coupés.
-- Laisser un espace entre chaque ligne. (TO DO: de combien?)
+
+ * redimensionner la taille de la police sur 24 pts.
+ * Définir la police Luciole.
+ * Remettre en page les noms de manière à ce qu’ils ne soient pas coupés.
+ * Laisser un espace entre chaque ligne. 
 
 
 TO DO : mettre le fichier exemple sur lequel nous avons travaillés.
