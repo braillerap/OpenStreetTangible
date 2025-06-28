@@ -2,15 +2,17 @@ import os
 import glob
 import fnmatch
 
-imggext = ["*.jpg", "*.png"]
+imggext = ["*.jpg", "*.png", "*.svg"]
 
 
 
 print (__name__)
 
 def readfiles (flist):
+    
     res = {}
     for file in flist:
+        
         with open (file) as f:
             data = f.readlines ()
             res[file] = data
@@ -23,8 +25,12 @@ def main ():
     
     for ext in imggext:
         images += glob.glob ("./IMG/" + ext)
-
+    print ("images in ./IMG")
+    for img in images:
+        print (img)
     docfiles = glob.glob ("./*.rst")
+    docfiles += glob.glob("./*.md")
+    
     doc = readfiles(docfiles)
 
     print (images)        
