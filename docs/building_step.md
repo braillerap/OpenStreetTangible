@@ -44,9 +44,24 @@ Pour des raisons esthétiques et pratiques non avons effectué les modifications
 * Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériaux, donc un touché différent.
 * Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des etiquettes trop proches les unes des autres.
 
+Le fichier svg résultat est le suivant
 ![Le fichier svg résultat est le suivant](/IMG/rennes_metro_worked2.svg)
 
 #### Préparation du fichier pour la gravure et le percage de la plaque de fond
+
+A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape
+
+* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction Path/Object to path.
+* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour fixer le bouton poussoir (trou de 7mm)
+* Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction Path/Object to path.
+* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction Path/Union.
+* Les lignes sont découpés au niveau des stations en correspondances avec la fonction Path/difference.
+
+Pour réaliser la plaque de fond, les lignes noires correspondent à la gravure pour repérer la position des lignes, les lignes rouges correpondent aux découpes pour les boutons poussoirs.
+
+Le fichier svg résultat est le suivant
+![Le fichier svg résultat est le suivant](/IMG/rennes_subway_fond.svg)
+
 
 #### Préparation des fichiers pour la découpe des lignes
 
