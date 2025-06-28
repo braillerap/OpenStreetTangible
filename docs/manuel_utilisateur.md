@@ -23,10 +23,12 @@ Il est composé d’un panneau de bois de 80 x 60 cm sur lequel les deux lignes 
 
 
 
-Chaque station est représentée par un bouton que l’on peut cliquer pour vocaliser son nom.  Une étiquette est aussi associé à chacune d’elle avec son nom écrit en braille en surimpression du nom écrit en noir et gros caractère. 
+Chaque station est représentée par un bouton que l’on peut cliquer pour vocaliser son nom.  Une étiquette est aussi associé à chacune d’elle avec son nom écrit en braille en surimpression du nom écrit en noir et gros caractère.
+
+Pour l'impression des étiquettes, nous avons utilisé la police *Luciole*, spécialement crée pour les mal voyants. Cette police est disponible ici [https://www.luciole-vision.com](https://www.luciole-vision.com). La police *Luciole* est disponible sous licence libre CC BY 4.0.
 
 
-Le matériau utilisé pour les étiquettes est du Rhodoïde qui permet de conserver la transparence et l’esthétique de l’ensemble tout en permettant un contraste élevé. 
+Le matériau utilisé pour les étiquettes sont des feuilles transparentes pour impression laser. La transparence permet d'imprimer les étiquettes en contraste élevé. Ces feuilles fonctionnent correctement pour l'embossage Braille avec la BrailleRAP.
 
 
 L’écriture braille ne permet pas de modifier la taille des caractères puisqu’il est indispensable de respecter un écart standard entre les points qui composent chaque caractère afin de rester lisible. C’est une contrainte majeure dans la mesure où le braille prend nécessairement une place importante et écarte d’emblée la réalisation de petits formats si l’on souhaite avoir l’ensemble de l’information sur un même support.
