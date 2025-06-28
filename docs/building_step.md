@@ -11,15 +11,15 @@
 ![Vue de l’interface OpenStreetTouch](/IMG/OSM_vue_export_svg.png)
 
 * Dans le cas de la ville de Rennes, les lignes ont le même tracé dans les deux sens de circulation. Nous avons donc sélectionné chaque ligne une seule fois.
-* Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG afin de graver les contours de l’ensemble du plan pour venir ensuite y coller chaque ligne. 
+* Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG. Ce fichier servira a réaliser un fichier pour la gravure du fond et la découpe des tracés de lignes.
 
 * Extraire également le nom des stations pour chacune des lignes avec le bouton "Enregistrer les stations en TXT"
 
-* ''TO DO : Ajouter ICI les fichiers source issus de l'extraction''
+![Le fichier d'extraction SVG obtenu est le suivant](/IMG/rennes_metro.svg)
 
 
 ### 2- Transformation des fichiers avec Inkscape
-Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (logiciel libre et gratuit).
+Le SVG issue d'OpenStreetTouch doit être modifié avec un logiciel de dessin vectoriel comme Inkscape (logiciel libre et gratuit).
 
 
 #### 2-1 Vérification des fichiers
@@ -41,12 +41,18 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
 #### 2-2 Mise à l'échelle du plan
 * Mettre le SVG à l’échelle du plan choisi (redimensionner le document à la taille souhaitée)
 
-  Fichier>propriétés du document ou en anglais File>document properties>Display
+  Fichier>propriétés du document 
   
   Ajuster la taille du document aux dimensions souhaitées (ici 800 x600 mm)
   
   Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document. Penser a garder un peu de marge sur les bords (dans notre cas 50 mm).
-  
+  Ce fichier servira ensuite à la réalisation de :
+
+  * Un fichier pour la gravure et le perçage de laplaque de fond. La gravure permettra d'avoir un repère pour le collage des lignes. Les percage permettront le passage des boutons qui sont vissés sur les lignes des stations.
+  * Plusieurs fichiers pour la découpe de chaque ligne de métro.
+
+#### Préparation du fichier pour la gravure et le percage de la plaque de fond
+
 #### 2-3 Préparation des fichiers pour la découpe laser
 * Découper chacune des lignes au niveau des croisement et /ou au niveau des stations de correspondance (afin de ne conserver qu’une réprésentation de station (cercle) quelque soit le nombre de lignes qui s’arrête à cette station). ''' (TO DO : A décrire techniquement avec Inkscape)'''
 * Simplifier ou décaler les lignes quand elles se touchent pour faciliter la lisibilité
