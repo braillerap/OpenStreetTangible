@@ -120,13 +120,13 @@ Le fichier svg résultat est le suivant
 
 #### Préparation des fichiers pour la découpe des lignes
 
-A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape :
+A partir du fichier *rennes_metro_worked2.svg* nous avons réalisé les opérations suivantes avec inkscape :
 
-* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction Path/Object to path.
+* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction `Path/Object to path`.
 * Pour chaque station, ajout d'un cercle qui correspondra au percage de la station fixer le bouton poussoir (trou de 7 mm)
-* Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction Path/Object to path.
-* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction Path/Union.
-* Les lignes sont découpés au niveau des stations en correspondances avec la fonction Path/difference.
+* Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction `Path/Object to path`.
+* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
+* Les lignes sont découpés au niveau des stations en correspondances avec la fonction `Path/difference`.
 
 Pour les lignes de transport, les lignes noires correspondent à des découpes extérieures, les lignes rouges correpondent aux découpes pour les boutons poussoirs. Pour chaque lignes ont regroupe les différentes parties pour optimiser l'utilisation du matériau.
 
@@ -155,6 +155,49 @@ Une fois les éléments découpé, on effectue un test de mise en place sans col
 ![test des différents éléments découpés les deux lignes](/IMG/test_decoupe2.jpg)
 ![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
 
+
+### Fichier 3D à imprimer
+Imprimer en PLA ou PETG :
+* le fichier 3D qui sert à faire sortir le câble pour alimenter le prototype
+* Le passe cable 
+
+### Préparation des étiquettes
+
+#### Préparation du fichier
+Préparer le fichier contenant l’ensemble du nom des stations  avec les consignes suivantes :
+
+ * redimensionner la taille de la police sur 24 pts.
+ * Définir la police Luciole.
+ * Remettre en page les noms de manière à ce qu’ils ne soient pas coupés.
+ * Laisser un espace entre chaque ligne. 
+
+
+TO DO : mettre le fichier exemple sur lequel nous avons travaillés.
+
+
+#### Impression des noms sur les étiquettes
+Une fois prêt , imprimer en noir avec l’imprimante laser le fichier sur du papier Rhoidoïde (papier plastique transparent généralement utilisé pour les rétroprojecteurs. Prévoir de les faire en double ou triple au cas où il y ait des ratés ...
+
+Effectuer la configuration des marges avant de faire l’impression des caractères en noir sur l’imprimante laser. (TO DO: Préciser quelle marge et quels réglages ont été fait fait pour l'impression)
+
+Attention il ne faut pas faire les impressions sur une imprimante qui n’est pas laser au risque d’endommager la machine !! Il est impératif de le faire sur une imprimante laser. 
+
+#### Impression brailles
+Une fois les noms imprimés sur le rhodoïde , préparer l’impression en braille avec les consignes suivante : 
+
+- Dans le logiciel AccessBrailleRap, ajuster les marges de manière à ce que le braille se cale sur le nom imprimé en noir. Cette étape est un peu délicate et nécessite des ajustements en faisant des tests préalables.
+Pour notre cas, nous avons cette configuration (TO DO : impression écran de la config ou explications sur la manip pour le calage)
+
+- Quand le calage est satisfaisant, on peut alors lancer l’embossage avec la machine braillerap sur les rhodoïdes préparés.
+
+#### Découpe des étiquettes
+- Découper ensuite les étiquettes ligne par ligne de préférence à l’aide d’un massicot sinon cutter ou ciseaux.
+- Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible
+
+
+![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille1_Clemenceau.jpg)
+
+
 ## Fabrication du plan de métro avec son chassis
 
 ### Fichiers sources extraits d’open street map et retravaillés dans Inkscape
@@ -163,12 +206,6 @@ Une fois les éléments découpé, on effectue un test de mise en place sans col
 - les deux stations de correspondance :
 - les deux légendes : 
 - le fichier avec les noms des stations écrit en 24 points police Arial black ou Luciole : 
-
-
-### Fichier 3D à imprimer
-Imprimer en PLA ou PETG :
-* le fichier 3D qui sert à faire sortir le câble pour alimenter le prototype
-* Le passe cable 
 
 
 
@@ -264,41 +301,6 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 
 
-### Préparation des étiquettes
-
-#### Préparation du fichier
-Préparer le fichier contenant l’ensemble du nom des stations  avec les consignes suivantes :
-
- * redimensionner la taille de la police sur 24 pts.
- * Définir la police Luciole.
- * Remettre en page les noms de manière à ce qu’ils ne soient pas coupés.
- * Laisser un espace entre chaque ligne. 
-
-
-TO DO : mettre le fichier exemple sur lequel nous avons travaillés.
-
-
-#### Impression des noms sur les étiquettes
-Une fois prêt , imprimer en noir avec l’imprimante laser le fichier sur du papier Rhoidoïde (papier plastique transparent généralement utilisé pour les rétroprojecteurs. Prévoir de les faire en double ou triple au cas où il y ait des ratés ...
-
-Effectuer la configuration des marges avant de faire l’impression des caractères en noir sur l’imprimante laser. (TO DO: Préciser quelle marge et quels réglages ont été fait fait pour l'impression)
-
-Attention il ne faut pas faire les impressions sur une imprimante qui n’est pas laser au risque d’endommager la machine !! Il est impératif de le faire sur une imprimante laser. 
-
-#### Impression brailles
-Une fois les noms imprimés sur le rhodoïde , préparer l’impression en braille avec les consignes suivante : 
-
-- Dans le logiciel AccessBrailleRap, ajuster les marges de manière à ce que le braille se cale sur le nom imprimé en noir. Cette étape est un peu délicate et nécessite des ajustements en faisant des tests préalables.
-Pour notre cas, nous avons cette configuration (TO DO : impression écran de la config ou explications sur la manip pour le calage)
-
-- Quand le calage est satisfaisant, on peut alors lancer l’embossage avec la machine braillerap sur les rhodoïdes préparés.
-
-#### Découpe des étiquettes
-- Découper ensuite les étiquettes ligne par ligne de préférence à l’aide d’un massicot sinon cutter ou ciseaux.
-- Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible
-
-
-![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille1_Clemenceau.jpg)
 
 
 ## Montage du circuit électronique
