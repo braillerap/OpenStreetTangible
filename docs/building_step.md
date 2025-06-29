@@ -14,28 +14,26 @@
 
 ### Consommables
 
-* Soudure pour électronique
-* fils de cablage
-* colle cyano pour coller plexi sur bois
-* colle à bois
-* bombe de peinture noire
-* bombe de peinture rouge
+* Soudure pour électronique.
+* fils de cablage.
+* colle cyanoacrylate pour coller plexi sur bois
+* colle à bois.
+* bombe de peinture noire.
+* bombe de peinture rouge.
 
 
 ### Réalisation du plan
 
-* papier de verre (grammage 120)
-* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm 
-* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
-* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
-* 1 tasseau de 53,5cm (section 3x5cm)
-* 1 tasseau de 41cm (section 3x5cm)
-* 2 tasseaux de 80 cm (section 3x5cm)
+* papier de verre (grammage 120).
+* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm. 
+* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende.
+* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende.
+* 1 tasseau de 53,5cm (section 3x5cm).
+* 1 tasseau de 41cm (section 3x5cm).
+* 2 tasseaux de 80 cm (section 3x5cm).
 * ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille.
-* 8 x inserts M6 x23mm 
-* 8 x Vis M6
-
-
+* 8 x inserts M6 x23mm. 
+* 8 x Vis M6.
 
 
 ### Electronique
