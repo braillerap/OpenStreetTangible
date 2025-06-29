@@ -149,6 +149,14 @@ Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de
 > [!NOTE]  
 > Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
 
+```{note} 
+Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
+```
+
+```{warning} 
+Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
+```
+
 Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
 ![test des différents éléments découpés une seule ligne](/IMG/test_decoupe1.jpg)
