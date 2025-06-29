@@ -146,8 +146,8 @@ Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis
 
 Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de découpe pour découper les lignes dans du papier de verre 120.
 
-[!IMPORTANT]  
-Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
+  [!IMPORTANT]  
+  Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
 
 Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
