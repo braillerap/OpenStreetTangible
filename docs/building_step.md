@@ -314,12 +314,13 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
 - Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne
 
-### Plan fritzing du schéma électronique
-Alimentation 12V => Buck DC 5V & Amplificateur
-Buck DC 5V USB => USB alimentation du Raspberry Pi
-Raspberry PI USB  => shapeless_rp2040_40keys
-Sortie audio raspi => entrée ligne Amplificateur 
-Amplificateur Sortie HP => Haut Parleur
+### Schéma de principe du cablage
+
+* Alimentation 12V => Buck DC 5V & Amplificateur
+* Buck DC 5V USB => USB alimentation du Raspberry Pi
+* Raspberry PI USB  => shapeless_rp2040_40keys
+* Sortie audio raspi => entrée ligne Amplificateur 
+* Amplificateur Sortie HP => Haut Parleur
 
 ![Schema de principe](IMG/subwaycablage.png)
 
