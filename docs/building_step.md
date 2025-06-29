@@ -149,7 +149,7 @@ Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de
 > [!IMPORTANT]  
 > Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
 
-Une fois les éléments découpé, on effectue un test de mise en place sans collage.
+Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
 ![test des différents éléments découpés une seule ligne](/IMG/test_decoupe1.jpg)
 ![test des différents éléments découpés les deux lignes](/IMG/test_decoupe2.jpg)
@@ -158,13 +158,14 @@ Une fois les éléments découpé, on effectue un test de mise en place sans col
 
 ### Fichier 3D à imprimer
 Imprimer en PLA ou PETG :
-* le fichier 3D qui sert à faire sortir le câble pour alimenter le prototype
-* Le passe cable 
+* Panneau de fixation de l'embase d'alimentation *subwaycommande.stl*.
+* 1 ou 2 passe cable pour organiser les cables *chemin_cable.stl*.
+* 1 Support de Raspberry PI *support_rpi.stl*
 
 ### Préparation des étiquettes
 
-#### Préparation du fichier
-Préparer le fichier contenant l’ensemble du nom des stations  avec les consignes suivantes :
+#### Préparation des fichier
+
 
  * redimensionner la taille de la police sur 24 pts.
  * Définir la police Luciole.
