@@ -225,52 +225,6 @@ Pour notre cas, nous avons cette configuration (TO DO : impression écran de la 
 
 ## Fabrication du plan de métro avec son chassis
 
-### Fichiers sources extraits d’open street map et retravaillés dans Inkscape
-- l'ensemble du plan de métro retravaillé (les deux lignes : ligne A et ligne B) sur un seul fichier (à graver)
-- les deux lignes de métro sur des fichiers séparés : les deux lignes redécoupées en plusieurs parties sur les jonctions de stations de correspondance
-- les deux stations de correspondance :
-- les deux légendes : 
-- le fichier avec les noms des stations écrit en 24 points police Arial black ou Luciole : 
-
-
-
-### Préparation des éléments pour la découpe laser
-
-**Plan d'ensemble**
-
-
-Importer le fichier global retravaillé  représentant les deux lignes de métro, sur le logiciel de la découpe laser. 
-
-Créer deux calques pour travailler sur le fichier. L’un sert pour graver le contour des lignes servant de référence pour le collage, et l’autre sert à découper les cercles des stations.
-
-Graver le contour de l’ensemble du plan des deux lignes de métros sur la grande plaque de 80 x60cm avec le SVG correspondant, et couper les cercles internes (stations, légendes) prévus pour y insérer les boutons. 
-
-Sur la photo ci-dessous, nous avions oublié de faire les trous pour placer les boutons sur la légende lors de la découpe laser. Nous ferons les trous à la perceuse ce qui nous permet aussi de positionner la légende là où cela nous arrange en fonction du positionnement du circuit électronique sur l'envers de la plaque.
-
-
- ![Plan avec traçage des contours des deux lignes de métro sur la plaque de peuplier 80cm x60cm ](/IMG/gravure_et_percage_plan_global_laser_fait.jpg)
-
-
-**Découpe des lignes de transport**
-
-Découper ensuite chaque ligne de métro redécoupée en plusieurs parties numériquement (dans Inkscape) (cf:transformation des fichiers) sur  leur matériau respectif (Peuplier 3mm et PMMA blanc 3mm). Préférer la ligne la plus courte ou la plus simple pour le matériau bois/papier de verre puisqu’elle nécessite plus de travail. Pour notre cas, nous choisissons la ligne A. (JF Kennedy-Poterie)
-
-
-
-
-To do : ajouter photos 
-
-
-Découper ensuite le papier de verre à la découpe laser avec les fichiers de la ligne A qui a déjà été  découpé sur le peuplier 3 mm
-
-
-**Découpe des stations de correspondance et des légendes**
-
-Découper les stations de correspondance qui ont un cercle externe légèrement agrandi dans du peuplier 5mm. ***(ajouter diamètre)***
-
-Découper également la légende pour les deux lignes. (une avec le papier de verre collé sur le bois et l’autre en PMMA)
-
-
 ### Peinture
 
 Pour augmenter les contrastes, les lignes en papier de verre sont peintes en noir, les stations de correspondance sont peintes en rouge.
@@ -297,11 +251,7 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 ![Collage tasseaux avec plaques de protection](/IMG/collage_tasseau_sur_plaque_plan.jpg)
 
 ![Finalisation collage tasseaux](/IMG/finalisation_collage_tasseaux.jpg)
-
-
-
-
-
+|
 
 * Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité)
 
@@ -362,13 +312,17 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
-- Connecter les connecteurs des boutons si possible dans l'ordre es stations de la ligne
+- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne
 
 ### Plan fritzing du schéma électronique
-Alimentation 12V => régulateur de tension 5V (?, quelle ref ?) => Raspi (version?)
-Raspi USB vers Clavier (ref) =>connecteurs boutons (Type câble?)
-Sortie audio raspi vers Ampli (ref?) (Type câble ?)
-Alimentation 12V (ampérage?)  => Ampli=>Speaker
+Alimentation 12V => Buck DC 5V & Amplificateur
+Buck DC 5V USB => USB alimentation du Raspberry Pi
+Raspberry PI USB  => shapeless_rp2040_40keys
+Sortie audio raspi => entrée ligne Amplificateur 
+Amplificateur Sortie HP => Haut Parleur
+
+![Schema de principe](IMG/subwaycablage.png)
+
 
 ### Montage sur l'envers de la plaque du plan de métro
 
