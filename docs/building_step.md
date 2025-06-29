@@ -104,13 +104,13 @@ Le fichier svg résultat est le suivant
 
 #### Préparation du fichier pour la gravure et le percage de la plaque de fond
 
-A partir du fichier rennes_metro_worked2 nous avons réalisé les opérations suivantes avec inkscape :
+A partir du fichier **rennes_metro_worked2.svg** nous avons réalisé les opérations suivantes avec inkscape :
 
-* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction Path/Object to path.
+* Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction `Path/Object to path`.
 * Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour faire passer le bouton poussoir (trou de 10.7 mm)
-* Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction Path/Object to path.
-* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction Path/Union.
-* Les lignes sont découpés au niveau des stations en correspondances avec la fonction Path/difference.
+* Transformation des stations en chemins en sélectionnant les cercles exterieures des stations et en utilisant la fonction `Path/Object to path`.
+* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
+* Les lignes sont découpés au niveau des stations en correspondances avec la fonction `Path/difference`.
 
 Pour réaliser la plaque de fond, les lignes noires correspondent à la gravure pour repérer la position des lignes, les lignes rouges correpondent aux découpes pour les boutons poussoirs.
 
@@ -123,7 +123,7 @@ Le fichier svg résultat est le suivant
 A partir du fichier *rennes_metro_worked2.svg* nous avons réalisé les opérations suivantes avec inkscape :
 
 * Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction `Path/Object to path`.
-* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station fixer le bouton poussoir (trou de 7 mm)
+* Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour fixer le bouton poussoir (trou de 7 mm)
 * Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction `Path/Object to path`.
 * Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
 * Les lignes sont découpés au niveau des stations en correspondances avec la fonction `Path/difference`.
@@ -146,16 +146,11 @@ Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis
 
 Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de découpe pour découper les lignes dans du papier de verre 120.
 
-> [!NOTE]  
-> Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
 
 ```{note} 
 Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
 ```
 
-```{warning} 
-Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera retiré juste avant le collage.
-```
 
 Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
@@ -165,12 +160,20 @@ Une fois les éléments découpés, on effectue un test de mise en place sans co
 
 
 ### Fichier 3D à imprimer
+
 Imprimer en PLA ou PETG :
-* Panneau de fixation de l'embase d'alimentation *subwaycommande.stl*.
-* 1 ou 2 passe cable pour organiser les cables *chemin_cable.stl*.
-* 1 Support de Raspberry PI *support_rpi.stl*
+
+* Panneau de fixation de l'embase d'alimentation **subwaycommande.stl**.
+* 1 ou 2 passe cable pour organiser les cables **chemin_cable.stl**.
+* 1 Support de Raspberry PI **support_rpi.stl**.
+
+```{note} 
+Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint.
+```
 
 ### Préparation des étiquettes
+
+
 
 #### Préparation des fichier
 
