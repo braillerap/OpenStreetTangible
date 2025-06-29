@@ -175,7 +175,12 @@ Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint.
 
 La difficulté pour la réalisation des étiquettes est d'aligner suffisement bien l'impression, en gros caractères avec l'embossage Braille pour gagner de la place.
 
-Pour réussir a aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire labeltosvg, ce script prend en entrée un fichier texte contenant une série de ligne a imprimer et génére une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. Pour un numéro particulier, le fichier "xxxxxx.printer.svg" devra être imprimé avec une imprimante. Le fichier "xxxxxx.brap.svg" devra ensuite être embosser sur la BrailleRAP à l'aide du logiciel [DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP).
+Pour réussir a aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire `labeltosvg`, ce script prend en entrée un fichier texte contenant une série de ligne a imprimer et génére une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. 
+
+Pour un numéro particulier, le fichier "xxxxxx.printer.svg" devra être imprimé avec une imprimante. Le fichier "xxxxxx.brap.svg" devra ensuite être embosser sur la BrailleRAP à l'aide du logiciel [DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP).
+
+Nous avons utlisé ce script python avec le fichier .txt des stations de transport généré par [OpenStreetTouch](https://github.com/braillerap/OpenStreetTouch)
+
 
 Un exemple de fichier SVG pour l'impression
 ![Un exemple de fichier SVG pour l'impression](IMG/rennes_subway2.txt.printer1.svg)
