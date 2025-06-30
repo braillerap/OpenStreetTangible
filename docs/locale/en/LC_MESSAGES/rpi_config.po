@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-30 15:49+0000\n"
-"PO-Revision-Date: 2025-06-30 18:32+0000\n"
+"PO-Revision-Date: 2025-06-30 19:09+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
@@ -124,40 +124,43 @@ msgid ""
 "ensuite a l'aide de l'outil **raspi_config** étendre la partition à "
 "l'ensemble de la carte SD et redémarrer le raspberry PI."
 msgstr ""
+"then with **raspi_config** software, extend system partition to all "
+"available space on the SD card and reboot the Raspberry PI."
 
 #: ../../rpi_config.md:36
 msgid ""
 "Le Raspbery PI est désormais prêt pour l'installation des logiciels "
 "necessaires pour l'utilisation avec la carte tactile."
 msgstr ""
+"The Raspberry PI is now ready to setup softwares needed for the tangible map."
 
 #: ../../rpi_config.md:38
 msgid "Installation des logiciels"
-msgstr ""
+msgstr "Softwares setup"
 
 #: ../../rpi_config.md:40
 msgid "Connecter vous au Raspberry PI :"
-msgstr ""
+msgstr "Connect on the Raspberry PI :"
 
 #: ../../rpi_config.md:45
 msgid "Installer les logiciels avec les commandes :"
-msgstr ""
+msgstr "Install software with commands:"
 
 #: ../../rpi_config.md:52
 msgid "Installer la synthese vocale **espeack-ng**"
-msgstr ""
+msgstr "Install TTS **espeack-ng**"
 
 #: ../../rpi_config.md:57
 msgid "Installer l'extension **mbrola** avec les voix françaises."
-msgstr ""
+msgstr "Install **mbrola** extension for french voices."
 
 #: ../../rpi_config.md:66
 msgid "Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:"
-msgstr ""
+msgstr "You can now test the speech synthesis with the following commands:"
 
 #: ../../rpi_config.md:72
 msgid "Installation du logiciel speakerkeyboard"
-msgstr ""
+msgstr "Setup speakerkeyboard software"
 
 #: ../../rpi_config.md:74
 msgid ""
@@ -167,6 +170,11 @@ msgid ""
 "**shapeless_rp2040_40keys** il est possible de simuler l'appuie sur une "
 "touche d'un clavier en appuyant sur un des boutons de la carte tactile."
 msgstr ""
+"The [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) software "
+"allows you to trigger the reading of a message in voice synthesis when you "
+"press a key on the keyboard. Using the **shapeless_rp2040_40keys** board, it "
+"is possible to simulate pressing a key on a keyboard by pressing one of the "
+"buttons on the touch board."
 
 #: ../../rpi_config.md:85
 msgid ""
@@ -174,14 +182,16 @@ msgid ""
 "nous utilisons le module python **keyboard** pour intercepter les "
 "évenements clavier."
 msgstr ""
+"The software can only be used with **root** user since we use the python "
+"**keyboard** module to intercept keyboard events."
 
 #: ../../rpi_config.md:87
 msgid "Pour lancer le logiciel"
-msgstr ""
+msgstr "To run the software"
 
 #: ../../rpi_config.md:95
 msgid "Configurer les noms des stations"
-msgstr ""
+msgstr "Edit station names"
 
 #: ../../rpi_config.md:97
 msgid ""
@@ -189,10 +199,13 @@ msgid ""
 "êtrent branchés sur la carte **shapeless_rp2040_40keys** et la carte "
 "**shapeless_rp2040_40keys** doit être relié en usb sur le Raspberry PI."
 msgstr ""
+"To configure, the touch board buttons must be connected to the "
+"**shapeless_rp2040_40keys** board and the **shapeless_rp2040_40keys** board "
+"must be connected via USB to the Raspberry PI."
 
 #: ../../rpi_config.md:99
 msgid "Lancer le logiciel"
-msgstr ""
+msgstr "Run the software"
 
 #: ../../rpi_config.md:106
 msgid ""
@@ -200,6 +213,9 @@ msgid ""
 "le **code clavier**, le texte associé. Si un texte est associé à la "
 "touche, la synthèse vocale se déclenche et lit le texte en audio."
 msgstr ""
+"When you press a button on the touchpad, the software displays the **"
+"keyboard code** and the associated text. If a text is associated with the "
+"key, the voice synthesizer is triggered and reads the text in audio."
 
 #: ../../rpi_config.md:108
 msgid ""
@@ -207,12 +223,17 @@ msgid ""
 "ensuite éditer le fichier **kspeaker.json** pour entrer le **code "
 "clavier** et le texte associé dans la section **messages**."
 msgstr ""
+"To configure a message, stop the software with `CTR-C`, then you need to "
+"edit the **kspeaker.json** file to enter the **keyboard code** and "
+"associated text in the **messages** section."
 
 #: ../../rpi_config.md:110
 msgid ""
 "Le fichier **configuration.json** pour la carte tactile du métro de "
 "Rennes est donné ici a titre d'exemple."
 msgstr ""
+"The **configuration.json** file for the Rennes metro touch map is given here "
+"as an example."
 
 #: ../../rpi_config.md:151
 msgid ""
@@ -222,10 +243,14 @@ msgid ""
 "transformé en **Kénnédy**, **Le Blosne** a été transfomé en **Le "
 "Blaune**."
 msgstr ""
+"You may notice that some names have been changed to better match French "
+"phonetics and allow for better speech synthesis. In particular, **Kennedy** "
+"has been transformed into **Kénnédy**, **Le Blosne** has been transformed "
+"into **Le Blaune**."
 
 #: ../../rpi_config.md:153
 msgid "Lancement du logiciel au démarrage du système"
-msgstr ""
+msgstr "Running the software at system startup"
 
 #: ../../rpi_config.md:155
 msgid ""
@@ -233,13 +258,18 @@ msgid ""
 "**kspeaker** doit se lancer au démarrage du système. Pour installer le "
 "logiciel comme script système, utiliser la commande :"
 msgstr ""
+"To use the touchpad as a standalone application, the **kspeaker** software "
+"must be launched at system startup. To install the software as a system "
+"script, use the command:"
 
 #: ../../rpi_config.md:164
 msgid ""
 "Une fois le logiciel installer en service système, vous pouvez l'arrêter "
 "en utilisant la commande :"
 msgstr ""
+"Once the software is installed as a system service, you can stop it using "
+"the command:"
 
 #: ../../rpi_config.md:169
 msgid "vous pouvez également le relancer avec la commande :"
-msgstr ""
+msgstr "you can also restart it with the command:"
