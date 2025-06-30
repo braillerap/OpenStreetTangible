@@ -34,3 +34,13 @@ Le matériau utilisé pour les étiquettes sont des feuilles transparentes pour 
 L’écriture braille ne permet pas de modifier la taille des caractères puisqu’il est indispensable de respecter un écart standard entre les points qui composent chaque caractère afin de rester lisible. C’est une contrainte majeure dans la mesure où le braille prend nécessairement une place importante et écarte d’emblée la réalisation de petits formats si l’on souhaite avoir l’ensemble de l’information sur un même support.
 
 
+# Financement
+
+Ce projet est financé grace à [NGI0 Entrust](https://nlnet.nl/entrust), un fond créé par [NLnet](https://nlnet.nl) avec le support du programme  [Next Generation Internet](https://ngi.eu) de la Commision Européene. Plus d'informations ici [NLnet project page](https://nlnet.nl/project/BrailleRAP).
+
+[ 
+    <img src="./IMG/nlnetbanner.png" alt="Le logo du programme NGI0" width="25%">
+](https://nlnet.nl) 
+[
+    <img src="./IMG/NGI0_tag.png" alt="Le logo du programme NGI0" width="25%">
+](https://nlnet.nl) 

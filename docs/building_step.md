@@ -54,7 +54,7 @@
 
 ## Partie logicielle : Open Street Touch & Inkscape
 
-### 1-Extraction des données de lignes de transport avec OpenStreetTouch
+### Extraction des données de lignes de transport avec OpenStreetTouch
 * Installer OpenStreetTouch et suivre le tutoriel associé pour extraire les données de transports qui vous intéressent.
  (https://openstreettouch.readthedocs.io/fr/latest/manuel_utilisateur.html) 
 
@@ -188,9 +188,6 @@ Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repert
 ```
 
 
-
-
-
 #### Réalisation des étiquettes
 Ouvrir un des fichiers préparé à l'aide de `labeltosvg` avec inkscape et l'imprimer sur l'imprimante laser.
 
@@ -246,7 +243,7 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
  ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
  
 
-### Vérification assemblage avant le collage des lignes de métro
+### Vérification de l'assemblage avant le collage des lignes de métro
 - Positionner les éléments des deux lignes pour vérifier que tous les éléments sont présents et correspondent bien au tracé de repérage.
 
 ### Collage des lignes de métro
@@ -260,9 +257,6 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 ### Assemblage et collage des deux lignes et des deux stations de correspondance sur le plan
 - Avec la colle cyano, coller la ligne B en PMMA. 
 - Avec la colle à bois coller la ligne A préparée avec le papier de verre peint en noir
-
-
-
 
 
 
