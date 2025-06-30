@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-30 22:30+0000\n"
-"PO-Revision-Date: 2025-06-30 22:26+0000\n"
+"PO-Revision-Date: 2025-06-30 22:47+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
+"Language-Team: English <https://translate.codeberg.org/projects/"
+"openstreettangible_buildingmanual/manual_building_step/en/>\n"
 "Language: en\n"
-"Language-Team: English "
-"<https://translate.codeberg.org/projects/openstreettangible_buildingmanual/manual_building_step/en/>"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../building_step.md:1
@@ -1205,7 +1205,6 @@ msgid "Positionner la carte clavier et la coller"
 msgstr "Put in place the custom keyboard and bond it"
 
 #: ../../building_step.md:325
-#, fuzzy
 msgid ""
 "Retourner le plan et positionner de manière provisoire la carte clavier "
 "dans l'espace libre et assurez-vous que les connecteurs de chaque boutons"
@@ -1214,11 +1213,11 @@ msgid ""
 "*Prépositionnement carte clavier pour vérifier que chaque bouton puisse "
 "être connecté*"
 msgstr ""
-"Turn the plan over and temporarily position the keyboard card in the free"
-" space and make sure that the connectors of each button can reach it! "
-"[Prepositioning the keyboard card to check that each button can be "
-"connected](/IMG/prepositionnement_carte.jpg) *Prepositioning the keyboard"
-" card to check that each button can be connected*"
+"Turn the plan over and temporarily position the custom keyboard in the free "
+"space and make sure that the connectors of each button can reach it! ["
+"Prepositioning the custom keyboard to check that each button can be "
+"connected](IMG/prepositionnement_carte.jpg) *Prepositioning the custom "
+"keyboard to check that each button can be connected*"
 
 #: ../../building_step.md:325
 msgid ""
@@ -1229,17 +1228,16 @@ msgstr ""
 "connected"
 
 #: ../../building_step.md:331
-#, fuzzy
 msgid ""
 "Coller la carte clavier en ajoutant un cadre en bois que vous pouvez "
 "réaliser à la laser (sur la photo on a trouvé en récup quelque chose de "
 "convenable !) avec un pistolet à colle ![Collage de la carte clavier avec"
 " pistolet à colle](IMG/collage_carte_clavier_sur_support_bois.jpg)"
 msgstr ""
-"Bond the keyboard card by adding a wooden frame that you can make with a "
-"laser (in the photo we found something suitable in recycling!) with a "
-"glue gun! [Bonding the custom keyboard with a glue "
-"gun](/IMG/collage_carte_clavier_sur_support_bois.jpg)"
+"Bond the custom keyboard on a wooden frame that you can make with a laser ("
+"in the photo we found something suitable in recycling!) with a glue gun! "
+"[Bonding the custom keyboard with a glue gun](IMG/"
+"collage_carte_clavier_sur_support_bois.jpg)"
 
 #: ../../building_step.md:331
 msgid "Collage de la carte clavier avec pistolet à colle"
@@ -1250,60 +1248,64 @@ msgid "Connecter les connecteurs de chaque bouton à la carte clavier"
 msgstr "Connect the dupont connectors of each button to the custom keyboard"
 
 #: ../../building_step.md:336
-#, fuzzy
 msgid ""
 "Connecter les connecteurs des boutons si possible dans l'ordre des "
 "stations de la ligne pour faciliter le repérage mais ce n'est pas "
 "obligatoire! ![Connection des connecteurs des boutons à la carte "
 "clavier](IMG/connections_fils.jpg)"
 msgstr ""
-"Connect the button connectors if possible in the order of the stations on"
-" the line to make it easier to identify, but this is not mandatory! "
-"![Connecting the button connectors to the "
-"raspi](/IMG/connections_fils.jpg)"
+"Connect the button connectors if possible in the order of the stations on "
+"the line to make it easier to identify, but this is not mandatory! !"
+"[Connecting the button connectors to the raspi](IMG/connections_fils.jpg)"
 
 #: ../../building_step.md:336
-#, fuzzy
 msgid "Connection des connecteurs des boutons à la carte clavier"
-msgstr "Connecting the button to the raspi"
+msgstr "Connecting the button to the custom keyboard"
 
 #: ../../building_step.md:339
 msgid "Regrouper les fils"
-msgstr ""
+msgstr "Gather the wires"
 
 #: ../../building_step.md:340
 msgid ""
 "Regrouper les fils et les fixer ensemble avec des collier de serrage "
 "(colsons)"
-msgstr ""
+msgstr "Bundle the wires and secure them together with cable ties"
 
 #: ../../building_step.md:343
 msgid "Assemblage de l'ensemble du montage électronique"
-msgstr ""
+msgstr "Assembly of the entire electronic assembly"
 
 #: ../../building_step.md:344
 msgid ""
 "Le support imprimé en 3D, pour sortie de câble alimentation vers "
 "l'extérieur est vissé de part et d'autre sur les tasseaux"
 msgstr ""
+"The 3D printed support for the power cable outlet to the outside is screwed "
+"on both sides onto the cleats"
 
 #: ../../building_step.md:345
 msgid ""
 "L'ampli est collé avec deux ou 3 points de colle chaude au pistolet à "
 "colle"
 msgstr ""
+"The amplifier is bond with two or three dots of hot glue from a glue gun"
 
 #: ../../building_step.md:346
 msgid ""
 "Le passe câble speaker, le speaker, le convertisseur de tension et le "
 "domino sont fixés aussi au pistolet à colle"
 msgstr ""
+"The cable rail, the speaker, the voltage converter and the terminal block "
+"are also attached with a glue gun"
 
 #: ../../building_step.md:347
 msgid ""
 "Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi "
 "est vissé sur le support."
 msgstr ""
+"The 3D printed raspberry pi holder is glued to the plate and the raspberry "
+"pi is screwed onto the holder."
 
 #: ../../building_step.md:350
 msgid ""
@@ -1311,6 +1313,8 @@ msgid ""
 "(speaker) afin qu'il ne soit trop près du câble d'alimentation et du "
 "reste pour éviter les parasites."
 msgstr ""
+"The cable rail is used here to pass the speaker cable so that it is not too "
+"close to the power cable to avoid interference."
 
 #: ../../building_step.md:354
 msgid ""
@@ -1318,10 +1322,13 @@ msgid ""
 "électronique](/IMG/Assemblage_montage_electronique_legende.jpg) "
 "*Assemblage du montage électronique avec légende sur chacun des éléments*"
 msgstr ""
+"![Assembly of the electronic assembly](/IMG/"
+"Assemblage_montage_electronique_legende.jpg) *Assembly of the electronic "
+"assembly with legend on each of the elements*"
 
 #: ../../building_step.md:354 ../../building_step.md:358
 msgid "Assemblage du montage électronique"
-msgstr ""
+msgstr "Assembling the electronic"
 
 #: ../../building_step.md:358
 msgid ""
@@ -1329,58 +1336,68 @@ msgid ""
 "électronique](/IMG/Assemblage_montage_electronique.jpg) *Assemblage du "
 "montage électronique*"
 msgstr ""
+"![Electronic assembling](/IMG/Assemblage_montage_electronique.jpg) *"
+"Electronic assembling*"
 
 #: ../../building_step.md:361
 msgid ""
 "![Ampli collé avec pistolet à colle](/IMG/ampli.jpg) *Ampli collé avec "
 "pistolet à colle*"
 msgstr ""
+"![Bonded amplifier with glue gun](/IMG/ampli.jpg) *Bonded amplifier with "
+"glue gun*"
 
 #: ../../building_step.md:361
 msgid "Ampli collé avec pistolet à colle"
-msgstr ""
+msgstr "Amplifier bonded with hot glue"
 
 #: ../../building_step.md:365
 msgid ""
 "![Régulateur de tension](/IMG/regulateur_tension.jpg) *Régulateur de "
 "tension collé avec le pistolet à colle*"
 msgstr ""
+"![Voltage Regulator](/IMG/regulateur_tension.jpg) *Voltage regulator glued "
+"with hot glue*"
 
 #: ../../building_step.md:365
 msgid "Régulateur de tension"
-msgstr ""
+msgstr "Voltage regulator"
 
 #: ../../building_step.md:369
 msgid ""
 "![Sortie de cable d'alimentation](/IMG/Sortie_cable_alimentation.jpg) "
 "*Sortie de câble d'alimentation imprimé en 3D*"
 msgstr ""
+"![Power Cable Outlet](/IMG/Power_Cable_Outlet.jpg) *3D Printed Power Cable "
+"Outlet*"
 
 #: ../../building_step.md:369
 msgid "Sortie de cable d'alimentation"
-msgstr ""
+msgstr "Power cable outlet"
 
 #: ../../building_step.md:373
 msgid "![Domino d'alimentation](/IMG/domino_alim.jpg) *Domino d'alimentation*"
-msgstr ""
+msgstr "![Power distribution](/IMG/domino_alim.jpg) *Power distribution*"
 
 #: ../../building_step.md:373
 msgid "Domino d'alimentation"
-msgstr ""
+msgstr "Power distribution"
 
 #: ../../building_step.md:377 ../../building_step.md:380
 msgid "Vue d'ensemble du prototype final"
-msgstr ""
+msgstr "Overview of the final prototype"
 
 #: ../../building_step.md:378
 msgid "Le montage est terminé :)"
-msgstr ""
+msgstr "The subway map is finished :)"
 
 #: ../../building_step.md:380
 msgid ""
 "![Vue d'ensemble du prototype final](/IMG/rennes.jpg) *Vue d'ensemble du "
 "prototype final*"
 msgstr ""
+"![Overview of the final prototype](/IMG/rennes.jpg) *Overview of the final "
+"prototype*"
 
 #~ msgid ""
 #~ "![test des différents éléments découpés "
@@ -1439,4 +1456,3 @@ msgstr ""
 #~ "sortie de cable alimentation vers "
 #~ "l'extérieur"
 #~ msgstr ""
-
