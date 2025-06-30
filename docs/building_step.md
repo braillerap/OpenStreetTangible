@@ -187,7 +187,7 @@ Un exemple de fichier SVG pour l'impression
 ![Un exemple de fichier SVG pour l'impression](IMG/rennes_subway2.txt.printer1.svg)
 
 ```{note} 
-Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire `labels`.
+Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire labels.
 ```
 
 
@@ -331,19 +331,30 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
-- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne our faciliter le repérage mais ce n'est pas obligatoire!
+- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne pour faciliter le repérage mais ce n'est pas obligatoire!
 ![Connection des connecteurs des boutons à la raspi](/IMG/connections_fils.jpg)
 
 ### Regrouper les fils 
-- Regrouper les fils et les fixer ensemble avec des colsons
+- Regrouper les fils et les fixer ensemble avec des collier de serrage (colsons)
 
 
 ### Assemblage de l'ensemble du montage électronique
-Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
-Le passe cable est utilisé ici pour passer le cable du haut-parleur (pour pas qu'il soit trop près du cable d'alim et du reste pour éviter les parasites.
-Le support imprimé en 3D pour sortie de cable alimentation vers l'extérieur
-(to do: photo vue 3D + vue réelle)
+- Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
+- Le passe cable est utilisé ici pour passer le cable du haut-parleur (pour pas qu'il soit trop près du cable d'alim et du reste pour éviter les parasites.
+- Le support imprimé en 3D pour sortie de cable alimentation vers l'extérieur
+
 
 
 ![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique.jpg)
 *Assemblage du montage électronique*
+
+![Ampli collé avec pistolet à colle](/IMG/ampli.jpg)
+*Ampli collé avec pistolet à colle*
+
+
+![Régulateur de tension](/IMG/regulateur_tension.jpg)
+*Régulateur de tension collé avec le pistolet à colle*
+
+
+![Sortie de cable d'alimentation](/IMG/Sortie_cable_alimentation.jpg)
+*Sortie de câble d'alimentation imprimé en 3D*
