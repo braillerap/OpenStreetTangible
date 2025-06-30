@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-30 16:30+0000\n"
+"POT-Creation-Date: 2025-06-30 22:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -765,7 +765,7 @@ msgid "Positionner la carte clavier et la coller"
 msgstr ""
 
 #: ../../building_step.md:325
-msgid "Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre ![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](/IMG/prepositionnement_carte.jpg) *Prépositionnement carte clavier pour vérifier que chaque bouton puisse être connecté*"
+msgid "Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre ![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](IMG/prepositionnement_carte.jpg) *Prépositionnement carte clavier pour vérifier que chaque bouton puisse être connecté*"
 msgstr ""
 
 #: ../../building_step.md:325
@@ -773,7 +773,7 @@ msgid "Prépositionnement carte clavier opur vérifier que chaque bouton puisse 
 msgstr ""
 
 #: ../../building_step.md:331
-msgid "Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !) avec un pistolet à colle ![Collage de la carte clavier avec pistolet à colle](/IMG/collage_carte_clavier_sur_support_bois.jpg)"
+msgid "Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !) avec un pistolet à colle ![Collage de la carte clavier avec pistolet à colle](IMG/collage_carte_clavier_sur_support_bois.jpg)"
 msgstr ""
 
 #: ../../building_step.md:331
@@ -785,11 +785,11 @@ msgid "Connecter les connecteurs de chaque bouton à la carte clavier"
 msgstr ""
 
 #: ../../building_step.md:336
-msgid "Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne pour faciliter le repérage mais ce n'est pas obligatoire! ![Connection des connecteurs des boutons à la raspi](/IMG/connections_fils.jpg)"
+msgid "Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne pour faciliter le repérage mais ce n'est pas obligatoire! ![Connection des connecteurs des boutons à la carte clavier](IMG/connections_fils.jpg)"
 msgstr ""
 
 #: ../../building_step.md:336
-msgid "Connection des connecteurs des boutons à la raspi"
+msgid "Connection des connecteurs des boutons à la carte clavier"
 msgstr ""
 
 #: ../../building_step.md:339
