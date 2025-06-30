@@ -152,7 +152,7 @@ Vous pouvez remarquer que certain nom on été modifié pour mieux correspondre 
 
 ### Lancement du logiciel au démarrage du système
 
-Pour pouvoir utiliser la carte tactile de façon autonome, le logiciel kspeaker doit se lancer au démarrage du système. Pour installer le logiciel comme script système, utiliser la commande :
+Pour pouvoir utiliser la carte tactile de façon autonome, le logiciel **kspeaker** doit se lancer au démarrage du système. Pour installer le logiciel comme script système, utiliser la commande :
 
 
 ```
