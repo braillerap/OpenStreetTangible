@@ -7,3 +7,11 @@ It's a tactile, talking metro map of the city of Rennes in France, Britanny, des
 
 This prototype, used  [OpenStreetTouch] (https://github.com/braillerap/OpenStreetTouch/
 releases) software to extract public transportation data and a [BrailleRAP] (https://github.com/braillerap) to emboss stickers in Braille.
+
+
+## Building manual
+The building manual is available [https://openstreettouch.readthedocs.io/en/main/](https://openstreettouch.readthedocs.io/en/main/)
+
+**en** [![Documentation Status](https://readthedocs.org/projects/openstreettouch_en/badge/?version=main&style=plastic)](https://openstreettouch.readthedocs.io/en/main/)
+
+**fr** [![Documentation Status](https://readthedocs.org/projects/openstreettouch/badge/?version=main&style=plastic)](https://openstreettouch.readthedocs.io/fr/main/)
