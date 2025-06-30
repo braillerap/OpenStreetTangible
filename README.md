@@ -10,8 +10,8 @@ releases) software to extract public transportation data and a [BrailleRAP] (htt
 
 
 ## Building manual
-The building manual is available [https://openstreettouch.readthedocs.io/en/main/](https://openstreettouch.readthedocs.io/en/main/)
+The building manual is available [https://openstreettangible.readthedocs.io/en/latest/](https://openstreettangible.readthedocs.io/en/latest/)
 
-**en** [![Documentation Status](https://readthedocs.org/projects/openstreettouch_en/badge/?version=main&style=plastic)](https://openstreettouch.readthedocs.io/en/main/)
+**en** [![Documentation Status](https://readthedocs.org/projects/OpenStreetTangible_en/badge/?version=latest&style=plastic)](openstreettangible.readthedocs.io/en/latest/)
 
-**fr** [![Documentation Status](https://readthedocs.org/projects/openstreettouch/badge/?version=main&style=plastic)](https://openstreettouch.readthedocs.io/fr/main/)
+**fr** [![Documentation Status](https://readthedocs.org/projects/OpenStreetTangible/badge/?version=latest&style=plastic)](https://openstreettangible.readthedocs.io/fr/latest/)
