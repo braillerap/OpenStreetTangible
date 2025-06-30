@@ -21,7 +21,7 @@ Translations are availables here :
 ## Contributions
 
 ### Translation
-If you need the software in your locale language, we will be happy to add a new translation. Translation files are hosted on codeberg community translation platform and can be updated by anyone [weblate host on codeberg](https://translate.codeberg.org/engage/openstreettangible_buildingmanual/) for more information.
+If you need the building manual in your locale language, we will be happy to add a new translation. Translation files are hosted on codeberg community translation platform and can be updated by anyone [weblate host on codeberg](https://translate.codeberg.org/engage/openstreettangible_buildingmanual/) for more information.
 
 <a href="https://translate.codeberg.org/engage/openstreettangible_buildingmanual/">
 <img src="https://translate.codeberg.org/widget/openstreettangible_buildingmanual/multi-auto.svg" alt="Translation status" width="75%" />
