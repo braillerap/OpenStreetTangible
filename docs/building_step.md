@@ -323,18 +323,18 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 ### Positionner la carte clavier et la coller
 
 * Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre
-![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](/IMG/prepositionnement_carte.jpg)
+![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](IMG/prepositionnement_carte.jpg)
 *Prépositionnement carte clavier pour vérifier que chaque bouton puisse être connecté*
 
 
 
 * Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !) avec un pistolet à colle
-![Collage de la carte clavier avec pistolet à colle](/IMG/collage_carte_clavier_sur_support_bois.jpg)
+![Collage de la carte clavier avec pistolet à colle](IMG/collage_carte_clavier_sur_support_bois.jpg)
 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
 - Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne pour faciliter le repérage mais ce n'est pas obligatoire!
-![Connection des connecteurs des boutons à la raspi](/IMG/connections_fils.jpg)
+![Connection des connecteurs des boutons à la carte clavier](IMG/connections_fils.jpg)
 
 ### Regrouper les fils 
 - Regrouper les fils et les fixer ensemble avec des collier de serrage (colsons)
