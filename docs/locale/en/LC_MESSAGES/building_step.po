@@ -412,8 +412,8 @@ msgid ""
 "\"rennes_metro_worked2.svg\" après ajustements pour la mise en forme du "
 "réseau*"
 msgstr ""
-"The resulting svg file is as follows! [The resulting svg file is as "
-"follows](/IMG/rennes_metro_worked2.svg) *SVG file "
+"The resulting svg file is as follows" 
+"![The resulting svg file is as follows](IMG/rennes_metro_worked2.svg) *SVG file "
 "\"rennes_metro_worked2.svg\" after adjustments for network formatting*"
 
 #: ../../building_step.md:100 ../../building_step.md:116
