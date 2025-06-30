@@ -3,7 +3,7 @@ OpenStreetTangible est une démonstration de ce qu'il est possible de réaliser 
 
 C'est un plan de métro tactile et parlant de la ville de Rennes qui est destiné aux personnes déficientes visuelles.  
 
-Ce prototype , réalisé  avec le  programme  [OpenStreetTouch] (https://github.com/braillerap/OpenStreetTouch/releases) et l’embosseuse braille opensource [Braillerap] (https://github.com/braillerap) , est une preuve de concept qui peut être déclinée pour n’importe quelle autre ville dans le monde.
+Ce prototype , réalisé  avec le  programme  [OpenStreetTouch](https://github.com/braillerap/OpenStreetTouch/releases) et l’embosseuse braille opensource [Braillerap](https://github.com/braillerap), est une preuve de concept qui peut être déclinée pour n’importe quelle autre ville dans le monde.
 
 Il associe un plan en relief du métro avec des boutons pour chaque station permettant de vocaliser leur nom. Il est complété par des étiquettes en braille pour chacune d’elle, en surimpression du nom écrit de manière contrastée et en gros caractère.
 
