@@ -285,7 +285,7 @@ Vernir le plan de métro démonté du chassis et vernir aussi le chassis extéri
 - Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo en ajoutant de la gaine thermo sur les connections à la soudure
 
 ![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg)
-*Bouton sooudé avec le fil de rallonge et le connecteur*
+*Bouton soudé avec le fil de rallonge et le connecteur*
 
 
 - Préparer l'ensemble des boutons pour une ligne pour commencer en s'assurant d'avoir la même couleur de fil pour tous les boutons de cette ligne. On prendra une autre couleur pour la 2 e ligne.
