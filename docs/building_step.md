@@ -188,32 +188,20 @@ Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repert
 ```
 
 
-#### Préparation des fichier
 
 
- * redimensionner la taille de la police sur 24 pts.
- * Définir la police Luciole.
- * Remettre en page les noms de manière à ce qu’ils ne soient pas coupés.
- * Laisser un espace entre chaque ligne. 
 
+#### Réalisation des étiquettes
+Ouvrir un des fichiers préparé à l'aide de `labeltosvg` avec inkscape et l'imprimer sur l'imprimante laser.
 
-TO DO : mettre le fichier exemple sur lequel nous avons travaillés.
+Capture d'écran dd'un fichier d'étiquettes dans Inkscape.
+![Capture d'écran de DesktopBrailleRAP avec des étiquettes](IMG/dbrap_labels.jpg)
 
+Insérer la feuille préalablement imprimé dans la BrailleRAP, puis importer le fichier SVG correspondant avec DesktopBrailleRAP, et le positioner en 0,0. Puis lancer l'impression sur la BrailleRAP pour obtenir le Braille par dessus l'impression en noir. 
 
-#### Impression des noms sur les étiquettes
-Une fois prêt , imprimer en noir avec l’imprimante laser le fichier sur du papier Rhoidoïde (papier plastique transparent généralement utilisé pour les rétroprojecteurs. Prévoir de les faire en double ou triple au cas où il y ait des ratés ...
+Capture d'écran du même fichier d'étiquettes dans DesktopBrailleRAP.
+![Capture d'écran de DesktopBrailleRAP avec des étiquettes](IMG/dbrap_labels.jpg)
 
-Effectuer la configuration des marges avant de faire l’impression des caractères en noir sur l’imprimante laser. (TO DO: Préciser quelle marge et quels réglages ont été fait fait pour l'impression)
-
-Attention il ne faut pas faire les impressions sur une imprimante qui n’est pas laser au risque d’endommager la machine !! Il est impératif de le faire sur une imprimante laser. 
-
-#### Impression brailles
-Une fois les noms imprimés sur le rhodoïde , préparer l’impression en braille avec les consignes suivante : 
-
-- Dans le logiciel AccessBrailleRap, ajuster les marges de manière à ce que le braille se cale sur le nom imprimé en noir. Cette étape est un peu délicate et nécessite des ajustements en faisant des tests préalables.
-Pour notre cas, nous avons cette configuration (TO DO : impression écran de la config ou explications sur la manip pour le calage)
-
-- Quand le calage est satisfaisant, on peut alors lancer l’embossage avec la machine braillerap sur les rhodoïdes préparés.
 
 #### Découpe des étiquettes
 - Découper ensuite les étiquettes ligne par ligne de préférence à l’aide d’un massicot sinon cutter ou ciseaux.
