@@ -1323,7 +1323,7 @@ msgid ""
 "*Assemblage du montage électronique avec légende sur chacun des éléments*"
 msgstr ""
 "![Assembly of the electronic assembly](/IMG/"
-"Assemblage_montage_electronique_legende.jpg) *Assembly of the electronic "
+"Assemblage_montage_electronique_legende_en.jpg) *Assembly of the electronic "
 "assembly with legend on each of the elements*"
 
 #: ../../building_step.md:354 ../../building_step.md:358
