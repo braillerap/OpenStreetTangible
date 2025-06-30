@@ -256,6 +256,7 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 #### Ponçage chassis
 Avec une cale à poncer et papier de verre de 80, poncer les côtés afin qu'ils soient lisses et qu'ils ombent à fleur de la plaque du plan de métro
+
 ![Ponçage du chassis](/IMG/poncage_chassis.jpg)
 *Ponçage du chassis*
 
@@ -345,6 +346,10 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 
 
+![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique_legende.jpg)
+*Assemblage du montage électronique avec légende sur chacun des éléments*
+
+
 ![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique.jpg)
 *Assemblage du montage électronique*
 
@@ -358,3 +363,9 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 ![Sortie de cable d'alimentation](/IMG/Sortie_cable_alimentation.jpg)
 *Sortie de câble d'alimentation imprimé en 3D*
+
+
+![Domino d'alimentation](/IMG/domino_alim.jpg)
+*Domino d'alimentation*
+
+
