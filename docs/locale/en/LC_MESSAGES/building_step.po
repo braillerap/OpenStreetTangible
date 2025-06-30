@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-30 16:30+0000\n"
-"PO-Revision-Date: 2025-06-30 19:31+0000\n"
+"PO-Revision-Date: 2025-06-30 19:46+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_building_step/en/>\n"
@@ -316,11 +316,11 @@ msgstr ""
 
 #: ../../building_step.md:79
 msgid "Fichier>propriétés du document"
-msgstr ""
+msgstr "File>Document properties"
 
 #: ../../building_step.md:81
 msgid "Ajuster la taille du document aux dimensions souhaitées (ici 800 x 600 mm)"
-msgstr ""
+msgstr "Update the document size to your need (here 800 x 600 mm)"
 
 #: ../../building_step.md:83
 msgid ""
@@ -329,6 +329,9 @@ msgid ""
 " peu de marge sur les bords (dans notre cas 50 mm).   Ce fichier servira "
 "ensuite à la réalisation de :"
 msgstr ""
+"Then select all the lines (CTRL+A) and enlarge to the desired size to fit "
+"the document format. Remember to keep a little margin on the edges (in our "
+"case 50 mm). This file will then be used to create:"
 
 #: ../../building_step.md:86
 msgid ""
@@ -337,32 +340,35 @@ msgid ""
 "permettront le passage des boutons qui sont vissés sur les lignes des "
 "stations."
 msgstr ""
+"A file for engraving and drilling the base plate. The engraving will provide "
+"a reference for gluing the lines. The drilling will allow the buttons to "
+"pass through, which are screwed onto the station lines."
 
 #: ../../building_step.md:87
 msgid "Plusieurs fichiers pour la découpe de chaque ligne de métro."
-msgstr ""
+msgstr "Several files for the cutting of each subway line."
 
 #: ../../building_step.md:89
 msgid "Mise en forme du réseau"
-msgstr ""
+msgstr "Network shaping"
 
 #: ../../building_step.md:91
 msgid ""
 "Pour des raisons esthétiques et pratiques non avons effectué les "
 "modifications suivantes :"
-msgstr ""
+msgstr "For aesthetic and practical reasons we have made the following changes:"
 
 #: ../../building_step.md:93
 msgid "Les débuts et fin de lignes ont été remplacés par des cercles."
-msgstr ""
+msgstr "The beginnings and ends of lines have been replaced by circles."
 
 #: ../../building_step.md:94
 msgid "Les cercles des stations sont redimensionnés a 15 mm de diamètre."
-msgstr ""
+msgstr "The station circles are resized to 15 mm in diameter."
 
 #: ../../building_step.md:95
 msgid "La largeur des tracés de lignes est défini a 8 mm."
-msgstr ""
+msgstr "The width of the line strokes is set to 8 mm."
 
 #: ../../building_step.md:96
 msgid ""
@@ -372,6 +378,11 @@ msgid ""
 "également de distinguer les stations en correspondance avec un matériau, "
 "donc un touché différent."
 msgstr ""
+"We merged the stations with connections. Because this allows for a more "
+"visible line path when you follow it with your finger. For the city of "
+"Rennes, this choice is quite obvious. It also allows us to distinguish "
+"stations that correspond to a different material, and therefore a different "
+"feel."
 
 #: ../../building_step.md:97
 msgid ""
@@ -379,6 +390,9 @@ msgid ""
 "de transport pour obtenir un tracé moins ambigu au niveau des "
 "correspondances et conserver une largeur de ligne de 8mm."
 msgstr ""
+"Near transit stations, we have spaced out the transport lines to obtain a "
+"less ambiguous route at the connection level and maintain a line width of "
+"8mm."
 
 #: ../../building_step.md:98
 msgid ""
@@ -386,6 +400,9 @@ msgid ""
 " Braille, cela ne change pas la géographie du réseau, cela permet juste "
 "d'éviter d'avoir des étiquettes trop proches les unes des autres."
 msgstr ""
+"Some stations have been slightly moved to facilitate Braille labeling; this "
+"does not change the geography of the network; it just helps avoid having "
+"labels too close to each other."
 
 #: ../../building_step.md:100
 msgid ""
@@ -394,20 +411,25 @@ msgid ""
 "\"rennes_metro_worked2.svg\" après ajustements pour la mise en forme du "
 "réseau*"
 msgstr ""
+"The resulting svg file is as follows! [The resulting svg file is as follows]"
+"(/IMG/rennes_metro_worked2.svg) *SVG file \"rennes_metro_worked2.svg\" after "
+"adjustments for network formatting*"
 
 #: ../../building_step.md:100 ../../building_step.md:116
 msgid "Le fichier svg résultat est le suivant"
-msgstr ""
+msgstr "The resulting svg file is as follows"
 
 #: ../../building_step.md:104
 msgid "Préparation du fichier pour la gravure et le percage de la plaque de fond"
-msgstr ""
+msgstr "Preparing the file for engraving and drilling the base plate"
 
 #: ../../building_step.md:106
 msgid ""
 "A partir du fichier **rennes_metro_worked2.svg** nous avons réalisé les "
 "opérations suivantes avec inkscape :"
 msgstr ""
+"From the file **rennes_metro_worked2.svg** we carried out the following "
+"operations with inkscape:"
 
 #: ../../building_step.md:108 ../../building_step.md:124
 msgid ""
