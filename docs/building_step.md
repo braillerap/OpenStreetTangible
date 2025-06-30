@@ -191,8 +191,8 @@ Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repert
 #### Réalisation des étiquettes
 Ouvrir un des fichiers préparé à l'aide de `labeltosvg` avec inkscape et l'imprimer sur l'imprimante laser.
 
-Capture d'écran dd'un fichier d'étiquettes dans Inkscape.
-![Capture d'écran de DesktopBrailleRAP avec des étiquettes](IMG/dbrap_labels.jpg)
+Capture d'écran d'un fichier d'étiquettes dans Inkscape.
+![Capture d'écran de DesktopBrailleRAP avec des étiquettes](IMG/inkscape_labels.jpg)
 
 Insérer la feuille préalablement imprimé dans la BrailleRAP, puis importer le fichier SVG correspondant avec DesktopBrailleRAP, et le positioner en 0,0. Puis lancer l'impression sur la BrailleRAP pour obtenir le Braille par dessus l'impression en noir. 
 
