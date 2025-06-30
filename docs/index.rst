@@ -11,10 +11,11 @@ Bienvenue sur la documentation OpenStreetTangible
 
    manuel_utilisateur
    building_step
+   rpi_config
    sourcecode
    licence 
 
-.. index:: manuel_utilisateur,building_step,sourcecode, licence
+.. index:: manuel_utilisateur,building_step,rpi_config,sourcecode, licence
 
 Mise à jour: |today|
 

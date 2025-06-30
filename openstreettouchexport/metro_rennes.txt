@@ -1,0 +1,37 @@
+Métro Rennes Ligne a Direction Rennes (J.F. Kennedy) :
+     La Poterie
+     Le Blosne
+     Triangle
+     Italie
+     Henri Fréville
+     Clemenceau
+     Jacques Cartier
+  *  Gares
+     Charles de Gaulle
+     République
+  *  Sainte-Anne
+     Anatole France
+     Pontchaillou
+     Villejean - Université
+     J.F. Kennedy
+
+Métro Rennes Ligne b Direction Cesson-Sévigné (Viasilva) :
+     Saint-Jacques - Gaîté
+     La Courrouze
+     Cleunay
+     Mabilais
+     Colombier
+  *  Gares
+     Saint-Germain
+  *  Sainte-Anne
+     Jules Ferry
+     Gros-Chêne
+     Les Gayeulles
+     Joliot-Curie - Chateaubriand
+     Beaulieu - Université
+     Atalante
+     Cesson - Viasilva
+
+
+
+
