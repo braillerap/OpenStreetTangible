@@ -332,11 +332,18 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
 - Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne our faciliter le repérage mais ce n'est pas obligatoire!
-
+![Connection des connecteurs des boutons à la raspi](/IMG/connections_fils.jpg)
 
 ### Regrouper les fils 
+- Regrouper les fils et les fixer ensemble avec des colsons
 
 
 ### Assemblage de l'ensemble du montage électronique
+Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
+Le passe cable est utilisé ici pour passer le cable du haut-parleur (pour pas qu'il soit trop près du cable d'alim et du reste pour éviter les parasites.
+Le support imprimé en 3D pour sortie de cable alimentation vers l'extérieur
+(to do: photo vue 3D + vue réelle)
+
+
 ![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique.jpg)
 *Assemblage du montage électronique*
