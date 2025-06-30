@@ -209,6 +209,10 @@ Capture d'écran du même fichier d'étiquettes dans DesktopBrailleRAP.
 
 
 ![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille1_Clemenceau.jpg)
+*Etiquette pour la station Clémenceau*
+
+![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille4_JF_kennedy.jpg)
+*Etiquette pour la stationJ.F.Kennedy*
 
 
 ## Fabrication du plan de métro avec son chassis
@@ -225,6 +229,7 @@ Pour augmenter les contrastes, les lignes en papier de verre sont peintes en noi
 Coller la ligne A découpée dans le papier de verre sur sa ligne correspondante en bois avec de la colle à bois.
 
 ### Préparation du chassis du plan
+#### Assemblage du cadre
 
 * Mettre le plan 80 X 60 cm face gravée contre une table (propre !).
 
@@ -248,6 +253,15 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
 *Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous*
+
+#### Ponçage chassis
+Avec une cale à poncer et papier de verre de 80, poncer les côtés afin qu'ils soient lisses et qu'ils ombent à fleur de la plaque du plan de métro
+![Ponçage du chassis](/IMG/poncage_chassis.jpg)
+*Ponçage du chassis*
+
+#### Vernissage du plan et du chassis
+Vernir le plan de métro démonté du chassis et vernir aussi le chassis extérieur (côté et fond) afin qu'il soit facilement lavable et plus résistant.
+
 
 ### Vérification de l'assemblage avant le collage des lignes de métro
 - Positionner les éléments des deux lignes pour vérifier que tous les éléments sont présents et correspondent bien au tracé de repérage.
@@ -311,6 +325,7 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 *Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté*
 
 
+
 * Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !) avec un pistolet à colle
 ![Collage de la carte clavier avec pistolet à colle](/IMG/collage_carte_clavier_sur_support_bois.jpg)
 
@@ -319,6 +334,9 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 - Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne our faciliter le repérage mais ce n'est pas obligatoire!
 
 
+### Regrouper les fils 
 
 
-
+### Assemblage de l'ensemble du montage électronique
+![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique.jpg)
+*Assemblage du montage électronique*
