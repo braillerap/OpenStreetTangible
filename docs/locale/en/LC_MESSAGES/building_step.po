@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-30 16:30+0000\n"
-"PO-Revision-Date: 2025-06-30 19:46+0000\n"
+"PO-Revision-Date: 2025-06-30 20:29+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_building_step/en/>\n"
@@ -437,12 +437,16 @@ msgid ""
 " 8mm en sélectionnant chaque ligne et en utilisant la fonction "
 "`Path/Object to path`."
 msgstr ""
+"Transform the lines into outlines respecting the line width of 8mm by "
+"selecting each line and using the `Path/Object to path` function."
 
 #: ../../building_step.md:109
 msgid ""
 "Pour chaque station, ajout d'un cercle qui correspondra au percage de la "
 "station pour faire passer le bouton poussoir (trou de 10.7 mm)"
 msgstr ""
+"For each station, add a circle which will correspond to the drilling of the "
+"station to pass the push button (10.7 mm hole)"
 
 #: ../../building_step.md:110
 msgid ""
@@ -450,18 +454,24 @@ msgid ""
 "exterieures des stations et en utilisant la fonction `Path/Object to "
 "path`."
 msgstr ""
+"Transform stations into paths by selecting the outer circles of the stations "
+"and using the `Path/Object to path` function."
 
 #: ../../building_step.md:111 ../../building_step.md:127
 msgid ""
 "Les lignes et les stations sont ensuite fusionnés en sélectionnant les "
 "stations et les lignes  et en utilisant la fonction `Path/Union`."
 msgstr ""
+"The lines and stations are then merged by selecting the stations and lines "
+"and using the `Path/Union` function."
 
 #: ../../building_step.md:112 ../../building_step.md:128
 msgid ""
 "Les lignes sont découpés au niveau des stations en correspondances avec "
 "la fonction `Path/difference`."
 msgstr ""
+"The lines are split at stations corresponding to the `Path/difference` "
+"function."
 
 #: ../../building_step.md:114
 msgid ""
@@ -469,6 +479,9 @@ msgid ""
 "gravure pour repérer la position des lignes, les lignes rouges "
 "correpondent aux découpes pour les boutons poussoirs."
 msgstr ""
+"To make the base plate, the black lines correspond to the engraving to mark "
+"the position of the lines, the red lines correspond to the cutouts for the "
+"push buttons."
 
 #: ../../building_step.md:116
 msgid ""
@@ -477,22 +490,29 @@ msgid ""
 "\"rennes_subway_fond.svg\" préparé pour la découpe laser pour procéder à "
 "la gravure et le perçage de la plaque de fond*"
 msgstr ""
+"The resulting svg file is as follows! [The resulting svg file is as follows]"
+"(/IMG/rennes_subway_fond.svg) *SVG file \"rennes_subway_fond.svg\" prepared "
+"for laser cutting to proceed with engraving and drilling the bottom plate*"
 
 #: ../../building_step.md:120
 msgid "Préparation des fichiers pour la découpe des lignes"
-msgstr ""
+msgstr "Preparing files for line cutting"
 
 #: ../../building_step.md:122
 msgid ""
 "A partir du fichier *rennes_metro_worked2.svg* nous avons réalisé les "
 "opérations suivantes avec inkscape :"
 msgstr ""
+"From the file *rennes_metro_worked2.svg* we carried out the following "
+"operations with inkscape:"
 
 #: ../../building_step.md:125
 msgid ""
 "Pour chaque station, ajout d'un cercle qui correspondra au percage de la "
 "station pour fixer le bouton poussoir (trou de 7 mm)"
 msgstr ""
+"For each station, add a circle which will correspond to the drilling of the "
+"station to fix the push button (7 mm hole)"
 
 #: ../../building_step.md:126
 msgid ""
@@ -500,6 +520,8 @@ msgid ""
 "exterieures des stations et en utilisant la fonction `Path/Object to "
 "path`."
 msgstr ""
+"Transforming stations into circles by selecting the outer circles of the "
+"stations and using the `Path/Object to path` function."
 
 #: ../../building_step.md:130
 msgid ""
@@ -508,30 +530,37 @@ msgid ""
 "les boutons poussoirs. Pour chaque lignes ont regroupe les différentes "
 "parties pour optimiser l'utilisation du matériau."
 msgstr ""
+"For the transport lines, the black lines correspond to external cutouts, the "
+"red lines correspond to the cutouts for the push buttons. For each line, the "
+"different parts are grouped together to optimize the use of the material."
 
 #: ../../building_step.md:132
 msgid "Les fichiers svg résultats sont les suivants :"
-msgstr ""
+msgstr "The resulting svg files are as follows:"
 
 #: ../../building_step.md:134
 msgid ""
 "Pour la ligne A ![Le fichier de découpe de la ligne "
 "A](/IMG/rennes_subway_line_a.svg) *Fichier SVG de découpe de la ligne A*"
 msgstr ""
+"For A Line ! [The cutting file for Line A](/IMG/rennes_subway_line_a.svg) *"
+"SVG cutting file for Line A*"
 
 #: ../../building_step.md:134 ../../building_step.md:138
 msgid "Le fichier de découpe de la ligne A"
-msgstr ""
+msgstr "A line laser cut file"
 
 #: ../../building_step.md:138
 msgid ""
 "Pour la ligne B ![Le fichier de découpe de la ligne "
 "A](/IMG/rennes_subway_line_b.svg) *Fichier SVG de découpe de la ligne B*"
 msgstr ""
+"For B line ![B line laser cut file](/IMG/rennes_subway_line_b.svg) *B line "
+"SVG file for laser cutter*"
 
 #: ../../building_step.md:142
 msgid "Réalisation à l'aide de la découpe laser"
-msgstr ""
+msgstr "Using laser cutter"
 
 #: ../../building_step.md:144
 msgid ""
@@ -539,6 +568,8 @@ msgid ""
 "plaque de fond en marquant les tracés en noir et en découpant les tracés "
 "en rouge sur une plaque de contreplaqué peuplier 5mm."
 msgstr ""
+"Using laser cutting software, we made the base plate by marking the lines in "
+"black and cutting the lines in red on a 5mm poplar plywood sheet."
 
 #: ../../building_step.md:146
 msgid ""
@@ -546,24 +577,33 @@ msgid ""
 "puis les tracés noirs. Chaque ligne est découpée dans un matériau "
 "différent, du PMMA blanc 3mm et du contreplaqué peuplier 3mm."
 msgstr ""
+"Lines A and B are then cut by cutting the red lines and then the black "
+"lines. Each line is cut from a different material, 3mm white PMMA and 3mm "
+"poplar plywood."
 
 #: ../../building_step.md:148
 msgid ""
 "Pour la ligne en contreplaqué peuplier, nous avons utilisé le même "
 "fichier de découpe pour découper les lignes dans du papier de verre 120."
 msgstr ""
+"For the poplar plywood line, we used the same cutting file to cut the lines "
+"in 120 grit sandpaper."
 
 #: ../../building_step.md:152
 msgid ""
 "Ne pas enlever le plastique protecteur du PMMA. Le plastique de "
 "protection sera retiré juste avant le collage."
 msgstr ""
+"Do not remove the protective plastic from the PMMA. The protective plastic "
+"will be removed just before bonding."
 
 #: ../../building_step.md:156
 msgid ""
 "Une fois les éléments découpés, on effectue un test de mise en place sans"
 " collage."
 msgstr ""
+"Once the items have been cut, a test is carried out to ensure they are in "
+"place without gluing."
 
 #: ../../building_step.md:158
 msgid ""
@@ -571,10 +611,12 @@ msgid ""
 "ligne](/IMG/test_decoupe1.jpg) *Vérification de la concordance des "
 "découpes de ligne avec la gravure*"
 msgstr ""
+"![test of cutted lines](/IMG/test_decoupe1.jpg) *Checking the correspondence "
+"of the line cuts with the engraving*"
 
 #: ../../building_step.md:158
 msgid "test des différents éléments découpés une seule ligne"
-msgstr ""
+msgstr "test of the different items cut into a single line"
 
 #: ../../building_step.md:161
 msgid ""
@@ -582,40 +624,42 @@ msgid ""
 "verre](/IMG/test_decoupe3.jpg) *Vérification de la concordance des "
 "découpes de ligne avec la gravure*¨"
 msgstr ""
+"![test of the two cutted lines with the glass paper](/IMG/test_decoupe3.jpg) "
+"*Checking the correspondence of the line cuts with the engraving*¨"
 
 #: ../../building_step.md:161
 msgid ""
 "test des différents éléments découpés les deux lignes avec le papir de "
 "verre"
-msgstr ""
+msgstr "test of the two cutted lines with the sand paper"
 
 #: ../../building_step.md:164
 msgid "Fichier 3D à imprimer"
-msgstr ""
+msgstr "3D files to print"
 
 #: ../../building_step.md:166
 msgid "Imprimer en PLA ou PETG :"
-msgstr ""
+msgstr "3d print in PLA or PETG :"
 
 #: ../../building_step.md:168
 msgid "Panneau de fixation de l'embase d'alimentation **subwaycommande.stl**."
-msgstr ""
+msgstr "Power supply base mounting panel **subwaycommande.stl**."
 
 #: ../../building_step.md:169
 msgid "1 ou 2 passe cable pour organiser les cables **chemin_cable.stl**."
-msgstr ""
+msgstr "1 or 2 cable rails to organize the cables **chemin_cable.stl**."
 
 #: ../../building_step.md:170
 msgid "1 Support de Raspberry PI **support_rpi.stl**."
-msgstr ""
+msgstr "1 Raspberry PI support **support_rpi.stl**."
 
 #: ../../building_step.md:173
 msgid "Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint."
-msgstr ""
+msgstr "STL files for 3d printing are located in the 3dprint directory."
 
 #: ../../building_step.md:176
 msgid "Préparation des étiquettes"
-msgstr ""
+msgstr "Preparing labels"
 
 #: ../../building_step.md:178
 msgid ""
@@ -623,6 +667,8 @@ msgid ""
 "suffisement bien l'impression, en gros caractères avec l'embossage "
 "Braille pour gagner de la place."
 msgstr ""
+"The difficulty in making labels is aligning the printing, in large "
+"characters, with the Braille embossing well enough to save space."
 
 #: ../../building_step.md:180
 msgid ""
@@ -632,6 +678,10 @@ msgid ""
 " et génère une série de fichiers SVG numérotés pour l'impression standard"
 " et pour l'embossage sur BrailleRAP."
 msgstr ""
+"To achieve proper alignment of printing and embossing, we used the python "
+"script in the `labeltosvg` directory, this script takes as input a text file "
+"containing a series of lines to be printed and generates a series of "
+"numbered SVG files for standard printing and for embossing on BrailleRAP."
 
 #: ../../building_step.md:182
 msgid ""
@@ -640,6 +690,10 @@ msgid ""
 " être embossé sur la BrailleRAP à l'aide du logiciel "
 "[DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP)."
 msgstr ""
+"For a particular issue, the file \"xxxxxx.printer.svg\" must be printed with "
+"a printer. The file \"xxxxxx.brap.svg\" must then be embossed onto the "
+"BrailleRAP using the software [DesktopBrailleRAP](https://github.com/"
+"braillerap/DesktopBrailleRAP)."
 
 #: ../../building_step.md:184
 msgid ""
