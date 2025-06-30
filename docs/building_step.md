@@ -184,7 +184,7 @@ Un exemple de fichier SVG pour l'impression
 ![Un exemple de fichier SVG pour l'impression](IMG/rennes_subway2.txt.printer1.svg)
 
 ```{note} 
-Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire labels.
+Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire `labels`.
 ```
 
 
