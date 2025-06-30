@@ -306,13 +306,6 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 Une fois validé la position des étiquettes, les retirer et les conserver dans une boîte avec les éléments de la légende et le triangle.
 
-### Positionner la carte clavier et la coller
-- Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
-- Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !
-
-
-### Connecter les connecteurs de chaque bouton à la carte clavier
-- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne
 
 ### Schéma de principe du cablage
 
@@ -325,7 +318,13 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 ![Schema de principe](IMG/subwaycablage.png)
 
 
-### Montage sur l'envers de la plaque du plan de métro
+### Positionner la carte clavier et la coller
+
+* Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
+* Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !)
+
+### Connecter les connecteurs de chaque bouton à la carte clavier
+- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne
 
 
 
