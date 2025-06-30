@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-30 16:30+0000\n"
 "PO-Revision-Date: 2025-06-30 19:15+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_building_step/en/>\n"
 "Language: en\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../building_step.md:1
 msgid "Étapes de fabrication"
-msgstr ""
+msgstr "Building steps"
 
 #: ../../building_step.md:3
 msgid "Liste du matériel"
@@ -30,11 +30,11 @@ msgstr "Bill of Materials"
 
 #: ../../building_step.md:5
 msgid "Outillage"
-msgstr ""
+msgstr "Tools"
 
 #: ../../building_step.md:6
 msgid "Une [BrailleRAP](https://github.com/braillerap/BrailleRap)."
-msgstr ""
+msgstr "A [BrailleRAP](https://github.com/braillerap/BrailleRap)."
 
 #: ../../building_step.md:7
 msgid "Découpe laser."
@@ -44,27 +44,27 @@ msgstr "Laser cutting"
 msgid ""
 "imprimante laser (vous pouvez utiliser une imprimante jet d'encre en "
 "utilisant les feuilles transparentes adaptées)"
-msgstr ""
+msgstr "Laser printer (you can use inkjet printer with appropriate clear sheet)"
 
 #: ../../building_step.md:9
 msgid "Perceuse."
-msgstr ""
+msgstr "Drill."
 
 #: ../../building_step.md:10
 msgid "Fer à souder."
-msgstr ""
+msgstr "Solder iron."
 
 #: ../../building_step.md:11
 msgid "Multimètre."
-msgstr ""
+msgstr "Multimeter."
 
 #: ../../building_step.md:12
 msgid "Serre joints ou grosses pinces."
-msgstr ""
+msgstr "Clamps or large pliers."
 
 #: ../../building_step.md:15
 msgid "Consommables"
-msgstr ""
+msgstr "Consumables"
 
 #: ../../building_step.md:17
 msgid "Soudure pour électronique."
