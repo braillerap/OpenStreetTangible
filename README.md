@@ -1,6 +1,8 @@
 # OpenStreetTangible
 OpenStreetTangible is a demonstration of what's possible in terms of accessible public transportation maps using OpenStreetTouch software, BrailleRAP, and various digital fabrication tools.
 
+![Tangible map of Rennes Subway](rennes.jpg)
+
 It's a tactile, talking metro map of the city of Rennes in France, Britanny, designed for people with visual impairments.
 
 This prototype, used  [OpenStreetTouch] (https://github.com/braillerap/OpenStreetTouch/
