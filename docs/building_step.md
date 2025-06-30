@@ -281,7 +281,7 @@ Vernir le plan de métro démonté du chassis et vernir aussi le chassis extéri
 ## Montage du circuit électronique
 ### Préparation des boutons
 - Étamer les boutons
-- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelqus cm de plus
+- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelques cm de plus
 - Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo en ajoutant de la gaine thermo sur les connections à la soudure
 
 ![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg)
@@ -324,7 +324,7 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 * Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre
 ![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](/IMG/prepositionnement_carte.jpg)
-*Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté*
+*Prépositionnement carte clavier pour vérifier que chaque bouton puisse être connecté*
 
 
 
