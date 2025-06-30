@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) CERN-OHL-W V2.0
+# This file is distributed under the same license as the OpenStreetTangible
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenStreetTangible 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 15:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../rpi_config.md:1
+msgid "Configuration du Raspberry PI"
+msgstr ""
+
+#: ../../rpi_config.md:2
+msgid "Création de l'image système"
+msgstr ""
+
+#: ../../rpi_config.md:4
+msgid ""
+"Avec l'outil [Raspberry Pi Imager](https://www.raspberrypi.com/software/)"
+" installer la dernière version de **Raspberry PI OS** en version **lite**"
+" sur une carte SD."
+msgstr ""
+
+#: ../../rpi_config.md:6
+msgid ""
+"vous devez activer une installation personnalisée avec les options "
+"suivantes"
+msgstr ""
+
+#: ../../rpi_config.md:8
+msgid "Nom d'hote **subwaymap**"
+msgstr ""
+
+#: ../../rpi_config.md:9
+msgid "creation d'un utilisateur **tactilmap** avec un mot de passe."
+msgstr ""
+
+#: ../../rpi_config.md:10
+msgid "activation de **ssh**."
+msgstr ""
+
+#: ../../rpi_config.md:13
+msgid ""
+"Pour terminer l'installation, vous aurez besoin de vous connecter au "
+"Raspberry PI par le réseau. De manière générale nous réalisons cette "
+"opération en connectant un cable ethernet, si vous souhaitez connecter le"
+" raspberry pi en wifi, vous devez configurer le wifi avant l'installation"
+msgstr ""
+
+#: ../../rpi_config.md:16
+msgid ""
+"Une fois toute les options configurées, vous pouvez lancer la création de"
+" l'image sur la carte SD."
+msgstr ""
+
+#: ../../rpi_config.md:18
+msgid "Installation du système"
+msgstr ""
+
+#: ../../rpi_config.md:20
+msgid ""
+"Connecter la carte shapeless_rp2040_40keys sur le Raspberry Pi avec un "
+"cable micro USB."
+msgstr ""
+
+#: ../../rpi_config.md:21
+msgid "Connecter le Raspberry Pi au réseau ethernet si besoin"
+msgstr ""
+
+#: ../../rpi_config.md:22
+msgid "Brancher le cable USB micro d'alimentation du Raspberry PI"
+msgstr ""
+
+#: ../../rpi_config.md:23
+msgid ""
+"Brancher la sortie audio du Raspberry PI sur un système audio avec un "
+"cable jack."
+msgstr ""
+
+#: ../../rpi_config.md:25
+msgid ""
+"Une fois le Raspberry PI démarrer, connecter vous au Raspberry PI en "
+"ouvrant une console et en utilisant la commande :"
+msgstr ""
+
+#: ../../rpi_config.md:29
+msgid ""
+"le Raspberry PI vous demande alors le mot de passe associé au compte "
+"**tactilmap**. Le mot de passe a été configuré au moment de la création "
+"de l'image du système."
+msgstr ""
+
+#: ../../rpi_config.md:31
+msgid ""
+"ensuite a l'aide de l'outil **raspi_config** étendre la partition à "
+"l'ensemble de la carte SD et redémarrer le raspberry PI."
+msgstr ""
+
+#: ../../rpi_config.md:36
+msgid ""
+"Le Raspbery PI est désormais prêt pour l'installation des logiciels "
+"necessaires pour l'utilisation avec la carte tactile."
+msgstr ""
+
+#: ../../rpi_config.md:38
+msgid "Installation des logiciels"
+msgstr ""
+
+#: ../../rpi_config.md:40
+msgid "Connecter vous au Raspberry PI :"
+msgstr ""
+
+#: ../../rpi_config.md:45
+msgid "Installer les logiciels avec les commandes :"
+msgstr ""
+
+#: ../../rpi_config.md:52
+msgid "Installer la synthese vocale **espeack-ng**"
+msgstr ""
+
+#: ../../rpi_config.md:57
+msgid "Installer l'extension **mbrola** avec les voix françaises."
+msgstr ""
+
+#: ../../rpi_config.md:66
+msgid "Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:"
+msgstr ""
+
+#: ../../rpi_config.md:72
+msgid "Installation du logiciel speakerkeyboard"
+msgstr ""
+
+#: ../../rpi_config.md:74
+msgid ""
+"le logiciel [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) "
+"permet de déclencher la lecture d'un message en synthèse vocale lors de "
+"l'appuie sur une touche du clavier. En utilisant la carte "
+"**shapeless_rp2040_40keys** il est possible de simuler l'appuie sur une "
+"touche d'un clavier en appuyant sur un des boutons de la carte tactile."
+msgstr ""
+
+#: ../../rpi_config.md:85
+msgid ""
+"Le logiciel est utilisable uniquement en mode **root** dans la mesure ou "
+"nous utilisons le module python **keyboard** pour intercepter les "
+"évenements clavier."
+msgstr ""
+
+#: ../../rpi_config.md:87
+msgid "Pour lancer le logiciel"
+msgstr ""
+
+#: ../../rpi_config.md:95
+msgid "Configurer les noms des stations"
+msgstr ""
+
+#: ../../rpi_config.md:97
+msgid ""
+"Pour réaliser la configuration, les boutons de la carte tactile doivent "
+"êtrent branchés sur la carte **shapeless_rp2040_40keys** et la carte "
+"**shapeless_rp2040_40keys** doit être relié en usb sur le Raspberry PI."
+msgstr ""
+
+#: ../../rpi_config.md:99
+msgid "Lancer le logiciel"
+msgstr ""
+
+#: ../../rpi_config.md:106
+msgid ""
+"Lors de l'appuie sur un bouton de la carte tactile, le logiciel affiche "
+"le **code clavier**, le texte associé. Si un texte est associé à la "
+"touche, la synthèse vocale se déclenche et lit le texte en audio."
+msgstr ""
+
+#: ../../rpi_config.md:108
+msgid ""
+"Pour configurer un message, arreter le logiciel avec `CTR-C`, vous devez "
+"ensuite éditer le fichier **kspeaker.json** pour entrer le **code "
+"clavier** et le texte associé dans la section **messages**."
+msgstr ""
+
+#: ../../rpi_config.md:110
+msgid ""
+"Le fichier **configuration.json** pour la carte tactile du métro de "
+"Rennes est donné ici a titre d'exemple."
+msgstr ""
+
+#: ../../rpi_config.md:151
+msgid ""
+"Vous pouvez remarquer que certain nom on été modifié pour mieux "
+"correspondre à la phonétique francaise et permettre une meilleur "
+"compréhension de la synthèse vocale. Notamment **Kennedy** a été "
+"transformé en **Kénnédy**, **Le Blosne** a été transfomé en **Le "
+"Blaune**."
+msgstr ""
+
+#: ../../rpi_config.md:153
+msgid "Lancement du logiciel au démarrage du système"
+msgstr ""
+
+#: ../../rpi_config.md:155
+msgid ""
+"Pour pouvoir utiliser la carte tactile de façon autonome, le logiciel "
+"**kspeaker** doit se lancer au démarrage du système. Pour installer le "
+"logiciel comme script système, utiliser la commande :"
+msgstr ""
+
+#: ../../rpi_config.md:164
+msgid ""
+"Une fois le logiciel installer en service système, vous pouvez l'arrêter "
+"en utilisant la commande :"
+msgstr ""
+
+#: ../../rpi_config.md:169
+msgid "vous pouvez également le relancer avec la commande :"
+msgstr ""
+

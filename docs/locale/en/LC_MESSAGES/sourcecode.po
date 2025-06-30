@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) CERN-OHL-W V2.0
+# This file is distributed under the same license as the OpenStreetTangible
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenStreetTangible 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-30 16:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../sourcecode.md:1
+msgid "Code source et mises à jour"
+msgstr ""
+
+#: ../../sourcecode.md:3
+msgid ""
+"Vous pouvez trouvez les fichiers de ce projet sur github "
+"[OpenStreetTangible](https://github.com/braillerap/OpenStreetTangible). "
+"En particulier :"
+msgstr ""
+
+#: ../../sourcecode.md:5
+msgid "Les fichiers .stl d'impression 3d dans le repertoire `3dprint`."
+msgstr ""
+
+#: ../../sourcecode.md:6
+msgid ""
+"Les fichiers 3d au format .step pour les modifier avec **FreeCad** par "
+"exemple dans le repertoire `3dprint/CAD`."
+msgstr ""
+
+#: ../../sourcecode.md:7
+msgid "Les fichiers SVG pour la découpe laser dans le répertoire `lasercutfiles`."
+msgstr ""
+
+#: ../../sourcecode.md:9
+msgid ""
+"La carte clavier est disponible ici avec l'ensemble des fichiers pour la "
+"production de carte (schéma, GERBER ...) "
+"[shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)"
+" dans le repertoire `hardware`. Le firmware QMK pour la carte clavier est"
+" disponible au même endroit."
+msgstr ""
+
