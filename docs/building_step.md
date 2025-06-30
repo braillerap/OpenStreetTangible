@@ -374,3 +374,9 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 *Domino d'alimentation*
 
 
+
+### Vue d'ensemble du prototype final
+Le montage est terminé :)
+
+![Vue d'ensemble du prototype final](/IMG/rennes.jpg)
+*Vue d'ensemble du prototype final*
