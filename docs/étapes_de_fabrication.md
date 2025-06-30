@@ -9,6 +9,7 @@
  Attention à bien cocher l’option « Polygones pour tracés de lignes », pour avoir deux traits comme contour de ligne et pas un seul !!
 
 ![Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/OSM_vue_export_svg.png)
+*Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée*
 
 * Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG afin de graver les contours de l’ensemble du plan pour venir ensuite y coller chaque ligne. 
 
@@ -31,11 +32,13 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
   
   Si vous avez bien coché l'otion "Polygones pour tracés" lors de l'export vous devriez avoir les contours de lignes visibles comme sur cette image.
   
-  ![Vue de l’interface OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/Export_option_polygone_traces_lignes_active.png)
+  ![Vue de l’export OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée](/IMG/Export_option_polygone_traces_lignes_active.png)
+  *Vue de l’export OpenStreetTouch avec l’option « polygones pour tracés de lignes » cochée*
   
   Si vous avez une image avec un seul trait représentant la ligne de métro comme sur l'image ci-dessous, recommencer l'export dans OpenStreetTouch
   
   ![Vue de l’export SVG avec l’option « polygones pour tracés de lignes » qui n'est pas cochée](/IMG/Export_option_polygone_traces_inactive.png)
+  *Vue de l’export SVG avec l’option « polygones pour tracés de lignes » qui n'est pas cochée*
   
 
 
