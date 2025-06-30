@@ -87,6 +87,7 @@ Le logiciel est utilisable uniquement en mode **root** dans la mesure ou nous ut
 Pour lancer le logiciel
 ```
 sudo bash
+cd /home/tactilmap/speakerkeyboard
 source ./venv/bin/activate
 python kspeaker.py
 ```
@@ -149,3 +150,23 @@ Le fichier **configuration.json** pour la carte tactile du métro de Rennes est 
 ```
 Vous pouvez remarquer que certain nom on été modifié pour mieux correspondre à la phonétique francaise et permettre une meilleur compréhension de la synthèse vocale. Notamment **Kennedy** a été transformé en **Kénnédy**, **Le Blosne** a été transfomé en **Le Blaune**.
 
+### Lancement du logiciel au démarrage du système
+
+Pour pouvoir utiliser la carte tactile de façon autonome, le logiciel kspeaker doit se lancer au démarrage du système. Pour installer le logiciel comme script système, utiliser la commande :
+
+
+```
+sudo bash
+cd /home/tactilmap/speakerkeyboard
+./install_service.sh
+```
+
+Une fois le logiciel installer en service système, vous pouvez l'arrêter en utilisant la commande :
+```
+sudo systemctl stop kspeaker
+```
+
+vous pouvez également le relancer avec la commande :
+```
+sudo systemctl start kspeaker
+```
