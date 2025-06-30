@@ -69,3 +69,25 @@ espeak-ng -v mb-fr1 "Bonjour tout le monde"
 espeak-ng -v mb-fr4 "Bonjour tout le monde"
 ```
 
+### Installation du logiciel speakerkeyboard
+
+le logiciel [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) permet de déclencher la lecture d'un message en synthèse vocale lors de l'appuie sur une touche du clavier. En utilisant la carte **shapeless_rp2040_40keys** il est possible de simuler l'appuie sur une touche d'un clavier en appuyant sur un des boutons de la carte tactile.
+
+```
+cd /home/tactilmap
+git clone https://github.com/crocsg/speakerkeyboard.git
+cd speakerkeyboard
+python -m venv venv
+source ./venv/bin/activate
+pip install -r requirement.txt
+```
+
+Le logiciel est utilisable uniquement en mode **root** dans la mesure ou nous utilisons le module python **keyboard** pour intercepter les évenements clavier.
+
+Pour lancer le logiciel
+```
+sudo bash
+source ./venv/bin/activate
+python kspeaker.py
+```
+
