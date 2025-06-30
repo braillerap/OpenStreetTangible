@@ -4,29 +4,30 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-30 15:49+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-06-30 18:32+0000\n"
+"Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
+"Language-Team: English <https://translate.codeberg.org/projects/"
+"openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../rpi_config.md:1
 msgid "Configuration du Raspberry PI"
-msgstr ""
+msgstr "Raspberry PI setup"
 
 #: ../../rpi_config.md:2
 msgid "Création de l'image système"
-msgstr ""
+msgstr "Building system image"
 
 #: ../../rpi_config.md:4
 msgid ""
@@ -34,24 +35,26 @@ msgid ""
 " installer la dernière version de **Raspberry PI OS** en version **lite**"
 " sur une carte SD."
 msgstr ""
+"With the software [Raspberry Pi Imager](https://www.raspberrypi.com/software/"
+") setup the last **lite** version of **Raspberry PI OS** on a SD card."
 
 #: ../../rpi_config.md:6
 msgid ""
 "vous devez activer une installation personnalisée avec les options "
 "suivantes"
-msgstr ""
+msgstr "You should do a customised setup with these options"
 
 #: ../../rpi_config.md:8
 msgid "Nom d'hote **subwaymap**"
-msgstr ""
+msgstr "Host name **subwaymap**"
 
 #: ../../rpi_config.md:9
 msgid "creation d'un utilisateur **tactilmap** avec un mot de passe."
-msgstr ""
+msgstr "Create a user **tactilmap** with a password."
 
 #: ../../rpi_config.md:10
 msgid "activation de **ssh**."
-msgstr ""
+msgstr "enable **ssh**."
 
 #: ../../rpi_config.md:13
 msgid ""
@@ -60,42 +63,51 @@ msgid ""
 "opération en connectant un cable ethernet, si vous souhaitez connecter le"
 " raspberry pi en wifi, vous devez configurer le wifi avant l'installation"
 msgstr ""
+"To complete the setup, you will need to connect to the Raspberry PI via the "
+"network. We usually do this by connecting an Ethernet cable. If you want to "
+"connect the Raspberry Pi via Wi-Fi, you must configure Wi-Fi with Raspberry "
+"PI imager"
 
 #: ../../rpi_config.md:16
 msgid ""
 "Une fois toute les options configurées, vous pouvez lancer la création de"
 " l'image sur la carte SD."
 msgstr ""
+"Once all the options are set, you can write the system image on SD card."
 
 #: ../../rpi_config.md:18
 msgid "Installation du système"
-msgstr ""
+msgstr "System setup"
 
 #: ../../rpi_config.md:20
 msgid ""
 "Connecter la carte shapeless_rp2040_40keys sur le Raspberry Pi avec un "
 "cable micro USB."
 msgstr ""
+"Connect the shapeless_rp2040_40keys board on the Raspberry Pi using a micro "
+"USB cable."
 
 #: ../../rpi_config.md:21
 msgid "Connecter le Raspberry Pi au réseau ethernet si besoin"
-msgstr ""
+msgstr "Connect Ethernet cable if needed"
 
 #: ../../rpi_config.md:22
 msgid "Brancher le cable USB micro d'alimentation du Raspberry PI"
-msgstr ""
+msgstr "Connect the power supply micro USB cable on Raspberry PI"
 
 #: ../../rpi_config.md:23
 msgid ""
 "Brancher la sortie audio du Raspberry PI sur un système audio avec un "
 "cable jack."
-msgstr ""
+msgstr "Connect Raspberry PI audio output on a audio system using a jack cable."
 
 #: ../../rpi_config.md:25
 msgid ""
 "Une fois le Raspberry PI démarrer, connecter vous au Raspberry PI en "
 "ouvrant une console et en utilisant la commande :"
 msgstr ""
+"Once the Raspberry PI is running, open a command console and connect the "
+"Raspberry PI with the command :"
 
 #: ../../rpi_config.md:29
 msgid ""
@@ -103,6 +115,9 @@ msgid ""
 "**tactilmap**. Le mot de passe a été configuré au moment de la création "
 "de l'image du système."
 msgstr ""
+"The Raspberry PI will then ask you for the password associated with the "
+"**tactilmap** account. The password was configured when the system image was "
+"created."
 
 #: ../../rpi_config.md:31
 msgid ""
@@ -228,4 +243,3 @@ msgstr ""
 #: ../../rpi_config.md:169
 msgid "vous pouvez également le relancer avec la commande :"
 msgstr ""
-
