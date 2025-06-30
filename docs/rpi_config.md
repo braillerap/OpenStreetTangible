@@ -68,3 +68,4 @@ Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:
 espeak-ng -v mb-fr1 "Bonjour tout le monde"
 espeak-ng -v mb-fr4 "Bonjour tout le monde"
 ```
+
