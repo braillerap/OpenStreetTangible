@@ -156,9 +156,10 @@ Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera 
 Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
 ![test des différents éléments découpés une seule ligne](/IMG/test_decoupe1.jpg)
-![test des différents éléments découpés les deux lignes](/IMG/test_decoupe2.jpg)
-![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
+*Vérification de la concordance des découpes de ligne avec la gravure*
 
+![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
+*Vérification de la concordance des découpes de ligne avec la gravure*¨
 
 ### Fichier 3D à imprimer
 
@@ -340,9 +341,13 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 
 ### Assemblage de l'ensemble du montage électronique
+- Le support imprimé en 3D, pour sortie de câble alimentation vers l'extérieur est vissé de part et d'autre sur les tasseaux
+- L'ampli est collé avec deux ou 3 points de colle chaude au pistolet à colle
+- Le passe câble speaker, le speaker, le convertisseur de tension et le domino sont fixés aussi au pistolet à colle
 - Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
-- Le passe cable est utilisé ici pour passer le cable du haut-parleur (pour pas qu'il soit trop près du cable d'alim et du reste pour éviter les parasites.
-- Le support imprimé en 3D pour sortie de cable alimentation vers l'extérieur
+
+
+- Le passe câble est utilisé ici pour passer le câble du haut-parleur (speaker) afin qu'il ne soit trop près du câble d'alimentation et du reste pour éviter les parasites.
 
 
 
