@@ -57,6 +57,7 @@ Les SVG peuvent être modifiés avec des logiciels vectoriels comme Inkscape (lo
 * Redessiner les stations en fin de ligne pour les remplacer par des cercles si vous le jugez nécessaire
 * Faire un cercle plus grand pour chacune des stations de correspondance
 * Ajuster la taille des cercle de chaque station et ajouter un cercle interne à chaque station pour faire une découpe qui correspond à la taille du bouton que vous avez choisi. Pour notre exemple, les cercles externes font Xmm et les cercles internes Xmm
+
 * '' TO DO : Ajouter ICI les fichiers source transformés''
 
 ## Fabrication du plan de métro avec son chassis
