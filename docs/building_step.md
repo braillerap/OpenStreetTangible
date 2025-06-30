@@ -41,9 +41,9 @@
 * Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio.
 * carte clavier [shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys).
 * 2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison shapeless_rp2040_40keys / raspberry pi.
-* 30 boutons poussoir a souder, fixation par écrou (autant de boutons que de stations + la légende)
+* 30 boutons poussoir à souder, fixation par écrou (autant de boutons que de stations + la légende)
 * fils de cablage pour connecter les boutons à la raspi (deux couleurs différentes, pour dissocier chaque ligne)
-* connecteurs dupont femelle 2 fil pour la connexion des boutons à la carte shapeless_rp2040_40keys.
+* connecteurs dupont femelle 2 fils pour la connexion des boutons à la carte shapeless_rp2040_40keys.
 * ampli audio avec entrée mini jack.
 * cable mini jack audio
 * 1 Haut parleur 3~5 W
@@ -58,7 +58,7 @@
 * Installer OpenStreetTouch et suivre le tutoriel associé pour extraire les données de transports qui vous intéressent.
  (https://openstreettouch.readthedocs.io/fr/latest/manuel_utilisateur.html) 
 
- Nous n'utiliserons pas l'option "polygones pour tracés de lignes", de manière a pouvoir manipuler les entités de façon fines avec le logiciel inkscape.
+ Nous n'utiliserons pas l'option "polygones pour tracés de lignes", de manière a pouvoir manipuler les entités de façon fines avec le logiciel Inkscape.
 
 ![Vue de l’interface OpenStreetTouch](/IMG/OSM_vue_export_svg.png)
 
@@ -71,7 +71,7 @@
 
 
 ###  Transformation des fichiers avec Inkscape
-Le SVG issue d'OpenStreetTouch doit être modifié avec un logiciel de dessin vectoriel comme Inkscape (logiciel libre et gratuit).
+Le SVG issu d'OpenStreetTouch doit être modifié avec un logiciel de dessin vectoriel comme Inkscape (logiciel libre et gratuit).
 
 #### Mise à l'échelle du plan
 *  Ouvrir le svg de l'ensemble des lignes avec Inkscape et mettre le SVG à l’échelle du plan choisi (redimensionner le document à la taille souhaitée)
@@ -93,12 +93,13 @@ Pour des raisons esthétiques et pratiques non avons effectué les modifications
 * Les débuts et fin de lignes ont été remplacés par des cercles.
 * Les cercles des stations sont redimensionnés a 15 mm de diamètre.
 * La largeur des tracés de lignes est défini a 8 mm.
-* Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériaux, donc un touché différent.
-* A proximité des stations en correspondance, nous avons espacé les lignes de transport pour obtenir un tracé moins ambigu au niveau des corresponances et conserver une largeur de ligne de 8mm.
-* Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des etiquettes trop proches les unes des autres.
+* Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériau, donc un touché différent.
+* A proximité des stations en correspondance, nous avons espacé les lignes de transport pour obtenir un tracé moins ambigu au niveau des correspondances et conserver une largeur de ligne de 8mm.
+* Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des étiquettes trop proches les unes des autres.
 
 Le fichier svg résultat est le suivant
 ![Le fichier svg résultat est le suivant](/IMG/rennes_metro_worked2.svg)
+*Fichier SVG "rennes_metro_worked2.svg" après ajustements pour la mise en forme du réseau*
 
 #### Préparation du fichier pour la gravure et le percage de la plaque de fond
 
@@ -114,7 +115,7 @@ Pour réaliser la plaque de fond, les lignes noires correspondent à la gravure 
 
 Le fichier svg résultat est le suivant
 ![Le fichier svg résultat est le suivant](/IMG/rennes_subway_fond.svg)
-
+*Fichier SVG  "rennes_subway_fond.svg" préparé pour la découpe laser pour procéder à la gravure et le perçage de la plaque de fond*
 
 #### Préparation des fichiers pour la découpe des lignes
 
@@ -132,15 +133,17 @@ Les fichiers svg résultats sont les suivants :
 
 Pour la ligne A
 ![Le fichier de découpe de la ligne A](/IMG/rennes_subway_line_a.svg)
+*Fichier SVG de découpe de la ligne A*
 
 Pour la ligne B
 ![Le fichier de découpe de la ligne A](/IMG/rennes_subway_line_b.svg)
+*Fichier SVG de découpe de la ligne B*
 
 #### Réalisation à l'aide de la découpe laser
 
-En utilisant le logiciel de la découpe laser, nous avons réalisé la plaque de fond en marquant les tracé en noir et en découpant les tracés en rouge sur une plaque de contreplaqué peuplier 5mm.
+En utilisant le logiciel de la découpe laser, nous avons réalisé la plaque de fond en marquant les tracés en noir et en découpant les tracés en rouge sur une plaque de contreplaqué peuplier 5mm.
 
-Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis les tracés noirs. Chaque ligne est découpées dans un matériau différents, du PMMA blanc 3mm et du contreplaqué peuplier 3mm.
+Les lignes A et B sont ensuite découpées en découpant les tracés rouges puis les tracés noirs. Chaque ligne est découpée dans un matériau différent, du PMMA blanc 3mm et du contreplaqué peuplier 3mm.
 
 Pour la ligne en contreplaqué peuplier, nous avons utilisé le même fichier de découpe pour découper les lignes dans du papier de verre 120.
 
@@ -173,9 +176,9 @@ Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint.
 
 La difficulté pour la réalisation des étiquettes est d'aligner suffisement bien l'impression, en gros caractères avec l'embossage Braille pour gagner de la place.
 
-Pour réussir a aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire `labeltosvg`, ce script prend en entrée un fichier texte contenant une série de ligne a imprimer et génére une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. 
+Pour réussir à aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire `labeltosvg`, ce script prend en entrée un fichier texte contenant une série de ligne à imprimer et génère une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. 
 
-Pour un numéro particulier, le fichier "xxxxxx.printer.svg" devra être imprimé avec une imprimante. Le fichier "xxxxxx.brap.svg" devra ensuite être embosser sur la BrailleRAP à l'aide du logiciel [DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP).
+Pour un numéro particulier, le fichier "xxxxxx.printer.svg" devra être imprimé avec une imprimante. Le fichier "xxxxxx.brap.svg" devra ensuite être embossé sur la BrailleRAP à l'aide du logiciel [DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP).
 
 Nous avons utlisé ce script python avec le fichier .txt des stations de transport généré par [OpenStreetTouch](https://github.com/braillerap/OpenStreetTouch)
 
@@ -219,44 +222,43 @@ Pour augmenter les contrastes, les lignes en papier de verre sont peintes en noi
 
 ### Collage du papier de verre sur la ligne A
 
-Coller la ligne découpée dans le papier de verre sur sa ligne correspondante en bois (ligne A) avec la colle à bois
+Coller la ligne A découpée dans le papier de verre sur sa ligne correspondante en bois avec de la colle à bois.
 
 ### Préparation du chassis du plan
 
-* Mettre le plan 80 X 60 face gravée contre une table (propre !).
+* Mettre le plan 80 X 60 cm face gravée contre une table (propre !).
 
-* Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque. Dessiner au crayon à papier leur contour pour bien avoir le repère au moment du collage
+* Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque. Dessiner au crayon à papier leur contour pour bien avoir le repère au moment du collage.
 
-* Coller les tasseaux avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. Pour ne pas faire de marquage ou déformer les tasseaux avec les pinces et étaux, ajouter des plaue de protection entre le tasseau et la pince de serrage.
+* Coller les tasseaux avec la colle à bois et les maintenir en place avec des pinces ou des serre-joints. Pour ne pas faire de marquage ou déformer les tasseaux avec les pinces et étaux, ajouter des plaques de protection entre le tasseau et la pince de serrage.
 Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum avant d'enlever les pinces et les serre-joints.
 
 
 ![Collage tasseaux](/IMG/collage_tasseaux.jpg)
+*Collage tasseaux*
 
 ![Collage tasseaux avec plaques de protection](/IMG/collage_tasseau_sur_plaque_plan.jpg)
+*Collage tasseaux avec plaques de protection*
 
 ![Finalisation collage tasseaux](/IMG/finalisation_collage_tasseaux.jpg)
+*Finalisation collage tasseaux*
 |
 
-* Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité)
+* Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité) sur les les tasseaux
 
- ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
- 
+![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
+*Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous*
 
 ### Vérification de l'assemblage avant le collage des lignes de métro
 - Positionner les éléments des deux lignes pour vérifier que tous les éléments sont présents et correspondent bien au tracé de repérage.
 
-### Collage des lignes de métro
+### Collage des lignes de métro et des stations de correspondance
 
 * Coller les deux lignes de métro découpées à la laser sur le plan
 
-* Coller ensuite chacune des lignes en vous repérant à la gravure. Utiliser la colle à bois pour la ligne A en peuplier et la colle cyano pour la ligne B en PMMA (enlever la protection sur la face qui sera collée juste avant d’appliquer la colle . 
+* Coller chacune des lignes en vous repérant à la gravure. Utiliser la colle à bois pour la ligne A en peuplier et la colle cyano pour la ligne B en PMMA (enlever la protection sur la face qui sera collée juste avant d’appliquer la colle . 
 
-* Coller ensuite les cercles correspondant aux stations de correspondance  ici peintes à la bombe de peinture rouge.
-
-### Assemblage et collage des deux lignes et des deux stations de correspondance sur le plan
-- Avec la colle cyano, coller la ligne B en PMMA. 
-- Avec la colle à bois coller la ligne A préparée avec le papier de verre peint en noir
+* Coller les cercles correspondant aux stations de correspondance ici peintes préalablement à la bombe de peinture rouge.
 
 
 
@@ -264,18 +266,19 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 ### Préparation des boutons
 - Étamer les boutons
 - Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelqus cm de plus
-- Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo.
+- Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo en ajoutant de la gaine thermo sur les connections à la soudure
 
-![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur.jpg)
+![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg)
+*Bouton sooudé avec le fil de rallonge et le connecteur*
 
 
 - Préparer l'ensemble des boutons pour une ligne pour commencer en s'assurant d'avoir la même couleur de fil pour tous les boutons de cette ligne. On prendra une autre couleur pour la 2 e ligne.
 ![Préparation de l'ensemble des boutons avec le fil de rallonge et connecteur](IMG/boutons_fils_connecteurs.jpg)
-
+*Ensemble des boutons péparé pour une ligne classé par ordre de dimension*
 
 ### Montage des boutons sur le plan
-- Insérer la rondelle sur le bouton pour qu'elle se trouve sous la plaque . Insérer ensuite le bouton avec sa rondelle par dessous et le fixer à la main (sans clé pour commencer)
-- Procéder ainsi pour tous les botuons de l'ensemble de la ligne
+- Insérer la rondelle sur le bouton pour qu'elle se trouve sous la plaque. Insérer ensuite le bouton avec sa rondelle par dessous et le fixer à la main avec l'écrou sur le dessus de la plaque(sans serrer avec une clé pour commencer)
+- Procéder ainsi pour tous les boutons de l'ensemble de la ligne
 
 ![Montage des boutons sur le plan](/IMG/montage_bouton_apres_collage_lignes_metros.jpg)
 
@@ -285,8 +288,9 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 - Positionner aussi la légende et le triangle qui indique le nord
 
 ![Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord](/IMG/pre_positionnement_etiquettes.jpg)
+*Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord*
 
-Une fois validé la position des étiquettes, les retirer et les conserver dans une boîte avec les éléments de la légende et le triangle.
+Une fois validé la position des étiquettes, les retirer et les conserver dans une boîte avec les éléments de la légende et le triangle. 
 
 
 ### Schéma de principe du cablage
@@ -302,11 +306,17 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 ### Positionner la carte clavier et la coller
 
-* Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre 
-* Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !)
+* Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre
+![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](/IMG/prepositionnement_carte.jpg)
+*Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté*
+
+
+* Coller la carte clavier en ajoutant un cadre en bois que vous pouvez réaliser à la laser (sur la photo on a trouvé en récup quelque chose de convenable !) avec un pistolet à colle
+![Collage de la carte clavier avec pistolet à colle](/IMG/collage_carte_clavier_sur_support_bois.jpg)
+
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
-- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne
+- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne our faciliter le repérage mais ce n'est pas obligatoire!
 
 
 
