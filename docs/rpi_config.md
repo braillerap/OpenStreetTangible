@@ -5,7 +5,8 @@ Avec l'outil [Raspberry Pi Imager](https://www.raspberrypi.com/software/) instal
 
 vous devez activer une installation personnalisée avec les options suivantes
 
-* creation d'un utilisateur **tactilmap**.
+* Nom d'hote **subwaymap**
+* creation d'un utilisateur **tactilmap** avec un mot de passe.
 * activation de **ssh**.
 
 ```{note}
@@ -16,3 +17,12 @@ Une fois toute les options configurées, vous pouvez lancer la création de l'im
 
 ### Installation du système
 
+* Connecter la carte shapeless_rp2040_40keys sur le Raspberry Pi avec un cable micro USB.
+* Connecter le Raspberry Pi au réseau ethernet si besoin
+* Brancher le cable USB micro d'alimentation du Raspberry PI
+
+Une fois le Raspberry PI démarrer, connecter vous au Raspberry PI en ouvrant une console et en utilisant la commande :
+```
+ssh tactilmap@subwaymap.local
+```
+le Raspberry PI vous demande alors le mot de passe associé au compte **tactilmap**. Le mot de passe a été configuré au moment de la création de l'image du système.
