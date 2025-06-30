@@ -156,9 +156,10 @@ Ne pas enlever le plastique protecteur du PMMA. Le plastique de protection sera 
 Une fois les éléments découpés, on effectue un test de mise en place sans collage.
 
 ![test des différents éléments découpés une seule ligne](/IMG/test_decoupe1.jpg)
-![test des différents éléments découpés les deux lignes](/IMG/test_decoupe2.jpg)
-![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
+*Vérification de la concordance des découpes de ligne avec la gravure*
 
+![test des différents éléments découpés les deux lignes avec le papir de verre](/IMG/test_decoupe3.jpg)
+*Vérification de la concordance des découpes de ligne avec la gravure*¨
 
 ### Fichier 3D à imprimer
 
@@ -187,7 +188,7 @@ Un exemple de fichier SVG pour l'impression
 ![Un exemple de fichier SVG pour l'impression](IMG/rennes_subway2.txt.printer1.svg)
 
 ```{note} 
-Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire `labels`.
+Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le repertoire labels.
 ```
 
 
@@ -256,6 +257,7 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 
 #### Ponçage chassis
 Avec une cale à poncer et papier de verre de 80, poncer les côtés afin qu'ils soient lisses et qu'ils ombent à fleur de la plaque du plan de métro
+
 ![Ponçage du chassis](/IMG/poncage_chassis.jpg)
 *Ponçage du chassis*
 
@@ -279,11 +281,11 @@ Vernir le plan de métro démonté du chassis et vernir aussi le chassis extéri
 ## Montage du circuit électronique
 ### Préparation des boutons
 - Étamer les boutons
-- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelqus cm de plus
+- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelques cm de plus
 - Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo en ajoutant de la gaine thermo sur les connections à la soudure
 
 ![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg)
-*Bouton sooudé avec le fil de rallonge et le connecteur*
+*Bouton soudé avec le fil de rallonge et le connecteur*
 
 
 - Préparer l'ensemble des boutons pour une ligne pour commencer en s'assurant d'avoir la même couleur de fil pour tous les boutons de cette ligne. On prendra une autre couleur pour la 2 e ligne.
@@ -322,7 +324,7 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 * Retourner le plan et positionner de manière provisoire la carte clavier dans l'espace libre et assurez-vous que les connecteurs de chaque boutons puissent l'atteindre
 ![Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté](/IMG/prepositionnement_carte.jpg)
-*Prépositionnement carte clavier opur vérifier que chaque bouton puisse être connecté*
+*Prépositionnement carte clavier pour vérifier que chaque bouton puisse être connecté*
 
 
 
@@ -331,19 +333,49 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 
 
 ### Connecter les connecteurs de chaque bouton à la carte clavier
-- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne our faciliter le repérage mais ce n'est pas obligatoire!
+- Connecter les connecteurs des boutons si possible dans l'ordre des stations de la ligne pour faciliter le repérage mais ce n'est pas obligatoire!
 ![Connection des connecteurs des boutons à la raspi](/IMG/connections_fils.jpg)
 
 ### Regrouper les fils 
-- Regrouper les fils et les fixer ensemble avec des colsons
+- Regrouper les fils et les fixer ensemble avec des collier de serrage (colsons)
 
 
 ### Assemblage de l'ensemble du montage électronique
-Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
-Le passe cable est utilisé ici pour passer le cable du haut-parleur (pour pas qu'il soit trop près du cable d'alim et du reste pour éviter les parasites.
-Le support imprimé en 3D pour sortie de cable alimentation vers l'extérieur
-(to do: photo vue 3D + vue réelle)
+- Le support imprimé en 3D, pour sortie de câble alimentation vers l'extérieur est vissé de part et d'autre sur les tasseaux
+- L'ampli est collé avec deux ou 3 points de colle chaude au pistolet à colle
+- Le passe câble speaker, le speaker, le convertisseur de tension et le domino sont fixés aussi au pistolet à colle
+- Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi est vissé sur le support.
+
+
+- Le passe câble est utilisé ici pour passer le câble du haut-parleur (speaker) afin qu'il ne soit trop près du câble d'alimentation et du reste pour éviter les parasites.
+
+
+
+![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique_legende.jpg)
+*Assemblage du montage électronique avec légende sur chacun des éléments*
 
 
 ![Assemblage du montage électronique](/IMG/Assemblage_montage_electronique.jpg)
 *Assemblage du montage électronique*
+
+![Ampli collé avec pistolet à colle](/IMG/ampli.jpg)
+*Ampli collé avec pistolet à colle*
+
+
+![Régulateur de tension](/IMG/regulateur_tension.jpg)
+*Régulateur de tension collé avec le pistolet à colle*
+
+
+![Sortie de cable d'alimentation](/IMG/Sortie_cable_alimentation.jpg)
+*Sortie de câble d'alimentation imprimé en 3D*
+
+
+![Domino d'alimentation](/IMG/domino_alim.jpg)
+*Domino d'alimentation*
+
+
+### Vue d'ensemble du prototype final
+Le montage est terminé :)
+
+![Vue d'ensemble du prototype final](/IMG/rennes.jpg)
+*Vue d'ensemble du prototype final*
