@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-30 16:30+0000\n"
-"PO-Revision-Date: 2025-06-30 19:15+0000\n"
+"PO-Revision-Date: 2025-06-30 19:31+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_building_step/en/>\n"
@@ -38,7 +38,7 @@ msgstr "A [BrailleRAP](https://github.com/braillerap/BrailleRap)."
 
 #: ../../building_step.md:7
 msgid "Découpe laser."
-msgstr "Laser cutting"
+msgstr "Laser cutter."
 
 #: ../../building_step.md:8
 msgid ""
@@ -68,15 +68,15 @@ msgstr "Consumables"
 
 #: ../../building_step.md:17
 msgid "Soudure pour électronique."
-msgstr ""
+msgstr "Electronics solder."
 
 #: ../../building_step.md:18
 msgid "fils de cablage."
-msgstr ""
+msgstr "electronics wire."
 
 #: ../../building_step.md:19
 msgid "colle cyanoacrylate pour coller plexi sur bois"
-msgstr ""
+msgstr "cyanoacrylate glue for bonding plexiglass to wood"
 
 #: ../../building_step.md:20
 msgid "colle à bois."
@@ -84,61 +84,65 @@ msgstr "Wood glue."
 
 #: ../../building_step.md:21
 msgid "bombe de peinture noire."
-msgstr ""
+msgstr "black spray paint."
 
 #: ../../building_step.md:22
 msgid "bombe de peinture rouge."
-msgstr ""
+msgstr "red spray paint."
 
 #: ../../building_step.md:25
 msgid "Réalisation du plan"
-msgstr ""
+msgstr "Making the tangible map"
 
 #: ../../building_step.md:27
 msgid "papier de verre (grammage 120)."
-msgstr ""
+msgstr "sand paper (120)."
 
 #: ../../building_step.md:28
 msgid "2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm."
-msgstr ""
+msgstr "2 plywood sheets 5mm thick and 80cm x 60 cm."
 
 #: ../../building_step.md:29
 msgid ""
 "1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de "
 "métro (format adapté à la taille de la découpeuse laser) et légende."
 msgstr ""
+"1 3mm plywood sheet to cut subway transport line (suitable format for laser "
+"cutter) and legend."
 
 #: ../../building_step.md:30
 msgid ""
 "1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format "
 "adapté à la taille de la découpeuse laser) et légende."
 msgstr ""
+"1 3mm PMMA sheet to cut a transport line (suitable format for laser cutter) "
+"and legend."
 
 #: ../../building_step.md:31
 msgid "1 tasseau de 53,5cm (section 3x5cm)."
-msgstr ""
+msgstr "1 53.5cm wood strip (3x5cm section)."
 
 #: ../../building_step.md:32
 msgid "1 tasseau de 41cm (section 3x5cm)."
-msgstr ""
+msgstr "1 41 cm wood strip (3x5cm section)."
 
 #: ../../building_step.md:33
 msgid "2 tasseaux de 80 cm (section 3x5cm)."
-msgstr ""
+msgstr "2 80 cm wood strip (3x5cm section)."
 
 #: ../../building_step.md:34
 msgid ""
 "~10 Feuilles transparentes pour impression laser pour les etiquettes de "
 "stations en noir et en Braille."
-msgstr ""
+msgstr "~10 clear sheet for laser printer for printed sticker with Braille."
 
 #: ../../building_step.md:35
 msgid "8 x inserts M6 x23mm."
-msgstr ""
+msgstr "8 x M6 x23mm inserts."
 
 #: ../../building_step.md:36
 msgid "8 x Vis M6."
-msgstr ""
+msgstr "8 M6 screws."
 
 #: ../../building_step.md:39
 msgid "Electronique"
@@ -150,48 +154,60 @@ msgid ""
 "suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui"
 " ajouter une sortie audio."
 msgstr ""
+"A Raspberry Pi version 2 or higher with 1GB of RAM is more than enough. A "
+"Raspberry Pi Zero is probably usable, but you'll need to add an audio output."
 
 #: ../../building_step.md:42
 msgid ""
 "carte clavier "
 "[shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)."
 msgstr ""
+"custom keyboard [shapeless_rp2040_40keys](https://github.com/crocsg/"
+"shapeless_rp2040_40keys)."
 
 #: ../../building_step.md:43
 msgid ""
 "2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison"
 " shapeless_rp2040_40keys / raspberry pi."
 msgstr ""
+"2 micro USB cables, 1 for powering the Raspberry Pi, 1 for the "
+"shapeless_rp2040_40keys / raspberry pi connection."
 
 #: ../../building_step.md:44
 msgid ""
 "30 boutons poussoir à souder, fixation par écrou (autant de boutons que "
 "de stations + la légende)"
 msgstr ""
+"30 solderable push buttons, nut fixing (as many buttons as stations + the "
+"legend)"
 
 #: ../../building_step.md:45
 msgid ""
 "fils de cablage pour connecter les boutons à la raspi (deux couleurs "
 "différentes, pour dissocier chaque ligne)"
 msgstr ""
+"wiring wires to connect the buttons to the raspberry pi(two different "
+"colors, to separate each line)"
 
 #: ../../building_step.md:46
 msgid ""
 "connecteurs dupont femelle 2 fils pour la connexion des boutons à la "
 "carte shapeless_rp2040_40keys."
 msgstr ""
+"2-wire female dupont connectors for connecting buttons to the "
+"shapeless_rp2040_40keys board."
 
 #: ../../building_step.md:47
 msgid "ampli audio avec entrée mini jack."
-msgstr ""
+msgstr "audio amplifier with mini jack input."
 
 #: ../../building_step.md:48
 msgid "cable mini jack audio"
-msgstr ""
+msgstr "audio mini jack cable"
 
 #: ../../building_step.md:49
 msgid "1 Haut parleur 3~5 W"
-msgstr ""
+msgstr "1 3-5 W speaker"
 
 #: ../../building_step.md:50
 msgid "Embase Alimentation jack 2.5mm."
@@ -199,15 +215,15 @@ msgstr "2.5mm Female power supply jack."
 
 #: ../../building_step.md:51
 msgid "Alimentation 12V 6A avec connecteur Jack 2.5mm."
-msgstr ""
+msgstr "12V 6A power supply with jack 2.5 mm connector."
 
 #: ../../building_step.md:55
 msgid "Partie logicielle : Open Street Touch & Inkscape"
-msgstr ""
+msgstr "Software part : OpenStreetTouch & Inkscape"
 
 #: ../../building_step.md:57
 msgid "Extraction des données de lignes de transport avec OpenStreetTouch"
-msgstr ""
+msgstr "Extracting transport line data with OpenStreetTouch"
 
 #: ../../building_step.md:58
 msgid ""
@@ -215,6 +231,9 @@ msgid ""
 " données de transports qui vous intéressent. "
 "(https://openstreettouch.readthedocs.io/fr/latest/manuel_utilisateur.html)"
 msgstr ""
+"Install OpenStreetTouch and follow the associated tutorial to extract the "
+"transport data you are interested in. (https://"
+"openstreettouch.readthedocs.io/fr/latest/manuel_utilisateur.html)"
 
 #: ../../building_step.md:61
 msgid ""
@@ -222,14 +241,16 @@ msgid ""
 "manière a pouvoir manipuler les entités de façon fines avec le logiciel "
 "Inkscape."
 msgstr ""
+"We will not use the \"polygons for line drawing\" option, so that we can "
+"manipulate the entities in a fine way with the Inkscape software."
 
 #: ../../building_step.md:63
 msgid "![Vue de l’interface OpenStreetTouch](/IMG/OSM_vue_export_svg.png)"
-msgstr ""
+msgstr "![OpenStreetTouch screenshot](/IMG/OSM_vue_export_svg.png)"
 
 #: ../../building_step.md:63
 msgid "Vue de l’interface OpenStreetTouch"
-msgstr ""
+msgstr "OpenStreetTouch screenshot"
 
 #: ../../building_step.md:65
 msgid ""
@@ -237,6 +258,8 @@ msgid ""
 "deux sens de circulation. Nous avons donc sélectionné chaque ligne une "
 "seule fois."
 msgstr ""
+"In the case of the city of Rennes, the lines have the same layout in both "
+"directions of travel. We therefore selected each line only once."
 
 #: ../../building_step.md:66
 msgid ""
@@ -244,36 +267,43 @@ msgid ""
 "Ce fichier servira a réaliser un fichier pour la gravure du fond et la "
 "découpe des tracés de lignes."
 msgstr ""
+"Extract all the desired transport lines into a single SVG. This file will be "
+"used to create a file for engraving the background and cutting the line "
+"paths."
 
 #: ../../building_step.md:68
 msgid ""
 "Extraire également le nom des stations pour chacune des lignes avec le "
 "bouton \"Enregistrer les stations en TXT\""
 msgstr ""
+"Also extract the station names for each line with the "
+"\"Save stations as TXT\" button"
 
 #: ../../building_step.md:70
 msgid ""
 "![Le fichier d'extraction SVG obtenu est le "
 "suivant](/IMG/rennes_metro.svg)"
-msgstr ""
+msgstr "![The data SVG files](/IMG/rennes_metro.svg)"
 
 #: ../../building_step.md:70
 msgid "Le fichier d'extraction SVG obtenu est le suivant"
-msgstr ""
+msgstr "The transport data SVG file"
 
 #: ../../building_step.md:73
 msgid "Transformation des fichiers avec Inkscape"
-msgstr ""
+msgstr "Transforming files with Inkscape"
 
 #: ../../building_step.md:74
 msgid ""
 "Le SVG issu d'OpenStreetTouch doit être modifié avec un logiciel de "
 "dessin vectoriel comme Inkscape (logiciel libre et gratuit)."
 msgstr ""
+"SVG from OpenStreetTouch must be edited with vector drawing software like "
+"Inkscape (free and open source software)."
 
 #: ../../building_step.md:76
 msgid "Mise à l'échelle du plan"
-msgstr ""
+msgstr "Scaling the plan"
 
 #: ../../building_step.md:77
 msgid ""
@@ -281,6 +311,8 @@ msgid ""
 "l’échelle du plan choisi (redimensionner le document à la taille "
 "souhaitée)"
 msgstr ""
+"Open the SVG of all the lines with Inkscape and scale the SVG to the chosen "
+"plane (resize the document to the desired size)"
 
 #: ../../building_step.md:79
 msgid "Fichier>propriétés du document"
