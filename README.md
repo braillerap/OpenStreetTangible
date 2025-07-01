@@ -13,7 +13,7 @@ The building manual is available here [https://openstreettangible.readthedocs.io
 
 Translations are availables here :
 
-**en** [![Documentation Status](https://readthedocs.org/projects/OpenStreetTangible_en/badge/?version=latest&style=plastic)](openstreettangible.readthedocs.io/en/latest/)
+**en** [![Documentation Status](https://readthedocs.org/projects/OpenStreetTangible_en/badge/?version=latest&style=plastic)](https://openstreettangible.readthedocs.io/en/latest/)
 
 **fr** [![Documentation Status](https://readthedocs.org/projects/OpenStreetTangible/badge/?version=latest&style=plastic)](https://openstreettangible.readthedocs.io/fr/latest/)
 
