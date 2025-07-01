@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-01 15:50+0000\n"
-"PO-Revision-Date: 2025-06-30 19:09+0000\n"
+"PO-Revision-Date: 2025-07-01 15:55+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
+"Language-Team: English <https://translate.codeberg.org/projects/"
+"openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
 "Language: en\n"
-"Language-Team: English "
-"<https://translate.codeberg.org/projects/openstreettangible_buildingmanual/manual_rpi_config/en/>"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../rpi_config.md:1
@@ -58,17 +58,16 @@ msgid "activation de **ssh**."
 msgstr "enable **ssh**."
 
 #: ../../rpi_config.md:13
-#, fuzzy
 msgid ""
 "Pour terminer l'installation, vous aurez besoin de vous connecter au "
 "Raspberry PI par le réseau. De manière générale nous réalisons cette "
 "opération en connectant un câble ethernet, si vous souhaitez connecter le"
 " raspberry pi en wifi, vous devez configurer le wifi avant l'installation"
 msgstr ""
-"To complete the setup, you will need to connect to the Raspberry PI via "
-"the network. We usually do this by connecting an Ethernet cable. If you "
-"want to connect the Raspberry Pi via Wi-Fi, you must configure Wi-Fi with"
-" Raspberry PI imager"
+"To complete the setup, you will need to connect to the Raspberry PI via the "
+"network. We usually do this by connecting an Ethernet cable. If you want to "
+"connect the Raspberry Pi via Wi-Fi, you must configure Wi-Fi with Raspberry "
+"PI imager"
 
 #: ../../rpi_config.md:16
 msgid ""
@@ -81,32 +80,28 @@ msgid "Installation du système"
 msgstr "System setup"
 
 #: ../../rpi_config.md:20
-#, fuzzy
 msgid ""
 "Connecter la carte shapeless_rp2040_40keys sur le Raspberry Pi avec un "
 "câble micro USB."
 msgstr ""
-"Connect the shapeless_rp2040_40keys board on the Raspberry Pi using a "
-"micro USB cable."
+"Connect the shapeless_rp2040_40keys board on the Raspberry Pi using a micro "
+"USB cable."
 
 #: ../../rpi_config.md:21
 msgid "Connecter le Raspberry Pi au réseau ethernet si besoin"
 msgstr "Connect Ethernet cable if needed"
 
 #: ../../rpi_config.md:22
-#, fuzzy
 msgid "Brancher le câble USB micro d'alimentation du Raspberry PI"
 msgstr "Connect the power supply micro USB cable on Raspberry PI"
 
 #: ../../rpi_config.md:23
-#, fuzzy
 msgid ""
 "Brancher la sortie audio du Raspberry PI sur un système audio avec un "
 "câble jack."
 msgstr "Connect Raspberry PI audio output on a audio system using a jack cable."
 
 #: ../../rpi_config.md:25
-#, fuzzy
 msgid ""
 "Une fois le Raspberry PI démarré, connectez-vous au Raspberry PI en "
 "ouvrant une console et en utilisant la commande :"
@@ -115,18 +110,16 @@ msgstr ""
 "Raspberry PI with the command :"
 
 #: ../../rpi_config.md:29
-#, fuzzy
 msgid ""
 "Le Raspberry PI vous demande alors le mot de passe associé au compte "
 "**tactilmap**. Le mot de passe a été configuré au moment de la création "
 "de l'image du système."
 msgstr ""
 "The Raspberry PI will then ask you for the password associated with the "
-"**tactilmap** account. The password was configured when the system image "
-"was created."
+"**tactilmap** account. The password was configured when the system image was "
+"created."
 
 #: ../../rpi_config.md:31
-#, fuzzy
 msgid ""
 "Ensuite à l'aide de l'outil **raspi_config** étendre la partition à "
 "l'ensemble de la carte SD et redémarrer le raspberry PI."
@@ -147,7 +140,6 @@ msgid "Installation des logiciels"
 msgstr "Softwares setup"
 
 #: ../../rpi_config.md:40
-#, fuzzy
 msgid "Connectez-vous au Raspberry PI :"
 msgstr "Connect on the Raspberry PI :"
 
@@ -156,7 +148,6 @@ msgid "Installer les logiciels avec les commandes :"
 msgstr "Install software with commands:"
 
 #: ../../rpi_config.md:52
-#, fuzzy
 msgid "Installer la synthèse vocale **espeack-ng**"
 msgstr "Install TTS **espeack-ng**"
 
@@ -173,7 +164,6 @@ msgid "Installation du logiciel speakerkeyboard"
 msgstr "Setup speakerkeyboard software"
 
 #: ../../rpi_config.md:74
-#, fuzzy
 msgid ""
 "Le logiciel [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) "
 "permet de déclencher la lecture d'un message en synthèse vocale lors de "
@@ -181,11 +171,11 @@ msgid ""
 "**shapeless_rp2040_40keys** il est possible de simuler l'appui sur une "
 "touche d'un clavier en appuyant sur un des boutons de la carte tactile."
 msgstr ""
-"The [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) software"
-" allows you to trigger the reading of a message in voice synthesis when "
-"you press a key on the keyboard. Using the **shapeless_rp2040_40keys** "
-"board, it is possible to simulate pressing a key on a keyboard by "
-"pressing one of the buttons on the touch board."
+"The [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) software "
+"allows you to trigger the reading of a message in voice synthesis when you "
+"press a key on the keyboard. Using the **shapeless_rp2040_40keys** board, it "
+"is possible to simulate pressing a key on a keyboard by pressing one of the "
+"buttons on the touch board."
 
 #: ../../rpi_config.md:85
 msgid ""
@@ -205,30 +195,28 @@ msgid "Configurer les noms des stations"
 msgstr "Edit station names"
 
 #: ../../rpi_config.md:97
-#, fuzzy
 msgid ""
 "Pour réaliser la configuration, les boutons de la carte tactile doivent "
 "être branchés sur la carte **shapeless_rp2040_40keys** et la carte "
 "**shapeless_rp2040_40keys** doit être reliée en usb sur le Raspberry PI."
 msgstr ""
 "To configure, the touch board buttons must be connected to the "
-"**shapeless_rp2040_40keys** board and the **shapeless_rp2040_40keys** "
-"board must be connected via USB to the Raspberry PI."
+"**shapeless_rp2040_40keys** board and the **shapeless_rp2040_40keys** board "
+"must be connected via USB to the Raspberry PI."
 
 #: ../../rpi_config.md:99
 msgid "Lancer le logiciel"
 msgstr "Run the software"
 
 #: ../../rpi_config.md:106
-#, fuzzy
 msgid ""
 "Lors de l'appui sur un bouton de la carte tactile, le logiciel affiche le"
 " **code clavier**, le texte associé. Si un texte est associé à la touche,"
 " la synthèse vocale se déclenche et lit le texte en audio."
 msgstr ""
-"When you press a button on the touchpad, the software displays the "
-"**keyboard code** and the associated text. If a text is associated with "
-"the key, the voice synthesizer is triggered and reads the text in audio."
+"When you press a button on the touchpad, the software displays the **"
+"keyboard code** and the associated text. If a text is associated with the "
+"key, the voice synthesizer is triggered and reads the text in audio."
 
 #: ../../rpi_config.md:108
 msgid ""
@@ -249,7 +237,6 @@ msgstr ""
 "here as an example."
 
 #: ../../rpi_config.md:151
-#, fuzzy
 msgid ""
 "Vous pouvez remarquer que certains noms ont été modifiés pour mieux "
 "correspondre à la phonétique française et permettre une meilleure "
@@ -258,9 +245,9 @@ msgid ""
 "Blaune**."
 msgstr ""
 "You may notice that some names have been changed to better match French "
-"phonetics and allow for better speech synthesis. In particular, "
-"**Kennedy** has been transformed into **Kénnédy**, **Le Blosne** has been"
-" transformed into **Le Blaune**."
+"phonetics and allow for better speech synthesis. In particular, **Kennedy** "
+"has been transformed into **Kénnédy**, **Le Blosne** has been transformed "
+"into **Le Blaune**."
 
 #: ../../rpi_config.md:153
 msgid "Lancement du logiciel au démarrage du système"
@@ -277,15 +264,13 @@ msgstr ""
 " system script, use the command:"
 
 #: ../../rpi_config.md:164
-#, fuzzy
 msgid ""
 "Une fois le logiciel installé en service système, vous pouvez l'arrêter "
 "en utilisant la commande :"
 msgstr ""
-"Once the software is installed as a system service, you can stop it using"
-" the command:"
+"Once the software is installed as a system service, you can stop it using "
+"the command:"
 
 #: ../../rpi_config.md:169
 msgid "vous pouvez également le relancer avec la commande :"
 msgstr "you can also restart it with the command:"
-
