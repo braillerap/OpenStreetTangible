@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-01 16:11+0000\n"
-"PO-Revision-Date: 2025-07-01 15:55+0000\n"
+"PO-Revision-Date: 2025-07-01 16:13+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
+"Language-Team: English <https://translate.codeberg.org/projects/"
+"openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
 "Language: en\n"
-"Language-Team: English "
-"<https://translate.codeberg.org/projects/openstreettangible_buildingmanual/manual_rpi_config/en/>"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../rpi_config.md:1
@@ -219,13 +219,12 @@ msgstr ""
 "the key, the voice synthesizer is triggered and reads the text in audio."
 
 #: ../../rpi_config.md:108
-#, fuzzy
 msgid ""
 "Pour configurer un message, arreter le logiciel avec `CTRL-C`, vous devez"
 " ensuite éditer le fichier **kspeaker.json** pour entrer le **code "
 "clavier** et le texte associé dans la section **messages**."
 msgstr ""
-"To configure a message, stop the software with `CTR-C`, then you need to "
+"To configure a message, stop the software with `CTRL-C`, then you need to "
 "edit the **kspeaker.json** file to enter the **keyboard code** and "
 "associated text in the **messages** section."
 
@@ -275,4 +274,3 @@ msgstr ""
 #: ../../rpi_config.md:169
 msgid "vous pouvez également le relancer avec la commande :"
 msgstr "you can also restart it with the command:"
-
