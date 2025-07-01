@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-30 22:30+0000\n"
-"PO-Revision-Date: 2025-06-30 22:47+0000\n"
+"POT-Creation-Date: 2025-07-01 08:47+0000\n"
+"PO-Revision-Date: 2025-07-01 09:05+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
 "Language-Team: English <https://translate.codeberg.org/projects/"
 "openstreettangible_buildingmanual/manual_building_step/en/>\n"
@@ -33,12 +33,12 @@ msgid "Outillage"
 msgstr "Tools"
 
 #: ../../building_step.md:6
-msgid "Une [BrailleRAP](https://github.com/braillerap/BrailleRap)."
-msgstr "A [BrailleRAP](https://github.com/braillerap/BrailleRap)."
+msgid "Une [BrailleRAP](https://github.com/braillerap/BrailleRap)"
+msgstr "A [BrailleRAP](https://github.com/braillerap/BrailleRap)"
 
 #: ../../building_step.md:7
-msgid "Découpe laser."
-msgstr "Laser cutter."
+msgid "Découpe laser"
+msgstr "Laser cutter"
 
 #: ../../building_step.md:8
 msgid ""
@@ -47,134 +47,137 @@ msgid ""
 msgstr "Laser printer (you can use inkjet printer with appropriate clear sheet)"
 
 #: ../../building_step.md:9
-msgid "Perceuse."
-msgstr "Drill."
+msgid "Perceuse"
+msgstr "Drill"
 
 #: ../../building_step.md:10
-msgid "Fer à souder."
-msgstr "Solder iron."
+msgid "Fer à souder"
+msgstr "Solder iron"
 
 #: ../../building_step.md:11
-msgid "Multimètre."
-msgstr "Multimeter."
+msgid "Multimètre"
+msgstr "Multimeter"
 
 #: ../../building_step.md:12
-msgid "Serre joints ou grosses pinces."
-msgstr "Clamps or large pliers."
+msgid "Serre joints ou grosses pinces"
+msgstr "Clamps or large pliers"
 
 #: ../../building_step.md:15
 msgid "Consommables"
 msgstr "Consumables"
 
 #: ../../building_step.md:17
-msgid "Soudure pour électronique."
-msgstr "Electronics solder."
+msgid "Soudure pour électronique"
+msgstr "Electronics solder"
 
 #: ../../building_step.md:18
-msgid "fils de cablage."
-msgstr "electronics wire."
+msgid "fils de cablage"
+msgstr "electronics wire"
 
 #: ../../building_step.md:19
 msgid "colle cyanoacrylate pour coller plexi sur bois"
 msgstr "cyanoacrylate glue for bonding plexiglass to wood"
 
 #: ../../building_step.md:20
-msgid "colle à bois."
-msgstr "Wood glue."
+msgid "colle à bois"
+msgstr "Wood glue"
 
 #: ../../building_step.md:21
-msgid "bombe de peinture noire."
-msgstr "black spray paint."
+msgid "colle en spray (non repositionnable)"
+msgstr "Spray glue"
 
 #: ../../building_step.md:22
-msgid "bombe de peinture rouge."
-msgstr "red spray paint."
+msgid "bombe de peinture noire"
+msgstr "black spray paint"
 
-#: ../../building_step.md:25
+#: ../../building_step.md:23
+msgid "bombe de peinture rouge"
+msgstr "red spray paint"
+
+#: ../../building_step.md:26
 msgid "Réalisation du plan"
 msgstr "Making the tangible map"
 
-#: ../../building_step.md:27
-msgid "papier de verre (grammage 120)."
-msgstr "sand paper (120)."
-
 #: ../../building_step.md:28
-msgid "2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm."
-msgstr "2 plywood sheets 5mm thick and 80cm x 60 cm."
+msgid "papier de verre (grammage 120)"
+msgstr "sand paper (120)"
 
 #: ../../building_step.md:29
-msgid ""
-"1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de "
-"métro (format adapté à la taille de la découpeuse laser) et légende."
-msgstr ""
-"1 3mm plywood sheet to cut subway transport line (suitable format for "
-"laser cutter) and legend."
+msgid "2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm"
+msgstr "2 plywood sheets 5mm thick and 80cm x 60 cm"
 
 #: ../../building_step.md:30
 msgid ""
-"1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format "
-"adapté à la taille de la découpeuse laser) et légende."
+"1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de "
+"métro (format adapté à la taille de la découpeuse laser) et légende"
 msgstr ""
-"1 3mm PMMA sheet to cut a transport line (suitable format for laser "
-"cutter) and legend."
+"1 3mm plywood sheet to cut subway transport line (suitable format for laser "
+"cutter) and legend"
 
 #: ../../building_step.md:31
-msgid "1 tasseau de 53,5cm (section 3x5cm)."
-msgstr "1 53.5cm wood strip (3x5cm section)."
+msgid ""
+"1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format "
+"adapté à la taille de la découpeuse laser) et légende"
+msgstr ""
+"1 3mm PMMA sheet to cut a transport line (suitable format for laser cutter) "
+"and legend"
 
 #: ../../building_step.md:32
-msgid "1 tasseau de 41cm (section 3x5cm)."
-msgstr "1 41 cm wood strip (3x5cm section)."
+msgid "1 tasseau de 53,5cm (section 3x5cm)"
+msgstr "1 53.5cm wood strip (3x5cm section)"
 
 #: ../../building_step.md:33
-msgid "2 tasseaux de 80 cm (section 3x5cm)."
-msgstr "2 80 cm wood strip (3x5cm section)."
+msgid "1 tasseau de 41cm (section 3x5cm)"
+msgstr "1 41 cm wood strip (3x5cm section)"
 
 #: ../../building_step.md:34
-msgid ""
-"~10 Feuilles transparentes pour impression laser pour les etiquettes de "
-"stations en noir et en Braille."
-msgstr "~10 clear sheet for laser printer for printed sticker with Braille."
+msgid "2 tasseaux de 80 cm (section 3x5cm)"
+msgstr "2 80 cm wood strip (3x5cm section)"
 
 #: ../../building_step.md:35
-msgid "8 x inserts M6 x23mm."
-msgstr "8 x M6 x23mm inserts."
+msgid ""
+"~10 Feuilles transparentes pour impression laser pour les etiquettes de "
+"stations en noir et en Braille"
+msgstr "~10 clear sheet for laser printer for printed sticker with Braille"
 
 #: ../../building_step.md:36
-msgid "8 x Vis M6."
-msgstr "8 M6 screws."
+msgid "8 x inserts M6 x23mm"
+msgstr "8 x M6 x23mm inserts"
 
-#: ../../building_step.md:39
+#: ../../building_step.md:37
+msgid "8 x Vis M6"
+msgstr "8 M6 screws"
+
+#: ../../building_step.md:40
 msgid "Electronique"
 msgstr "Electronics"
 
-#: ../../building_step.md:41
+#: ../../building_step.md:42
 msgid ""
 "Une raspberry pi version 2 ou supérieure 1GO de RAM est largement "
 "suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui"
-" ajouter une sortie audio."
+" ajouter une sortie audio"
 msgstr ""
-"A Raspberry Pi version 2 or higher with 1GB of RAM is more than enough. A"
-" Raspberry Pi Zero is probably usable, but you'll need to add an audio "
-"output."
-
-#: ../../building_step.md:42
-msgid ""
-"carte clavier "
-"[shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)."
-msgstr ""
-"custom keyboard "
-"[shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)."
+"A Raspberry Pi version 2 or higher with 1GB of RAM is more than enough. A "
+"Raspberry Pi Zero is probably usable, but you'll need to add an audio output"
 
 #: ../../building_step.md:43
 msgid ""
-"2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison"
-" shapeless_rp2040_40keys / raspberry pi."
+"carte clavier "
+"[shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)"
 msgstr ""
-"2 micro USB cables, 1 for powering the Raspberry Pi, 1 for the "
-"shapeless_rp2040_40keys / raspberry pi connection."
+"custom keyboard [shapeless_rp2040_40keys](https://github.com/crocsg/"
+"shapeless_rp2040_40keys)"
 
 #: ../../building_step.md:44
+msgid ""
+"2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison"
+" shapeless_rp2040_40keys / raspberry pi"
+msgstr ""
+"2 micro USB cables, 1 for powering the Raspberry Pi, 1 for the "
+"shapeless_rp2040_40keys / raspberry pi connection"
+
+#: ../../building_step.md:45
 msgid ""
 "30 boutons poussoir à souder, fixation par écrou (autant de boutons que "
 "de stations + la légende)"
@@ -182,7 +185,7 @@ msgstr ""
 "30 solderable push buttons, nut fixing (as many buttons as stations + the"
 " legend)"
 
-#: ../../building_step.md:45
+#: ../../building_step.md:46
 msgid ""
 "fils de cablage pour connecter les boutons à la raspi (deux couleurs "
 "différentes, pour dissocier chaque ligne)"
@@ -190,43 +193,43 @@ msgstr ""
 "wiring wires to connect the buttons to the raspberry pi(two different "
 "colors, to separate each line)"
 
-#: ../../building_step.md:46
+#: ../../building_step.md:47
 msgid ""
 "connecteurs dupont femelle 2 fils pour la connexion des boutons à la "
-"carte shapeless_rp2040_40keys."
+"carte shapeless_rp2040_40keys"
 msgstr ""
 "2-wire female dupont connectors for connecting buttons to the "
-"shapeless_rp2040_40keys board."
-
-#: ../../building_step.md:47
-msgid "ampli audio avec entrée mini jack."
-msgstr "audio amplifier with mini jack input."
+"shapeless_rp2040_40keys board"
 
 #: ../../building_step.md:48
+msgid "ampli audio avec entrée mini jack"
+msgstr "audio amplifier with mini jack input"
+
+#: ../../building_step.md:49
 msgid "cable mini jack audio"
 msgstr "audio mini jack cable"
 
-#: ../../building_step.md:49
+#: ../../building_step.md:50
 msgid "1 Haut parleur 3~5 W"
 msgstr "1 3-5 W speaker"
 
-#: ../../building_step.md:50
-msgid "Embase Alimentation jack 2.5mm."
-msgstr "2.5mm Female power supply jack."
-
 #: ../../building_step.md:51
-msgid "Alimentation 12V 6A avec connecteur Jack 2.5mm."
-msgstr "12V 6A power supply with jack 2.5 mm connector."
+msgid "Embase Alimentation jack 2.5mm"
+msgstr "2.5mm Female power supply jack"
 
-#: ../../building_step.md:55
+#: ../../building_step.md:52
+msgid "Alimentation 12V 6A avec connecteur Jack 2.5mm"
+msgstr "12V 6A power supply with jack 2.5 mm connector"
+
+#: ../../building_step.md:56
 msgid "Partie logicielle : Open Street Touch & Inkscape"
 msgstr "Software part : OpenStreetTouch & Inkscape"
 
-#: ../../building_step.md:57
+#: ../../building_step.md:58
 msgid "Extraction des données de lignes de transport avec OpenStreetTouch"
 msgstr "Extracting transport line data with OpenStreetTouch"
 
-#: ../../building_step.md:58
+#: ../../building_step.md:59
 msgid ""
 "Installer OpenStreetTouch et suivre le tutoriel associé pour extraire les"
 " données de transports qui vous intéressent. "
@@ -236,7 +239,7 @@ msgstr ""
 " transport data you are interested in. "
 "(https://openstreettouch.readthedocs.io/fr/latest/manuel_utilisateur.html)"
 
-#: ../../building_step.md:61
+#: ../../building_step.md:62
 msgid ""
 "Nous n'utiliserons pas l'option \"polygones pour tracés de lignes\", de "
 "manière a pouvoir manipuler les entités de façon fines avec le logiciel "
@@ -245,15 +248,15 @@ msgstr ""
 "We will not use the \"polygons for line drawing\" option, so that we can "
 "manipulate the entities in a fine way with the Inkscape software."
 
-#: ../../building_step.md:63
+#: ../../building_step.md:64
 msgid "![Vue de l’interface OpenStreetTouch](/IMG/OSM_vue_export_svg.png)"
 msgstr "![OpenStreetTouch screenshot](/IMG/OSM_vue_export_svg.png)"
 
-#: ../../building_step.md:63
+#: ../../building_step.md:64
 msgid "Vue de l’interface OpenStreetTouch"
 msgstr "OpenStreetTouch screenshot"
 
-#: ../../building_step.md:65
+#: ../../building_step.md:66
 msgid ""
 "Dans le cas de la ville de Rennes, les lignes ont le même tracé dans les "
 "deux sens de circulation. Nous avons donc sélectionné chaque ligne une "
@@ -262,17 +265,17 @@ msgstr ""
 "In the case of the city of Rennes, the lines have the same layout in both"
 " directions of travel. We therefore selected each line only once."
 
-#: ../../building_step.md:66
+#: ../../building_step.md:67
 msgid ""
 "Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG. "
-"Ce fichier servira a réaliser un fichier pour la gravure du fond et la "
+"Ce fichier servira à réaliser un fichier pour la gravure du fond et la "
 "découpe des tracés de lignes."
 msgstr ""
-"Extract all the desired transport lines into a single SVG. This file will"
-" be used to create a file for engraving the background and cutting the "
-"line paths."
+"Extract all the desired transport lines into a single SVG. This file will be "
+"used to create a file for engraving the background and cutting the line "
+"paths."
 
-#: ../../building_step.md:68
+#: ../../building_step.md:69
 msgid ""
 "Extraire également le nom des stations pour chacune des lignes avec le "
 "bouton \"Enregistrer les stations en TXT\""
@@ -280,21 +283,21 @@ msgstr ""
 "Also extract the station names for each line with the \"Save stations as "
 "TXT\" button"
 
-#: ../../building_step.md:70
+#: ../../building_step.md:71
 msgid ""
 "![Le fichier d'extraction SVG obtenu est le "
 "suivant](/IMG/rennes_metro.svg)"
 msgstr "![The data SVG files](/IMG/rennes_metro.svg)"
 
-#: ../../building_step.md:70
+#: ../../building_step.md:71
 msgid "Le fichier d'extraction SVG obtenu est le suivant"
 msgstr "The transport data SVG file"
 
-#: ../../building_step.md:73
+#: ../../building_step.md:74
 msgid "Transformation des fichiers avec Inkscape"
 msgstr "Transforming files with Inkscape"
 
-#: ../../building_step.md:74
+#: ../../building_step.md:75
 msgid ""
 "Le SVG issu d'OpenStreetTouch doit être modifié avec un logiciel de "
 "dessin vectoriel comme Inkscape (logiciel libre et gratuit)."
@@ -302,11 +305,11 @@ msgstr ""
 "SVG from OpenStreetTouch must be edited with vector drawing software like"
 " Inkscape (free and open source software)."
 
-#: ../../building_step.md:76
+#: ../../building_step.md:77
 msgid "Mise à l'échelle du plan"
 msgstr "Scaling the plan"
 
-#: ../../building_step.md:77
+#: ../../building_step.md:78
 msgid ""
 "Ouvrir le svg de l'ensemble des lignes avec Inkscape et mettre le SVG à "
 "l’échelle du plan choisi (redimensionner le document à la taille "
@@ -315,66 +318,66 @@ msgstr ""
 "Open the SVG of all the lines with Inkscape and scale the SVG to the "
 "chosen plane (resize the document to the desired size)"
 
-#: ../../building_step.md:79
+#: ../../building_step.md:80
 msgid "Fichier>propriétés du document"
 msgstr "File>Document properties"
 
-#: ../../building_step.md:81
+#: ../../building_step.md:82
 msgid "Ajuster la taille du document aux dimensions souhaitées (ici 800 x 600 mm)"
 msgstr "Update the document size to your need (here 800 x 600 mm)"
 
-#: ../../building_step.md:83
+#: ../../building_step.md:84
 msgid ""
 "Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la "
-"taille souhaitée pour s'ajuster au format du document. Penser a garder un"
+"taille souhaitée pour s'ajuster au format du document. Penser à garder un"
 " peu de marge sur les bords (dans notre cas 50 mm).   Ce fichier servira "
 "ensuite à la réalisation de :"
 msgstr ""
-"Then select all the lines (CTRL+A) and enlarge to the desired size to fit"
-" the document format. Remember to keep a little margin on the edges (in "
-"our case 50 mm). This file will then be used to create:"
+"Then select all the lines (CTRL+A) and enlarge to the desired size to fit "
+"the document format. Remember to keep a little margin on the edges (in our "
+"case 50 mm). This file will then be used to create:"
 
-#: ../../building_step.md:86
+#: ../../building_step.md:87
 msgid ""
-"Un fichier pour la gravure et le perçage de laplaque de fond. La gravure "
-"permettra d'avoir un repère pour le collage des lignes. Les percage "
+"Un fichier pour la gravure et le perçage de la plaque de fond. La gravure"
+" permettra d'avoir un repère pour le collage des lignes. Les perçages "
 "permettront le passage des boutons qui sont vissés sur les lignes des "
 "stations."
 msgstr ""
-"A file for engraving and drilling the base plate. The engraving will "
-"provide a reference for gluing the lines. The drilling will allow the "
-"buttons to pass through, which are screwed onto the station lines."
+"A file for engraving and drilling the base plate. The engraving will provide "
+"a reference for gluing the lines. The drilling will allow the buttons to "
+"pass through, which are screwed onto the station lines."
 
-#: ../../building_step.md:87
+#: ../../building_step.md:88
 msgid "Plusieurs fichiers pour la découpe de chaque ligne de métro."
 msgstr "Several files for the cutting of each subway line."
 
-#: ../../building_step.md:89
+#: ../../building_step.md:90
 msgid "Mise en forme du réseau"
 msgstr "Network shaping"
 
-#: ../../building_step.md:91
+#: ../../building_step.md:92
 msgid ""
-"Pour des raisons esthétiques et pratiques non avons effectué les "
+"Pour des raisons esthétiques et pratiques nous avons effectué les "
 "modifications suivantes :"
 msgstr "For aesthetic and practical reasons we have made the following changes:"
 
-#: ../../building_step.md:93
+#: ../../building_step.md:94
 msgid "Les débuts et fin de lignes ont été remplacés par des cercles."
 msgstr "The beginnings and ends of lines have been replaced by circles."
 
-#: ../../building_step.md:94
-msgid "Les cercles des stations sont redimensionnés a 15 mm de diamètre."
+#: ../../building_step.md:95
+msgid "Les cercles des stations sont redimensionnés à 15 mm de diamètre."
 msgstr "The station circles are resized to 15 mm in diameter."
 
-#: ../../building_step.md:95
-msgid "La largeur des tracés de lignes est défini a 8 mm."
+#: ../../building_step.md:96
+msgid "La largeur des tracés de lignes est défini à 8 mm."
 msgstr "The width of the line strokes is set to 8 mm."
 
-#: ../../building_step.md:96
+#: ../../building_step.md:97
 msgid ""
 "Nous avons fusionné les stations avec correspondance. Parce que cela "
-"permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. "
+"permet d'avoir un tracé de ligne plus évident quand on le suit au doigt. "
 "Pour la ville de Rennes, ce choix est assez évident. Cela permet "
 "également de distinguer les stations en correspondance avec un matériau, "
 "donc un touché différent."
@@ -382,49 +385,50 @@ msgstr ""
 "We merged the stations with connections. Because this allows for a more "
 "visible line path when you follow it with your finger. For the city of "
 "Rennes, this choice is quite obvious. It also allows us to distinguish "
-"stations that correspond to a different material, and therefore a "
-"different feel."
-
-#: ../../building_step.md:97
-msgid ""
-"A proximité des stations en correspondance, nous avons espacé les lignes "
-"de transport pour obtenir un tracé moins ambigu au niveau des "
-"correspondances et conserver une largeur de ligne de 8mm."
-msgstr ""
-"Near transit stations, we have spaced out the transport lines to obtain a"
-" less ambiguous route at the connection level and maintain a line width "
-"of 8mm."
+"stations that correspond to a different material, and therefore a different "
+"feel."
 
 #: ../../building_step.md:98
 msgid ""
-"Quelques stations ont été légérement déplacée pour faciliter l'étiquetage"
-" Braille, cela ne change pas la géographie du réseau, cela permet juste "
-"d'éviter d'avoir des étiquettes trop proches les unes des autres."
+"A proximité des stations en correspondance, nous avons espacé les lignes "
+"de transport pour obtenir un tracé moins ambigü au niveau des "
+"correspondances et conserver une largeur de ligne de 8mm."
 msgstr ""
-"Some stations have been slightly moved to facilitate Braille labeling; "
-"this does not change the geography of the network; it just helps avoid "
-"having labels too close to each other."
+"Near transit stations, we have spaced out the transport lines to obtain a "
+"less ambiguous route at the connection level and maintain a line width of "
+"8mm."
 
-#: ../../building_step.md:100
+#: ../../building_step.md:99
+msgid ""
+"Quelques stations ont été légèrement déplacées pour faciliter "
+"l'étiquetage Braille, cela ne change pas la géographie du réseau, cela "
+"permet juste d'éviter d'avoir des étiquettes trop proches les unes des "
+"autres."
+msgstr ""
+"Some stations have been slightly moved to facilitate Braille labeling; this "
+"does not change the geography of the network; it just helps avoid having "
+"labels too close to each other."
+
+#: ../../building_step.md:101
 msgid ""
 "Le fichier svg résultat est le suivant ![Le fichier svg résultat est le "
 "suivant](/IMG/rennes_metro_worked2.svg) *Fichier SVG "
 "\"rennes_metro_worked2.svg\" après ajustements pour la mise en forme du "
 "réseau*"
 msgstr ""
-"The resulting svg file is as follows" 
-"![The resulting svg file is as follows](IMG/rennes_metro_worked2.svg) *SVG file "
+"The resulting svg file is as follows![The resulting svg file is as "
+"follows](IMG/rennes_metro_worked2.svg) *SVG file "
 "\"rennes_metro_worked2.svg\" after adjustments for network formatting*"
 
-#: ../../building_step.md:100 ../../building_step.md:116
+#: ../../building_step.md:101 ../../building_step.md:117
 msgid "Le fichier svg résultat est le suivant"
 msgstr "The resulting svg file is as follows"
 
-#: ../../building_step.md:104
+#: ../../building_step.md:105
 msgid "Préparation du fichier pour la gravure et le percage de la plaque de fond"
 msgstr "Preparing the file for engraving and drilling the base plate"
 
-#: ../../building_step.md:106
+#: ../../building_step.md:107
 msgid ""
 "A partir du fichier **rennes_metro_worked2.svg** nous avons réalisé les "
 "opérations suivantes avec inkscape :"
@@ -432,7 +436,7 @@ msgstr ""
 "From the file **rennes_metro_worked2.svg** we carried out the following "
 "operations with inkscape:"
 
-#: ../../building_step.md:108 ../../building_step.md:124
+#: ../../building_step.md:109 ../../building_step.md:125
 msgid ""
 "Transformation des lignes en contour en respectant la largeur de trait de"
 " 8mm en sélectionnant chaque ligne et en utilisant la fonction "
@@ -441,7 +445,7 @@ msgstr ""
 "Transform the lines into outlines respecting the line width of 8mm by "
 "selecting each line and using the `Path/Object to path` function."
 
-#: ../../building_step.md:109
+#: ../../building_step.md:110
 msgid ""
 "Pour chaque station, ajout d'un cercle qui correspondra au percage de la "
 "station pour faire passer le bouton poussoir (trou de 10.7 mm)"
@@ -449,7 +453,7 @@ msgstr ""
 "For each station, add a circle which will correspond to the drilling of "
 "the station to pass the push button (10.7 mm hole)"
 
-#: ../../building_step.md:110
+#: ../../building_step.md:111
 msgid ""
 "Transformation des stations en chemins en sélectionnant les cercles "
 "exterieures des stations et en utilisant la fonction `Path/Object to "
@@ -458,23 +462,21 @@ msgstr ""
 "Transform stations into paths by selecting the outer circles of the "
 "stations and using the `Path/Object to path` function."
 
-#: ../../building_step.md:111 ../../building_step.md:127
+#: ../../building_step.md:112
 msgid ""
-"Les lignes et les stations sont ensuite fusionnés en sélectionnant les "
+"Les lignes et les stations sont ensuite fusionnées en sélectionnant les "
 "stations et les lignes  et en utilisant la fonction `Path/Union`."
 msgstr ""
-"The lines and stations are then merged by selecting the stations and "
-"lines and using the `Path/Union` function."
+"The lines and stations are then merged by selecting the stations and lines "
+"and using the `Path/Union` function."
 
-#: ../../building_step.md:112 ../../building_step.md:128
+#: ../../building_step.md:113 ../../building_step.md:129
 msgid ""
-"Les lignes sont découpés au niveau des stations en correspondances avec "
+"Les lignes sont découpées au niveau des stations en correspondances avec "
 "la fonction `Path/difference`."
-msgstr ""
-"The lines are split at stations corresponding to the `Path/difference` "
-"function."
+msgstr "The lines are split at stations with the `Path/difference` function."
 
-#: ../../building_step.md:114
+#: ../../building_step.md:115
 msgid ""
 "Pour réaliser la plaque de fond, les lignes noires correspondent à la "
 "gravure pour repérer la position des lignes, les lignes rouges "
@@ -484,23 +486,23 @@ msgstr ""
 "mark the position of the lines, the red lines correspond to the cutouts "
 "for the push buttons."
 
-#: ../../building_step.md:116
+#: ../../building_step.md:117
 msgid ""
 "Le fichier svg résultat est le suivant ![Le fichier svg résultat est le "
 "suivant](/IMG/rennes_subway_fond.svg) *Fichier SVG  "
 "\"rennes_subway_fond.svg\" préparé pour la découpe laser pour procéder à "
 "la gravure et le perçage de la plaque de fond*"
 msgstr ""
-"The resulting svg file is as follows""
-"![The resulting svg file is as follows](IMG/rennes_subway_fond.svg) *SVG file "
-"\"rennes_subway_fond.svg\" prepared for laser cutting to proceed with "
-"engraving and drilling the bottom plate*"
+"The resulting svg file is as follows\"![The resulting svg file is as "
+"follows](IMG/rennes_subway_fond.svg) *SVG file \"rennes_subway_fond.svg\""
+" prepared for laser cutting to proceed with engraving and drilling the "
+"bottom plate*"
 
-#: ../../building_step.md:120
+#: ../../building_step.md:121
 msgid "Préparation des fichiers pour la découpe des lignes"
 msgstr "Preparing files for line cutting"
 
-#: ../../building_step.md:122
+#: ../../building_step.md:123
 msgid ""
 "A partir du fichier *rennes_metro_worked2.svg* nous avons réalisé les "
 "opérations suivantes avec inkscape :"
@@ -508,7 +510,7 @@ msgstr ""
 "From the file *rennes_metro_worked2.svg* we carried out the following "
 "operations with inkscape:"
 
-#: ../../building_step.md:125
+#: ../../building_step.md:126
 msgid ""
 "Pour chaque station, ajout d'un cercle qui correspondra au percage de la "
 "station pour fixer le bouton poussoir (trou de 7 mm)"
@@ -516,7 +518,7 @@ msgstr ""
 "For each station, add a circle which will correspond to the drilling of "
 "the station to fix the push button (7 mm hole)"
 
-#: ../../building_step.md:126
+#: ../../building_step.md:127
 msgid ""
 "Transformation des stations en cercle en sélectionnant les cercles "
 "exterieures des stations et en utilisant la fonction `Path/Object to "
@@ -525,35 +527,42 @@ msgstr ""
 "Transforming stations into circles by selecting the outer circles of the "
 "stations and using the `Path/Object to path` function."
 
-#: ../../building_step.md:130
+#: ../../building_step.md:128
+msgid ""
+"Les lignes et les stations sont ensuite fusionnés en sélectionnant les "
+"stations et les lignes  et en utilisant la fonction `Path/Union`."
+msgstr ""
+"The lines and stations are then merged by selecting the stations and "
+"lines and using the `Path/Union` function."
+
+#: ../../building_step.md:131
 msgid ""
 "Pour les lignes de transport, les lignes noires correspondent à des "
 "découpes extérieures, les lignes rouges correpondent aux découpes pour "
-"les boutons poussoirs. Pour chaque lignes ont regroupe les différentes "
+"les boutons poussoirs. Pour chaque lignes on regroupe les différentes "
 "parties pour optimiser l'utilisation du matériau."
 msgstr ""
-"For the transport lines, the black lines correspond to external cutouts, "
-"the red lines correspond to the cutouts for the push buttons. For each "
-"line, the different parts are grouped together to optimize the use of the"
-" material."
+"For the transport lines, the black lines correspond to external cutouts, the "
+"red lines correspond to the cutouts for the push buttons. For each line, the "
+"different parts are grouped together to optimize the use of the material."
 
-#: ../../building_step.md:132
+#: ../../building_step.md:133
 msgid "Les fichiers svg résultats sont les suivants :"
 msgstr "The resulting svg files are as follows:"
 
-#: ../../building_step.md:134
+#: ../../building_step.md:135
 msgid ""
 "Pour la ligne A ![Le fichier de découpe de la ligne "
 "A](/IMG/rennes_subway_line_a.svg) *Fichier SVG de découpe de la ligne A*"
 msgstr ""
-"For A Line ![The cutting file for Line A](/IMG/rennes_subway_line_a.svg)"
-" *SVG cutting file for Line A*"
+"For A Line ![The cutting file for Line A](/IMG/rennes_subway_line_a.svg) "
+"*SVG cutting file for Line A*"
 
-#: ../../building_step.md:134 ../../building_step.md:138
+#: ../../building_step.md:135 ../../building_step.md:139
 msgid "Le fichier de découpe de la ligne A"
 msgstr "A line laser cut file"
 
-#: ../../building_step.md:138
+#: ../../building_step.md:139
 msgid ""
 "Pour la ligne B ![Le fichier de découpe de la ligne "
 "A](/IMG/rennes_subway_line_b.svg) *Fichier SVG de découpe de la ligne B*"
@@ -561,11 +570,11 @@ msgstr ""
 "For B line ![B line laser cut file](/IMG/rennes_subway_line_b.svg) *B "
 "line SVG file for laser cutter*"
 
-#: ../../building_step.md:142
+#: ../../building_step.md:143
 msgid "Réalisation à l'aide de la découpe laser"
 msgstr "Using laser cutter"
 
-#: ../../building_step.md:144
+#: ../../building_step.md:145
 msgid ""
 "En utilisant le logiciel de la découpe laser, nous avons réalisé la "
 "plaque de fond en marquant les tracés en noir et en découpant les tracés "
@@ -574,7 +583,7 @@ msgstr ""
 "Using laser cutting software, we made the base plate by marking the lines"
 " in black and cutting the lines in red on a 5mm poplar plywood sheet."
 
-#: ../../building_step.md:146
+#: ../../building_step.md:147
 msgid ""
 "Les lignes A et B sont ensuite découpées en découpant les tracés rouges "
 "puis les tracés noirs. Chaque ligne est découpée dans un matériau "
@@ -584,7 +593,7 @@ msgstr ""
 "lines. Each line is cut from a different material, 3mm white PMMA and 3mm"
 " poplar plywood."
 
-#: ../../building_step.md:148
+#: ../../building_step.md:149
 msgid ""
 "Pour la ligne en contreplaqué peuplier, nous avons utilisé le même "
 "fichier de découpe pour découper les lignes dans du papier de verre 120."
@@ -592,7 +601,7 @@ msgstr ""
 "For the poplar plywood line, we used the same cutting file to cut the "
 "lines in 120 grit sandpaper."
 
-#: ../../building_step.md:152
+#: ../../building_step.md:153
 msgid ""
 "Ne pas enlever le plastique protecteur du PMMA. Le plastique de "
 "protection sera retiré juste avant le collage."
@@ -600,7 +609,7 @@ msgstr ""
 "Do not remove the protective plastic from the PMMA. The protective "
 "plastic will be removed just before bonding."
 
-#: ../../building_step.md:156
+#: ../../building_step.md:157
 msgid ""
 "Une fois les éléments découpés, on effectue un test de mise en place sans"
 " collage."
@@ -608,7 +617,7 @@ msgstr ""
 "Once the items have been cut, a test is carried out to ensure they are in"
 " place without gluing."
 
-#: ../../building_step.md:158
+#: ../../building_step.md:159
 msgid ""
 "![test des différents éléments découpés une seule "
 "ligne](/IMG/test_decoupe1.jpg) *Vérification de la concordance des "
@@ -617,11 +626,11 @@ msgstr ""
 "![test of cutted lines](/IMG/test_decoupe1.jpg) *Checking the "
 "correspondence of the line cuts with the engraving*"
 
-#: ../../building_step.md:158
+#: ../../building_step.md:159
 msgid "test des différents éléments découpés une seule ligne"
 msgstr "test of the different items cut into a single line"
 
-#: ../../building_step.md:161
+#: ../../building_step.md:162
 msgid ""
 "![test des différents éléments découpés les deux lignes avec le papir de "
 "verre](/IMG/test_decoupe3.jpg) *Vérification de la concordance des "
@@ -631,64 +640,63 @@ msgstr ""
 "paper](/IMG/test_decoupe3.jpg) *Checking the correspondence of the line "
 "cuts with the engraving*¨"
 
-#: ../../building_step.md:161
+#: ../../building_step.md:162
 msgid ""
 "test des différents éléments découpés les deux lignes avec le papir de "
 "verre"
 msgstr "test of the two cutted lines with the sand paper"
 
-#: ../../building_step.md:164
+#: ../../building_step.md:165
 msgid "Fichier 3D à imprimer"
 msgstr "3D files to print"
 
-#: ../../building_step.md:166
+#: ../../building_step.md:167
 msgid "Imprimer en PLA ou PETG :"
 msgstr "3d print in PLA or PETG :"
 
-#: ../../building_step.md:168
+#: ../../building_step.md:169
 msgid "Panneau de fixation de l'embase d'alimentation **subwaycommande.stl**."
 msgstr "Power supply base mounting panel **subwaycommande.stl**."
 
-#: ../../building_step.md:169
+#: ../../building_step.md:170
 msgid "1 ou 2 passe cable pour organiser les cables **chemin_cable.stl**."
 msgstr "1 or 2 cable rails to organize the cables **chemin_cable.stl**."
 
-#: ../../building_step.md:170
+#: ../../building_step.md:171
 msgid "1 Support de Raspberry PI **support_rpi.stl**."
 msgstr "1 Raspberry PI support **support_rpi.stl**."
 
-#: ../../building_step.md:173
+#: ../../building_step.md:174
 msgid "Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint."
 msgstr "STL files for 3d printing are located in the 3dprint directory."
 
-#: ../../building_step.md:176
+#: ../../building_step.md:177
 msgid "Préparation des étiquettes"
 msgstr "Preparing labels"
 
-#: ../../building_step.md:178
+#: ../../building_step.md:179
 msgid ""
 "La difficulté pour la réalisation des étiquettes est d'aligner "
-"suffisement bien l'impression, en gros caractères avec l'embossage "
+"suffisamment bien l'impression, en gros caractères avec l'embossage "
 "Braille pour gagner de la place."
 msgstr ""
 "The difficulty in making labels is aligning the printing, in large "
 "characters, with the Braille embossing well enough to save space."
 
-#: ../../building_step.md:180
+#: ../../building_step.md:181
 msgid ""
 "Pour réussir à aligner correctement l'impression et l'embossage, nous "
 "avons utilisé le script python dans le repertoire `labeltosvg`, ce script"
-" prend en entrée un fichier texte contenant une série de ligne à imprimer"
-" et génère une série de fichiers SVG numérotés pour l'impression standard"
-" et pour l'embossage sur BrailleRAP."
+" prend en entrée un fichier texte contenant une série de lignes à "
+"imprimer et génère une série de fichiers SVG numérotés pour l'impression "
+"standard et pour l'embossage sur BrailleRAP."
 msgstr ""
-"To achieve proper alignment of printing and embossing, we used the python"
-" script in the `labeltosvg` directory, this script takes as input a text "
-"file containing a series of lines to be printed and generates a series of"
-" numbered SVG files for standard printing and for embossing on "
-"BrailleRAP."
+"To achieve proper alignment of printing and embossing, we used the python "
+"script in the `labeltosvg` directory, this script takes as input a text file "
+"containing a series of lines to be printed and generates a series of "
+"numbered SVG files for standard printing and for embossing on BrailleRAP."
 
-#: ../../building_step.md:182
+#: ../../building_step.md:183
 msgid ""
 "Pour un numéro particulier, le fichier \"xxxxxx.printer.svg\" devra être "
 "imprimé avec une imprimante. Le fichier \"xxxxxx.brap.svg\" devra ensuite"
@@ -700,7 +708,7 @@ msgstr ""
 "the BrailleRAP using the software "
 "[DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP)."
 
-#: ../../building_step.md:184
+#: ../../building_step.md:185
 msgid ""
 "Nous avons utlisé ce script python avec le fichier .txt des stations de "
 "transport généré par "
@@ -710,7 +718,7 @@ msgstr ""
 "generated by "
 "[OpenStreetTouch](https://github.com/braillerap/OpenStreetTouch)"
 
-#: ../../building_step.md:187
+#: ../../building_step.md:188
 msgid ""
 "Un exemple de fichier SVG pour l'impression ![Un exemple de fichier SVG "
 "pour l'impression](IMG/rennes_subway2.txt.printer1.svg)"
@@ -718,21 +726,21 @@ msgstr ""
 "An example SVG file for printing![An example SVG file for "
 "printing](IMG/rennes_subway2.txt.printer1.svg)"
 
-#: ../../building_step.md:187
+#: ../../building_step.md:188
 msgid "Un exemple de fichier SVG pour l'impression"
 msgstr "An example of an SVG file for printing"
 
-#: ../../building_step.md:191
+#: ../../building_step.md:192
 msgid ""
 "Les fichiers SVG pour la réalisation des étiquettes se trouvent dans le "
 "repertoire labels."
 msgstr "The SVG files for creating labels are located in the labels directory."
 
-#: ../../building_step.md:195
+#: ../../building_step.md:196
 msgid "Réalisation des étiquettes"
 msgstr "Labels production"
 
-#: ../../building_step.md:196
+#: ../../building_step.md:197
 msgid ""
 "Ouvrir un des fichiers préparé à l'aide de `labeltosvg` avec inkscape et "
 "l'imprimer sur l'imprimante laser."
@@ -740,7 +748,7 @@ msgstr ""
 "Open one of the files prepared using `labeltosvg` with inkscape and print"
 " it on the laser printer."
 
-#: ../../building_step.md:198
+#: ../../building_step.md:199
 msgid ""
 "Capture d'écran d'un fichier d'étiquettes dans Inkscape. ![Capture "
 "d'écran de DesktopBrailleRAP avec des "
@@ -749,11 +757,11 @@ msgstr ""
 "Screenshot of a label file in Inkscape. ![Screenshot of DesktopBrailleRAP"
 " with labels](IMG/inkscape_labels.jpg)"
 
-#: ../../building_step.md:198 ../../building_step.md:203
+#: ../../building_step.md:199 ../../building_step.md:204
 msgid "Capture d'écran de DesktopBrailleRAP avec des étiquettes"
 msgstr "Screenshot of DesktopBrailleRAP with labels"
 
-#: ../../building_step.md:201
+#: ../../building_step.md:202
 msgid ""
 "Insérer la feuille préalablement imprimé dans la BrailleRAP, puis "
 "importer le fichier SVG correspondant avec DesktopBrailleRAP, et le "
@@ -765,7 +773,7 @@ msgstr ""
 "Then start printing on the BrailleRAP to obtain the Braille over the "
 "black print."
 
-#: ../../building_step.md:203
+#: ../../building_step.md:204
 msgid ""
 "Capture d'écran du même fichier d'étiquettes dans DesktopBrailleRAP. "
 "![Capture d'écran de DesktopBrailleRAP avec des "
@@ -774,11 +782,11 @@ msgstr ""
 "Screenshot of the same label file in DesktopBrailleRAP. ![Screenshot of "
 "DesktopBrailleRAP with labels](IMG/dbrap_labels.jpg)"
 
-#: ../../building_step.md:207
+#: ../../building_step.md:208
 msgid "Découpe des étiquettes"
 msgstr "Cutting labels"
 
-#: ../../building_step.md:208
+#: ../../building_step.md:209
 msgid ""
 "Découper ensuite les étiquettes ligne par ligne de préférence à l’aide "
 "d’un massicot sinon cutter ou ciseaux."
@@ -786,17 +794,17 @@ msgstr ""
 "Then cut the labels line by line, preferably using a paper cutter, "
 "otherwise a cutter or scissors."
 
-#: ../../building_step.md:209
+#: ../../building_step.md:210
 msgid ""
 "Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter "
 "ou de ciseaux en laissant toujours la même marge en début de mot et à la "
-"fin si possible"
+"fin si possible."
 msgstr ""
 "Finalize the cut to separate them vertically using a cutter or scissors, "
-"always leaving the same margin at the beginning of the word and at the "
-"end if possible"
+"always leaving the same margin at the beginning of the word and at the end "
+"if possible"
 
-#: ../../building_step.md:212
+#: ../../building_step.md:213
 msgid ""
 "![Etiquette imprimée en caractère noir avec surimpression "
 "braille](/IMG/etiquette_braille1_Clemenceau.jpg) *Etiquette pour la "
@@ -806,11 +814,11 @@ msgstr ""
 "overprint](/IMG/etiquette_braille1_Clemenceau.jpg) *Label for the "
 "Clémenceau station*"
 
-#: ../../building_step.md:212 ../../building_step.md:215
+#: ../../building_step.md:213 ../../building_step.md:216
 msgid "Etiquette imprimée en caractère noir avec surimpression braille"
 msgstr "Label printed in black with braille overprint"
 
-#: ../../building_step.md:215
+#: ../../building_step.md:216
 msgid ""
 "![Etiquette imprimée en caractère noir avec surimpression "
 "braille](/IMG/etiquette_braille4_JF_kennedy.jpg) *Etiquette pour la "
@@ -820,15 +828,15 @@ msgstr ""
 "overprint](/IMG/etiquette_braille4_JF_kennedy.jpg) *Label for the "
 "J.F.Kennedy station*"
 
-#: ../../building_step.md:219
+#: ../../building_step.md:220
 msgid "Fabrication du plan de métro avec son chassis"
 msgstr "Production of the metro map with its chassis"
 
-#: ../../building_step.md:221
+#: ../../building_step.md:222
 msgid "Peinture"
 msgstr "Paint"
 
-#: ../../building_step.md:223
+#: ../../building_step.md:224
 msgid ""
 "Pour augmenter les contrastes, les lignes en papier de verre sont peintes"
 " en noir, les stations de correspondance sont peintes en rouge."
@@ -836,19 +844,19 @@ msgstr ""
 "To increase contrasts, the sandpaper lines are painted black, the "
 "interchange stations are painted red."
 
-#: ../../building_step.md:225
+#: ../../building_step.md:226
 msgid "Peindre à la bombe de couleur noire la ligne en papier de verre."
 msgstr "Spray paint the sandpaper line in black."
 
-#: ../../building_step.md:226
+#: ../../building_step.md:227
 msgid "Peindre à la bombe rouge les deux stations de correspondances"
 msgstr "Spray paint the two interchange stations in red"
 
-#: ../../building_step.md:228
+#: ../../building_step.md:229
 msgid "Collage du papier de verre sur la ligne A"
 msgstr "Bonding the sandpaper on line A"
 
-#: ../../building_step.md:230
+#: ../../building_step.md:231
 msgid ""
 "Coller la ligne A découpée dans le papier de verre sur sa ligne "
 "correspondante en bois avec de la colle à bois."
@@ -856,19 +864,19 @@ msgstr ""
 "Bond the line A cut out of the sandpaper to its corresponding line in "
 "wood with wood glue."
 
-#: ../../building_step.md:232
+#: ../../building_step.md:233
 msgid "Préparation du chassis du plan"
 msgstr "Preparation of the plan frame"
 
-#: ../../building_step.md:233
+#: ../../building_step.md:234
 msgid "Assemblage du cadre"
 msgstr "Frame assembly"
 
-#: ../../building_step.md:235
+#: ../../building_step.md:236
 msgid "Mettre le plan 80 X 60 cm face gravée contre une table (propre !)."
 msgstr "Place the 80 X 60 cm plan engraved side down on a (clean!) table."
 
-#: ../../building_step.md:237
+#: ../../building_step.md:238
 msgid ""
 "Placer les tasseaux découpés à la bonne taille sur le cadre de la plaque."
 " Dessiner au crayon à papier leur contour pour bien avoir le repère au "
@@ -877,7 +885,7 @@ msgstr ""
 "Place the cut-to-size strips on the plate frame. Draw their outline with "
 "a pencil to provide a good reference when gluing."
 
-#: ../../building_step.md:239
+#: ../../building_step.md:240
 msgid ""
 "Coller les tasseaux avec la colle à bois et les maintenir en place avec "
 "des pinces ou des serre-joints. Pour ne pas faire de marquage ou déformer"
@@ -892,15 +900,15 @@ msgstr ""
 " several stages if necessary, allowing a minimum of drying time before "
 "removing the clamps and clamps."
 
-#: ../../building_step.md:243
+#: ../../building_step.md:244
 msgid "![Collage tasseaux](/IMG/collage_tasseaux.jpg) *Collage tasseaux*"
 msgstr "![Bonding the strips](/IMG/collage_tasseaux.jpg) *Bonding the strips*"
 
-#: ../../building_step.md:243
+#: ../../building_step.md:244
 msgid "Collage tasseaux"
 msgstr "Bonding strips"
 
-#: ../../building_step.md:246
+#: ../../building_step.md:247
 msgid ""
 "![Collage tasseaux avec plaques de "
 "protection](/IMG/collage_tasseau_sur_plaque_plan.jpg) *Collage tasseaux "
@@ -910,11 +918,11 @@ msgstr ""
 "plates](/IMG/collage_tasseau_sur_plaque_plan.jpg) *Gluing battens with "
 "protective plates*"
 
-#: ../../building_step.md:246
+#: ../../building_step.md:247
 msgid "Collage tasseaux avec plaques de protection"
 msgstr "Bonding battens with protective plates"
 
-#: ../../building_step.md:249
+#: ../../building_step.md:250
 msgid ""
 "![Finalisation collage tasseaux](/IMG/finalisation_collage_tasseaux.jpg) "
 "*Finalisation collage tasseaux* |"
@@ -922,33 +930,95 @@ msgstr ""
 "![Battens bonding](/IMG/finalisation_collage_tasseaux.jpg) *Battens "
 "bonding* |"
 
-#: ../../building_step.md:249
+#: ../../building_step.md:250
 msgid "Finalisation collage tasseaux"
 msgstr "Battens bonding"
 
-#: ../../building_step.md:253
-msgid ""
-"Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre "
-"chaque extrémité) sur les les tasseaux"
-msgstr ""
-"Drill 8 holes to add the inserts (1 at each corner and 1 between each "
-"end) on the cleats"
+#: ../../building_step.md:254
+msgid "Préparation plaque socle pour refermer le boîtier"
+msgstr "Preparing back plane"
 
-#: ../../building_step.md:255
+#: ../../building_step.md:256
+msgid ""
+"Placer la plaque de 80 x 60 cm sur le chassis pour refermer la boite , la"
+" maintenir avec du scotch de peintre"
+msgstr ""
+"Place the 80 x 60 cm back plane on the frame to close the box, hold it in "
+"place with tape"
+
+#: ../../building_step.md:257
+msgid ""
+"Mettre une marque au scotch sur le foret de 6mm pour déterminer la "
+"profondeur du perçage"
+msgstr ""
+"Place a mark with tape on the 6mm drill bit to determine the drilling depth"
+
+#: ../../building_step.md:258
+msgid ""
+"Percer 8 trous de 6mm de diamètre pour ajouter les inserts (1 à chaque "
+"coin et 1 entre chaque extrémité) traversant la plaque et les tasseaux de"
+" seulement qqs mm"
+msgstr ""
+"Drill 8 holes to add the inserts (1 at each corner and 1 between each end) "
+"on the cleats"
+
+#: ../../building_step.md:259
+msgid "Percer à l'aide d'une perceuse les 8 trous à l'emplacement des inserts"
+msgstr "Drill the 8 holes at the insert locations using a drill"
+
+#: ../../building_step.md:260
+msgid "Enlever la plaque qui referme le boitier"
+msgstr "Remove the back plane"
+
+#: ../../building_step.md:261
+msgid ""
+"Changer le foret de 6 pour un foret de 8mm  (diamètre de perçage pour "
+"inserts), mettre une marque au scotch pour déterminer la profondeur de "
+"perçage (longueur insert - épaisseur plaque, soit ici 23-5=17mm)"
+msgstr ""
+"Change the 6mm drill bit to an 8mm drill bit (drilling diameter for inserts)"
+", mark with tape to determine the drilling depth (insert length - here 23 mm)"
+
+#: ../../building_step.md:262
+msgid ""
+"Percer chaque trou dans les tasseaux aux emplacement pré troués avec le "
+"foret de 6"
+msgstr "Drill each hole in the cleats at the pre-drilled locations"
+
+#: ../../building_step.md:263
+msgid ""
+"Insérer les inserts dans chaque trou et finaliser leur fixation avec avec"
+" un marteau ou maillet en faisant attention de ne pas les endommager , "
+"mettre une protection si nécessaire sur l'insert pour éviter que le "
+"marteau ne le déforme"
+msgstr ""
+"Insert the inserts into each hole and finalize their fixation with a hammer "
+"or mallet, taking care not to damage them. If necessary, put a protection on "
+"the insert to prevent the hammer from deforming it"
+
+#: ../../building_step.md:264
+msgid ""
+"Vérifier que le boitier se referme en insérant les vis à leurs "
+"emplacements respectifs"
+msgstr ""
+"Check that the back plane fit well by inserting the screws in their "
+"respective locations"
+
+#: ../../building_step.md:268
 msgid ""
 "![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour "
 "le refermer par "
 "dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)"
-" *Plan global gravé et percé monté sur chassis avec inserts ajoutés pour "
-"le refermer par dessous*"
+" *Plan global gravé et percé monté sur chassis, avec inserts ajoutés pour"
+" le refermer par dessous*"
 msgstr ""
-"![Engraved and drilled overall plan mounted on chassis with inserts added"
-" to close it from "
-"below](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)"
-" *Engraved and drilled overall plan mounted on chassis with inserts added"
-" to close it from below*"
+"![Engraved and drilled overall plan mounted on chassis with inserts added to "
+"close it from below](/IMG/"
+"plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg) *Engraved and "
+"drilled overall plan mounted on chassis with inserts added to close it from "
+"below*"
 
-#: ../../building_step.md:255
+#: ../../building_step.md:268
 msgid ""
 "Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le"
 " refermer par dessous"
@@ -956,46 +1026,45 @@ msgstr ""
 "Engraved and drilled plan mounted on frame with inserts added to close it"
 " from below"
 
-#: ../../building_step.md:258
+#: ../../building_step.md:271
 msgid "Ponçage chassis"
 msgstr "Frame sanding"
 
-#: ../../building_step.md:259
+#: ../../building_step.md:272
 msgid ""
 "Avec une cale à poncer et papier de verre de 80, poncer les côtés afin "
-"qu'ils soient lisses et qu'ils ombent à fleur de la plaque du plan de "
+"qu'ils soient lisses et qu'ils tombent à fleur de la plaque du plan de "
 "métro"
 msgstr ""
-"Using a sanding block and 80 grit sandpaper, sand the sides so that they "
-"are smooth and aligned with the subway map plate"
+"Using a sanding block and 80 grit sandpaper, sand the sides so that they are "
+"smooth and aligned with the subway map plate"
 
-#: ../../building_step.md:261
+#: ../../building_step.md:274
 msgid "![Ponçage du chassis](/IMG/poncage_chassis.jpg) *Ponçage du chassis*"
 msgstr "![Sanding the frame](/IMG/poncage_chassis.jpg) *Sanding the frame*"
 
-#: ../../building_step.md:261
+#: ../../building_step.md:274
 msgid "Ponçage du chassis"
 msgstr "Sanding the frame"
 
-#: ../../building_step.md:264
+#: ../../building_step.md:277
 msgid "Vernissage du plan et du chassis"
 msgstr "Varnishing plan and frame"
 
-#: ../../building_step.md:265
+#: ../../building_step.md:278
 msgid ""
 "Vernir le plan de métro démonté du chassis et vernir aussi le chassis "
-"extérieur (côté et fond) afin qu'il soit facilement lavable et plus "
-"résistant."
+"extérieur (côté et fond démonté afin de pouvoir le démonter "
+"ultérieurement) afin qu'il soit facilement lavable et plus résistant."
 msgstr ""
-"Varnish the subway map removed from the frame and also varnish the "
-"exterior frame (side and bottom) so that it is easily washable and more "
-"resistant."
+"Varnish the subway map removed from the frame and also varnish the exterior "
+"frame (side and bottom) so that it is easily washable and more resistant."
 
-#: ../../building_step.md:268
+#: ../../building_step.md:281
 msgid "Vérification de l'assemblage avant le collage des lignes de métro"
 msgstr "Checking the assembly before bonding the metro lines"
 
-#: ../../building_step.md:269
+#: ../../building_step.md:282
 msgid ""
 "Positionner les éléments des deux lignes pour vérifier que tous les "
 "éléments sont présents et correspondent bien au tracé de repérage."
@@ -1003,15 +1072,15 @@ msgstr ""
 "Position the elements of the two lines to check that all elements are "
 "present and fit well on reference line."
 
-#: ../../building_step.md:271
+#: ../../building_step.md:284
 msgid "Collage des lignes de métro et des stations de correspondance"
 msgstr "Bonding of metro lines and transit stations"
 
-#: ../../building_step.md:273
+#: ../../building_step.md:286
 msgid "Coller les deux lignes de métro découpées à la laser sur le plan"
 msgstr "Bond the two metro lines onto the map"
 
-#: ../../building_step.md:275
+#: ../../building_step.md:288
 msgid ""
 "Coller chacune des lignes en vous repérant à la gravure. Utiliser la "
 "colle à bois pour la ligne A en peuplier et la colle cyano pour la ligne "
@@ -1022,7 +1091,7 @@ msgstr ""
 " line A in poplar and cyano glue for line B in PMMA (remove the "
 "protection on the side that will be glued just before applying the glue)."
 
-#: ../../building_step.md:277
+#: ../../building_step.md:290
 msgid ""
 "Coller les cercles correspondant aux stations de correspondance ici "
 "peintes préalablement à la bombe de peinture rouge."
@@ -1030,30 +1099,30 @@ msgstr ""
 "Glue the circles corresponding to the transit stations previously painted"
 " here with red spray paint."
 
-#: ../../building_step.md:281
+#: ../../building_step.md:294
 msgid "Montage du circuit électronique"
 msgstr "Building the electronics"
 
-#: ../../building_step.md:282
+#: ../../building_step.md:295
 msgid "Préparation des boutons"
 msgstr "Preparing the push buttons"
 
-#: ../../building_step.md:283
+#: ../../building_step.md:296
 msgid "Étamer les boutons"
 msgstr "Tin the buttons"
 
-#: ../../building_step.md:284
+#: ../../building_step.md:297
 msgid ""
 "Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton "
-"(trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever "
+"(trous des stations) jusqu'à l'emplacement de la carte clavier. Enlever "
 "la longueur de fil des fils des connecteurs pour avoir la bonne longueur."
 " Prévoir quelques cm de plus"
 msgstr ""
-"Measure the required wire length from each button location (station "
-"holes) to the keypad board location. Remove the wire length from the "
-"connector wires to get the correct length. Allow a few extra cm"
+"Measure the required wire length from each button location (station holes) "
+"to the keypad board location. Remove the wire length from the connector "
+"wires to get the correct length. Allow a few extra cm"
 
-#: ../../building_step.md:285
+#: ../../building_step.md:298
 msgid ""
 "Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton "
 "comme sur cette photo en ajoutant de la gaine thermo sur les connections "
@@ -1062,7 +1131,7 @@ msgstr ""
 "Solder the intermediate wire (extension) between the connector and the "
 "button as in this photo by adding heat shrink on the solder connections"
 
-#: ../../building_step.md:287
+#: ../../building_step.md:300
 msgid ""
 "![Préparation d'un bouton avec le fil de rallonge et le "
 "connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg) *Bouton "
@@ -1072,11 +1141,11 @@ msgstr ""
 "connector](IMG/prepa_bouton_connecteur_contraste_resized.jpg) *Button "
 "soldered with the extension wire and the connector*"
 
-#: ../../building_step.md:287
+#: ../../building_step.md:300
 msgid "Préparation d'un bouton avec le fil de rallonge et le connecteur"
 msgstr "Preparing a button with the extension wire and connector"
 
-#: ../../building_step.md:291
+#: ../../building_step.md:304
 msgid ""
 "Préparer l'ensemble des boutons pour une ligne pour commencer en "
 "s'assurant d'avoir la même couleur de fil pour tous les boutons de cette "
@@ -1092,17 +1161,17 @@ msgstr ""
 "connector](IMG/boutons_fils_connecteurs.jpg) *Set of buttons prepared for"
 " a transport line classified in order of size*"
 
-#: ../../building_step.md:291
+#: ../../building_step.md:304
 msgid ""
 "Préparation de l'ensemble des boutons avec le fil de rallonge et "
 "connecteur"
 msgstr "Preparing the button assembly with the extension wire and connector"
 
-#: ../../building_step.md:295 ../../building_step.md:299
+#: ../../building_step.md:308 ../../building_step.md:312
 msgid "Montage des boutons sur le plan"
 msgstr "Mounting the buttons on the plan"
 
-#: ../../building_step.md:296
+#: ../../building_step.md:309
 msgid ""
 "Insérer la rondelle sur le bouton pour qu'elle se trouve sous la plaque. "
 "Insérer ensuite le bouton avec sa rondelle par dessous et le fixer à la "
@@ -1114,11 +1183,11 @@ msgstr ""
 "with the nut on top of the plate (without tightening with a wrench to "
 "start)"
 
-#: ../../building_step.md:297
+#: ../../building_step.md:310
 msgid "Procéder ainsi pour tous les boutons de l'ensemble de la ligne"
 msgstr "Do this for all buttons in the transport line"
 
-#: ../../building_step.md:299
+#: ../../building_step.md:312
 msgid ""
 "![Montage des boutons sur le "
 "plan](/IMG/montage_bouton_apres_collage_lignes_metros.jpg)"
@@ -1126,13 +1195,13 @@ msgstr ""
 "![Assembly of the buttons on the "
 "plan](/IMG/montage_bouton_apres_collage_lignes_metros.jpg)"
 
-#: ../../building_step.md:302
+#: ../../building_step.md:315
 msgid ""
 "Pré-positionnement des étiquettes et vérification de l'ensemble des "
 "éléments"
 msgstr "Pre-positioning of labels and verification of all elements"
 
-#: ../../building_step.md:303
+#: ../../building_step.md:316
 msgid ""
 "Positionner chaque étiquette face à la station correspondante en "
 "respectant une logique d'accessibilité au maximum pour sentir l'étiquette"
@@ -1142,11 +1211,11 @@ msgstr ""
 "accessibility logic to feel the label corresponding to the station by "
 "touch."
 
-#: ../../building_step.md:304
+#: ../../building_step.md:317
 msgid "Positionner aussi la légende et le triangle qui indique le nord"
 msgstr "Also position the legend and the triangle that indicates north"
 
-#: ../../building_step.md:306
+#: ../../building_step.md:319
 msgid ""
 "![Prépositionnement étiquettes, légendes et triangle pour indiquer le "
 "Nord](/IMG/pre_positionnement_etiquettes.jpg) *Prépositionnement "
@@ -1156,11 +1225,11 @@ msgstr ""
 "North](/IMG/pre_positionnement_etiquettes.jpg) *Prepositioning labels, "
 "legends and triangle to indicate North*"
 
-#: ../../building_step.md:306
+#: ../../building_step.md:319
 msgid "Prépositionnement étiquettes, légendes et triangle pour indiquer le Nord"
 msgstr "Pre-positioning labels, legends and triangle to indicate North"
 
-#: ../../building_step.md:309
+#: ../../building_step.md:322
 msgid ""
 "Une fois validé la position des étiquettes, les retirer et les conserver "
 "dans une boîte avec les éléments de la légende et le triangle."
@@ -1168,43 +1237,43 @@ msgstr ""
 "Once the position of the labels has been validated, remove them and keep "
 "them in a box with the legend items and the triangle."
 
-#: ../../building_step.md:312
+#: ../../building_step.md:325
 msgid "Schéma de principe du cablage"
 msgstr "Wiring diagram"
 
-#: ../../building_step.md:314
+#: ../../building_step.md:327
 msgid "Alimentation 12V => Buck DC 5V & Amplificateur"
 msgstr "12V Power supply => Buck DC 5V & Amplifier"
 
-#: ../../building_step.md:315
+#: ../../building_step.md:328
 msgid "Buck DC 5V USB => USB alimentation du Raspberry Pi"
 msgstr "Buck DC 5V USB => Raspberry Pi USB power supply"
 
-#: ../../building_step.md:316
+#: ../../building_step.md:329
 msgid "Raspberry PI USB  => shapeless_rp2040_40keys"
 msgstr "Raspberry PI USB => shapeless_rp2040_40keys"
 
-#: ../../building_step.md:317
+#: ../../building_step.md:330
 msgid "Sortie audio raspi => entrée ligne Amplificateur"
 msgstr "Raspberry PI audio output => Amplifier input"
 
-#: ../../building_step.md:318
+#: ../../building_step.md:331
 msgid "Amplificateur Sortie HP => Haut Parleur"
 msgstr "Amplifier speaker output => Speaker"
 
-#: ../../building_step.md:320
+#: ../../building_step.md:333
 msgid "![Schema de principe](IMG/subwaycablage.png)"
 msgstr "![Wiring diagram](IMG/subwaycablage.png)"
 
-#: ../../building_step.md:320
+#: ../../building_step.md:333
 msgid "Schema de principe"
 msgstr "Wiring diagram"
 
-#: ../../building_step.md:323
+#: ../../building_step.md:336
 msgid "Positionner la carte clavier et la coller"
 msgstr "Put in place the custom keyboard and bond it"
 
-#: ../../building_step.md:325
+#: ../../building_step.md:338
 msgid ""
 "Retourner le plan et positionner de manière provisoire la carte clavier "
 "dans l'espace libre et assurez-vous que les connecteurs de chaque boutons"
@@ -1213,13 +1282,13 @@ msgid ""
 "*Prépositionnement carte clavier pour vérifier que chaque bouton puisse "
 "être connecté*"
 msgstr ""
-"Turn the plan over and temporarily position the custom keyboard in the free "
-"space and make sure that the connectors of each button can reach it"
-"![Prepositioning the custom keyboard to check that each button can be "
+"Turn the plan over and temporarily position the custom keyboard in the "
+"free space and make sure that the connectors of each button can reach "
+"it![Prepositioning the custom keyboard to check that each button can be "
 "connected](IMG/prepositionnement_carte.jpg) *Prepositioning the custom "
 "keyboard to check that each button can be connected*"
 
-#: ../../building_step.md:325
+#: ../../building_step.md:338
 msgid ""
 "Prépositionnement carte clavier opur vérifier que chaque bouton puisse "
 "être connecté"
@@ -1227,119 +1296,119 @@ msgstr ""
 "Pre-positioning the custom keyboard to check that each button can be "
 "connected"
 
-#: ../../building_step.md:331
+#: ../../building_step.md:344
 msgid ""
 "Coller la carte clavier en ajoutant un cadre en bois que vous pouvez "
 "réaliser à la laser (sur la photo on a trouvé en récup quelque chose de "
 "convenable !) avec un pistolet à colle ![Collage de la carte clavier avec"
 " pistolet à colle](IMG/collage_carte_clavier_sur_support_bois.jpg)"
 msgstr ""
-"Bond the custom keyboard on a wooden frame that you can make with a laser ("
-"in the photo we found something suitable in recycling!) with a glue gun "
-"![Bonding the custom keyboard with a glue gun](IMG/collage_carte_clavier_sur_support_bois.jpg)"
-""
+"Bond the custom keyboard on a wooden frame that you can make with a laser"
+" (in the photo we found something suitable in recycling!) with a glue gun"
+" ![Bonding the custom keyboard with a glue "
+"gun](IMG/collage_carte_clavier_sur_support_bois.jpg)"
 
-#: ../../building_step.md:331
+#: ../../building_step.md:344
 msgid "Collage de la carte clavier avec pistolet à colle"
 msgstr "Bonding the custom keyboard with a glue gun"
 
-#: ../../building_step.md:335
+#: ../../building_step.md:348
 msgid "Connecter les connecteurs de chaque bouton à la carte clavier"
 msgstr "Connect the dupont connectors of each button to the custom keyboard"
 
-#: ../../building_step.md:336
+#: ../../building_step.md:349
 msgid ""
 "Connecter les connecteurs des boutons si possible dans l'ordre des "
 "stations de la ligne pour faciliter le repérage mais ce n'est pas "
 "obligatoire! ![Connection des connecteurs des boutons à la carte "
 "clavier](IMG/connections_fils.jpg)"
 msgstr ""
-"Connect the button connectors if possible in the order of the stations on "
-"the line to make it easier to identify, but this is not mandatory! !"
-"[Connecting the button connectors to the raspi](IMG/connections_fils.jpg)"
+"Connect the button connectors if possible in the order of the stations on"
+" the line to make it easier to identify, but this is not mandatory! "
+"![Connecting the button connectors to the "
+"raspi](IMG/connections_fils.jpg)"
 
-#: ../../building_step.md:336
+#: ../../building_step.md:349
 msgid "Connection des connecteurs des boutons à la carte clavier"
 msgstr "Connecting the button to the custom keyboard"
 
-#: ../../building_step.md:339
+#: ../../building_step.md:352
 msgid "Regrouper les fils"
 msgstr "Gather the wires"
 
-#: ../../building_step.md:340
+#: ../../building_step.md:353
 msgid ""
 "Regrouper les fils et les fixer ensemble avec des collier de serrage "
 "(colsons)"
 msgstr "Bundle the wires and secure them together with cable ties"
 
-#: ../../building_step.md:343
+#: ../../building_step.md:356
 msgid "Assemblage de l'ensemble du montage électronique"
 msgstr "Assembly of the entire electronic assembly"
 
-#: ../../building_step.md:344
+#: ../../building_step.md:357
 msgid ""
 "Le support imprimé en 3D, pour sortie de câble alimentation vers "
 "l'extérieur est vissé de part et d'autre sur les tasseaux"
 msgstr ""
-"The 3D printed support for the power cable outlet to the outside is screwed "
-"on both sides onto the cleats"
+"The 3D printed support for the power cable outlet to the outside is "
+"screwed on both sides onto the cleats"
 
-#: ../../building_step.md:345
+#: ../../building_step.md:358
 msgid ""
 "L'ampli est collé avec deux ou 3 points de colle chaude au pistolet à "
 "colle"
-msgstr ""
-"The amplifier is bond with two or three dots of hot glue from a glue gun"
+msgstr "The amplifier is bond with two or three dots of hot glue from a glue gun"
 
-#: ../../building_step.md:346
+#: ../../building_step.md:359
 msgid ""
 "Le passe câble speaker, le speaker, le convertisseur de tension et le "
 "domino sont fixés aussi au pistolet à colle"
 msgstr ""
-"The cable rail, the speaker, the voltage converter and the terminal block "
-"are also attached with a glue gun"
+"The cable rail, the speaker, the voltage converter and the terminal block"
+" are also attached with a glue gun"
 
-#: ../../building_step.md:347
+#: ../../building_step.md:360
 msgid ""
 "Le support de la raspi imprimé en 3D est collé sur la plaque et le raspi "
 "est vissé sur le support."
 msgstr ""
-"The 3D printed raspberry pi holder is glued to the plate and the raspberry "
-"pi is screwed onto the holder."
+"The 3D printed raspberry pi holder is glued to the plate and the "
+"raspberry pi is screwed onto the holder."
 
-#: ../../building_step.md:350
+#: ../../building_step.md:363
 msgid ""
 "Le passe câble est utilisé ici pour passer le câble du haut-parleur "
 "(speaker) afin qu'il ne soit trop près du câble d'alimentation et du "
 "reste pour éviter les parasites."
 msgstr ""
-"The cable rail is used here to pass the speaker cable so that it is not too "
-"close to the power cable to avoid interference."
+"The cable rail is used here to pass the speaker cable so that it is not "
+"too close to the power cable to avoid interference."
 
-#: ../../building_step.md:354
+#: ../../building_step.md:367
 msgid ""
 "![Assemblage du montage "
 "électronique](/IMG/Assemblage_montage_electronique_legende.jpg) "
 "*Assemblage du montage électronique avec légende sur chacun des éléments*"
 msgstr ""
-"![Assembly of the electronic assembly](/IMG/"
-"Assemblage_montage_electronique_legende_en.jpg) *Assembly of the electronic "
-"assembly with legend on each of the elements*"
+"![Assembly of the electronic "
+"assembly](/IMG/Assemblage_montage_electronique_legende_en.jpg) *Assembly "
+"of the electronic assembly with legend on each of the elements*"
 
-#: ../../building_step.md:354 ../../building_step.md:358
+#: ../../building_step.md:367 ../../building_step.md:371
 msgid "Assemblage du montage électronique"
 msgstr "Assembling the electronic"
 
-#: ../../building_step.md:358
+#: ../../building_step.md:371
 msgid ""
 "![Assemblage du montage "
 "électronique](/IMG/Assemblage_montage_electronique.jpg) *Assemblage du "
 "montage électronique*"
 msgstr ""
-"![Electronic assembling](/IMG/Assemblage_montage_electronique.jpg) *"
-"Electronic assembling*"
+"![Electronic assembling](/IMG/Assemblage_montage_electronique.jpg) "
+"*Electronic assembling*"
 
-#: ../../building_step.md:361
+#: ../../building_step.md:374
 msgid ""
 "![Ampli collé avec pistolet à colle](/IMG/ampli.jpg) *Ampli collé avec "
 "pistolet à colle*"
@@ -1347,57 +1416,106 @@ msgstr ""
 "![Bonded amplifier with glue gun](/IMG/ampli.jpg) *Bonded amplifier with "
 "glue gun*"
 
-#: ../../building_step.md:361
+#: ../../building_step.md:374
 msgid "Ampli collé avec pistolet à colle"
 msgstr "Amplifier bonded with hot glue"
 
-#: ../../building_step.md:365
+#: ../../building_step.md:378
 msgid ""
 "![Régulateur de tension](/IMG/regulateur_tension.jpg) *Régulateur de "
 "tension collé avec le pistolet à colle*"
 msgstr ""
-"![Voltage Regulator](/IMG/regulateur_tension.jpg) *Voltage regulator glued "
-"with hot glue*"
+"![Voltage Regulator](/IMG/regulateur_tension.jpg) *Voltage regulator "
+"glued with hot glue*"
 
-#: ../../building_step.md:365
+#: ../../building_step.md:378
 msgid "Régulateur de tension"
 msgstr "Voltage regulator"
 
-#: ../../building_step.md:369
+#: ../../building_step.md:382
 msgid ""
 "![Sortie de cable d'alimentation](/IMG/Sortie_cable_alimentation.jpg) "
 "*Sortie de câble d'alimentation imprimé en 3D*"
 msgstr ""
-"![Power Cable Outlet](/IMG/Power_Cable_Outlet.jpg) *3D Printed Power Cable "
-"Outlet*"
+"![Power Cable Outlet](/IMG/Power_Cable_Outlet.jpg) *3D Printed Power "
+"Cable Outlet*"
 
-#: ../../building_step.md:369
+#: ../../building_step.md:382
 msgid "Sortie de cable d'alimentation"
 msgstr "Power cable outlet"
 
-#: ../../building_step.md:373
+#: ../../building_step.md:386
 msgid "![Domino d'alimentation](/IMG/domino_alim.jpg) *Domino d'alimentation*"
 msgstr "![Power distribution](/IMG/domino_alim.jpg) *Power distribution*"
 
-#: ../../building_step.md:373
+#: ../../building_step.md:386
 msgid "Domino d'alimentation"
 msgstr "Power distribution"
 
-#: ../../building_step.md:377 ../../building_step.md:380
+#: ../../building_step.md:390
+msgid "Collage des étiquettes, légendes, et triangle"
+msgstr "Bonding labels, legend and north triangle"
+
+#: ../../building_step.md:391
+msgid ""
+"Vérifier une dernière fois que vous avez bien l'ensemble des étiquettes "
+"en les positionnant à leurs emplacements"
+msgstr ""
+"Check one last time that you have all the labels by positioning them in "
+"their locations"
+
+#: ../../building_step.md:392
+msgid "Placer les légendes"
+msgstr "Put legends in place"
+
+#: ../../building_step.md:393
+msgid ""
+"Prendre une photo lorsque l'ensemble est cohérent, essayer de mettre les "
+"étiquettes d'une même ligne du même côté quand cela est possible"
+msgstr ""
+"Take a picture when the whole thing is consistent, try to put the labels of "
+"the same line on the same side when possible"
+
+#: ../../building_step.md:394
+msgid "Enlever les étiquettes"
+msgstr "Remove labels"
+
+#: ../../building_step.md:395
+msgid "Avec la colle en spray, coller une à une les étiquettes"
+msgstr "Bond labels with spray glue"
+
+#: ../../building_step.md:396
+msgid ""
+"Coller les légendes et ajouter les boutons en les reliant au circuit "
+"comme pour les stations, coller leur étiquette respective"
+msgstr ""
+"Bond the legends and add the buttons by connecting them to the circuit as "
+"for the stations, Bond their respective label"
+
+#: ../../building_step.md:399 ../../building_step.md:404
 msgid "Vue d'ensemble du prototype final"
 msgstr "Overview of the final prototype"
 
-#: ../../building_step.md:378
+#: ../../building_step.md:400
 msgid "Le montage est terminé :)"
 msgstr "The subway map is finished :)"
 
-#: ../../building_step.md:380
+#: ../../building_step.md:402
+msgid ""
+"Brancher le câble d'alimentation et expérimentez votre prototype avec des"
+" personnes déficientes visuelles ! Notez leurs retours et partagez-les "
+"nous !"
+msgstr ""
+"Plug in the power cable and test your prototype with visually impaired "
+"people! Record their feedback and share it with us!"
+
+#: ../../building_step.md:404
 msgid ""
 "![Vue d'ensemble du prototype final](/IMG/rennes.jpg) *Vue d'ensemble du "
 "prototype final*"
 msgstr ""
-"![Overview of the final prototype](/IMG/rennes.jpg) *Overview of the final "
-"prototype*"
+"![Overview of the final prototype](/IMG/rennes.jpg) *Overview of the "
+"final prototype*"
 
 #~ msgid ""
 #~ "![test des différents éléments découpés "
