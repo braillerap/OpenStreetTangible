@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-01 15:50+0000\n"
+"POT-Creation-Date: 2025-07-01 16:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgid "Lors de l'appui sur un bouton de la carte tactile, le logiciel affiche le
 msgstr ""
 
 #: ../../rpi_config.md:108
-msgid "Pour configurer un message, arreter le logiciel avec `CTR-C`, vous devez ensuite éditer le fichier **kspeaker.json** pour entrer le **code clavier** et le texte associé dans la section **messages**."
+msgid "Pour configurer un message, arreter le logiciel avec `CTRL-C`, vous devez ensuite éditer le fichier **kspeaker.json** pour entrer le **code clavier** et le texte associé dans la section **messages**."
 msgstr ""
 
 #: ../../rpi_config.md:110
