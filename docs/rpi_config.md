@@ -105,7 +105,7 @@ python kspeaker.py
 
 Lors de l'appui sur un bouton de la carte tactile, le logiciel affiche le **code clavier**, le texte associé. Si un texte est associé à la touche, la synthèse vocale se déclenche et lit le texte en audio.
 
-Pour configurer un message, arreter le logiciel avec `CTR-C`, vous devez ensuite éditer le fichier **kspeaker.json** pour entrer le **code clavier** et le texte associé dans la section **messages**.
+Pour configurer un message, arreter le logiciel avec `CTRL-C`, vous devez ensuite éditer le fichier **kspeaker.json** pour entrer le **code clavier** et le texte associé dans la section **messages**.
 
 Le fichier **configuration.json** pour la carte tactile du métro de Rennes est donné ici a titre d'exemple.
 ```
