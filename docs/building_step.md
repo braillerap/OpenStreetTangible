@@ -3,52 +3,53 @@
 ## Liste du matériel
 
 ### Outillage
-* Une [BrailleRAP](https://github.com/braillerap/BrailleRap).
-* Découpe laser.
+* Une [BrailleRAP](https://github.com/braillerap/BrailleRap)
+* Découpe laser
 * imprimante laser (vous pouvez utiliser une imprimante jet d'encre en utilisant les feuilles transparentes adaptées)
-* Perceuse.
-* Fer à souder.
-* Multimètre.
-* Serre joints ou grosses pinces.
+* Perceuse
+* Fer à souder
+* Multimètre
+* Serre joints ou grosses pinces
 
 
 ### Consommables
 
-* Soudure pour électronique.
-* fils de cablage.
+* Soudure pour électronique
+* fils de cablage
 * colle cyanoacrylate pour coller plexi sur bois
-* colle à bois.
-* bombe de peinture noire.
-* bombe de peinture rouge.
+* colle à bois
+* colle en spray (non repositionnable)
+* bombe de peinture noire
+* bombe de peinture rouge
 
 
 ### Réalisation du plan
 
-* papier de verre (grammage 120).
-* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm. 
-* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende.
-* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende.
-* 1 tasseau de 53,5cm (section 3x5cm).
-* 1 tasseau de 41cm (section 3x5cm).
-* 2 tasseaux de 80 cm (section 3x5cm).
-* ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille.
-* 8 x inserts M6 x23mm. 
-* 8 x Vis M6.
+* papier de verre (grammage 120)
+* 2 plaques de contreplaqué de peuplier de 5mm d'épaisseur de 80 cm x 60cm
+* 1 plaque de contreplaqué de peuplier 3mm pour découpe d’une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 plaque de PMMA blanc 3mm pour découpe d'une ligne de métro (format adapté à la taille de la découpeuse laser) et légende
+* 1 tasseau de 53,5cm (section 3x5cm)
+* 1 tasseau de 41cm (section 3x5cm)
+* 2 tasseaux de 80 cm (section 3x5cm)
+* ~10 Feuilles transparentes pour impression laser pour les etiquettes de stations en noir et en Braille
+* 8 x inserts M6 x23mm
+* 8 x Vis M6
 
 
 ### Electronique
 
-* Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio.
-* carte clavier [shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys).
-* 2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison shapeless_rp2040_40keys / raspberry pi.
+* Une raspberry pi version 2 ou supérieure 1GO de RAM est largement suffisant. Une Raspberry PI zero est surement utilisable mais il faut lui ajouter une sortie audio
+* carte clavier [shapeless_rp2040_40keys](https://github.com/crocsg/shapeless_rp2040_40keys)
+* 2 cables micro USB, 1 pour l'alimentation du Raspberry, 1 pour la liaison shapeless_rp2040_40keys / raspberry pi
 * 30 boutons poussoir à souder, fixation par écrou (autant de boutons que de stations + la légende)
 * fils de cablage pour connecter les boutons à la raspi (deux couleurs différentes, pour dissocier chaque ligne)
-* connecteurs dupont femelle 2 fils pour la connexion des boutons à la carte shapeless_rp2040_40keys.
-* ampli audio avec entrée mini jack.
+* connecteurs dupont femelle 2 fils pour la connexion des boutons à la carte shapeless_rp2040_40keys
+* ampli audio avec entrée mini jack
 * cable mini jack audio
 * 1 Haut parleur 3~5 W
-* Embase Alimentation jack 2.5mm. 
-* Alimentation 12V 6A avec connecteur Jack 2.5mm.
+* Embase Alimentation jack 2.5mm
+* Alimentation 12V 6A avec connecteur Jack 2.5mm
 
 
 
@@ -63,7 +64,7 @@
 ![Vue de l’interface OpenStreetTouch](/IMG/OSM_vue_export_svg.png)
 
 * Dans le cas de la ville de Rennes, les lignes ont le même tracé dans les deux sens de circulation. Nous avons donc sélectionné chaque ligne une seule fois.
-* Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG. Ce fichier servira a réaliser un fichier pour la gravure du fond et la découpe des tracés de lignes.
+* Extraire l’ensemble des lignes de transport souhaitées sur un seul SVG. Ce fichier servira à réaliser un fichier pour la gravure du fond et la découpe des tracés de lignes.
 
 * Extraire également le nom des stations pour chacune des lignes avec le bouton "Enregistrer les stations en TXT"
 
@@ -80,22 +81,22 @@ Le SVG issu d'OpenStreetTouch doit être modifié avec un logiciel de dessin vec
   
   Ajuster la taille du document aux dimensions souhaitées (ici 800 x 600 mm)
   
-  Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document. Penser a garder un peu de marge sur les bords (dans notre cas 50 mm).
+  Sélectionner ensuite l'ensemble des lignes (CTL+A) et agrandir à la taille souhaitée pour s'ajuster au format du document. Penser à garder un peu de marge sur les bords (dans notre cas 50 mm).
   Ce fichier servira ensuite à la réalisation de :
 
-  * Un fichier pour la gravure et le perçage de laplaque de fond. La gravure permettra d'avoir un repère pour le collage des lignes. Les percage permettront le passage des boutons qui sont vissés sur les lignes des stations.
+  * Un fichier pour la gravure et le perçage de la plaque de fond. La gravure permettra d'avoir un repère pour le collage des lignes. Les perçages permettront le passage des boutons qui sont vissés sur les lignes des stations.
   * Plusieurs fichiers pour la découpe de chaque ligne de métro.
 
 ####  Mise en forme du réseau
 
-Pour des raisons esthétiques et pratiques non avons effectué les modifications suivantes :
+Pour des raisons esthétiques et pratiques nous avons effectué les modifications suivantes :
 
 * Les débuts et fin de lignes ont été remplacés par des cercles.
-* Les cercles des stations sont redimensionnés a 15 mm de diamètre.
-* La largeur des tracés de lignes est défini a 8 mm.
-* Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus evident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériau, donc un touché différent.
-* A proximité des stations en correspondance, nous avons espacé les lignes de transport pour obtenir un tracé moins ambigu au niveau des correspondances et conserver une largeur de ligne de 8mm.
-* Quelques stations ont été légérement déplacée pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des étiquettes trop proches les unes des autres.
+* Les cercles des stations sont redimensionnés à 15 mm de diamètre.
+* La largeur des tracés de lignes est défini à 8 mm.
+* Nous avons fusionné les stations avec correspondance. Parce que cela permet d'avoir un tracé de ligne plus évident quand on le suit au doigt. Pour la ville de Rennes, ce choix est assez évident. Cela permet également de distinguer les stations en correspondance avec un matériau, donc un touché différent.
+* A proximité des stations en correspondance, nous avons espacé les lignes de transport pour obtenir un tracé moins ambigü au niveau des correspondances et conserver une largeur de ligne de 8mm.
+* Quelques stations ont été légèrement déplacées pour faciliter l'étiquetage Braille, cela ne change pas la géographie du réseau, cela permet juste d'éviter d'avoir des étiquettes trop proches les unes des autres.
 
 Le fichier svg résultat est le suivant
 ![Le fichier svg résultat est le suivant](/IMG/rennes_metro_worked2.svg)
@@ -108,8 +109,8 @@ A partir du fichier **rennes_metro_worked2.svg** nous avons réalisé les opéra
 * Transformation des lignes en contour en respectant la largeur de trait de 8mm en sélectionnant chaque ligne et en utilisant la fonction `Path/Object to path`.
 * Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour faire passer le bouton poussoir (trou de 10.7 mm)
 * Transformation des stations en chemins en sélectionnant les cercles exterieures des stations et en utilisant la fonction `Path/Object to path`.
-* Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
-* Les lignes sont découpés au niveau des stations en correspondances avec la fonction `Path/difference`.
+* Les lignes et les stations sont ensuite fusionnées en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
+* Les lignes sont découpées au niveau des stations en correspondances avec la fonction `Path/difference`.
 
 Pour réaliser la plaque de fond, les lignes noires correspondent à la gravure pour repérer la position des lignes, les lignes rouges correpondent aux découpes pour les boutons poussoirs.
 
@@ -125,9 +126,9 @@ A partir du fichier *rennes_metro_worked2.svg* nous avons réalisé les opérati
 * Pour chaque station, ajout d'un cercle qui correspondra au percage de la station pour fixer le bouton poussoir (trou de 7 mm)
 * Transformation des stations en cercle en sélectionnant les cercles exterieures des stations et en utilisant la fonction `Path/Object to path`.
 * Les lignes et les stations sont ensuite fusionnés en sélectionnant les stations et les lignes  et en utilisant la fonction `Path/Union`.
-* Les lignes sont découpés au niveau des stations en correspondances avec la fonction `Path/difference`.
+* Les lignes sont découpées au niveau des stations en correspondances avec la fonction `Path/difference`.
 
-Pour les lignes de transport, les lignes noires correspondent à des découpes extérieures, les lignes rouges correpondent aux découpes pour les boutons poussoirs. Pour chaque lignes ont regroupe les différentes parties pour optimiser l'utilisation du matériau.
+Pour les lignes de transport, les lignes noires correspondent à des découpes extérieures, les lignes rouges correpondent aux découpes pour les boutons poussoirs. Pour chaque lignes on regroupe les différentes parties pour optimiser l'utilisation du matériau.
 
 Les fichiers svg résultats sont les suivants :
 
@@ -175,9 +176,9 @@ Les fichiers STL pour l'impression se trouvent dans le repertoire 3dprint.
 
 ### Préparation des étiquettes
 
-La difficulté pour la réalisation des étiquettes est d'aligner suffisement bien l'impression, en gros caractères avec l'embossage Braille pour gagner de la place.
+La difficulté pour la réalisation des étiquettes est d'aligner suffisamment bien l'impression, en gros caractères avec l'embossage Braille pour gagner de la place.
 
-Pour réussir à aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire `labeltosvg`, ce script prend en entrée un fichier texte contenant une série de ligne à imprimer et génère une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. 
+Pour réussir à aligner correctement l'impression et l'embossage, nous avons utilisé le script python dans le repertoire `labeltosvg`, ce script prend en entrée un fichier texte contenant une série de lignes à imprimer et génère une série de fichiers SVG numérotés pour l'impression standard et pour l'embossage sur BrailleRAP. 
 
 Pour un numéro particulier, le fichier "xxxxxx.printer.svg" devra être imprimé avec une imprimante. Le fichier "xxxxxx.brap.svg" devra ensuite être embossé sur la BrailleRAP à l'aide du logiciel [DesktopBrailleRAP](https://github.com/braillerap/DesktopBrailleRAP).
 
@@ -206,7 +207,7 @@ Capture d'écran du même fichier d'étiquettes dans DesktopBrailleRAP.
 
 #### Découpe des étiquettes
 - Découper ensuite les étiquettes ligne par ligne de préférence à l’aide d’un massicot sinon cutter ou ciseaux.
-- Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible
+- Finaliser la découpe pour les séparer verticalement à l’aide d’un cutter ou de ciseaux en laissant toujours la même marge en début de mot et à la fin si possible.
 
 
 ![Etiquette imprimée en caractère noir avec surimpression braille](/IMG/etiquette_braille1_Clemenceau.jpg)
@@ -250,19 +251,31 @@ Procéder en plusieurs étapes si nécessaire en laissant sécher un minimum ava
 *Finalisation collage tasseaux*
 |
 
-* Percer 8 trous pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité) sur les les tasseaux
+#### Préparation plaque socle pour refermer le boîtier
+
+- Placer la plaque de 80 x 60 cm sur le chassis pour refermer la boite , la maintenir avec du scotch de peintre
+- Mettre une marque au scotch sur le foret de 6mm pour déterminer la profondeur du perçage
+- Percer 8 trous de 6mm de diamètre pour ajouter les inserts (1 à chaque coin et 1 entre chaque extrémité) traversant la plaque et les tasseaux de seulement qqs mm
+- Percer à l'aide d'une perceuse les 8 trous à l'emplacement des inserts
+- Enlever la plaque qui referme le boitier
+- Changer le foret de 6 pour un foret de 8mm  (diamètre de perçage pour inserts), mettre une marque au scotch pour déterminer la profondeur de perçage (longueur insert - épaisseur plaque, soit ici 23-5=17mm)
+- Percer chaque trou dans les tasseaux aux emplacement pré troués avec le foret de 6
+- Insérer les inserts dans chaque trou et finaliser leur fixation avec avec un marteau ou maillet en faisant attention de ne pas les endommager , mettre une protection si nécessaire sur l'insert pour éviter que le marteau ne le déforme
+- Vérifier que le boitier se referme en insérant les vis à leurs emplacements respectifs
+
+
 
 ![Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous](/IMG/plan_global_grave_et_perce_monte_sur_chassis_avec_inserts.jpg)
-*Plan global gravé et percé monté sur chassis avec inserts ajoutés pour le refermer par dessous*
+*Plan global gravé et percé monté sur chassis, avec inserts ajoutés pour le refermer par dessous*
 
 #### Ponçage chassis
-Avec une cale à poncer et papier de verre de 80, poncer les côtés afin qu'ils soient lisses et qu'ils ombent à fleur de la plaque du plan de métro
+Avec une cale à poncer et papier de verre de 80, poncer les côtés afin qu'ils soient lisses et qu'ils tombent à fleur de la plaque du plan de métro
 
 ![Ponçage du chassis](/IMG/poncage_chassis.jpg)
 *Ponçage du chassis*
 
 #### Vernissage du plan et du chassis
-Vernir le plan de métro démonté du chassis et vernir aussi le chassis extérieur (côté et fond) afin qu'il soit facilement lavable et plus résistant.
+Vernir le plan de métro démonté du chassis et vernir aussi le chassis extérieur (côté et fond démonté afin de pouvoir le démonter ultérieurement) afin qu'il soit facilement lavable et plus résistant.
 
 
 ### Vérification de l'assemblage avant le collage des lignes de métro
@@ -281,7 +294,7 @@ Vernir le plan de métro démonté du chassis et vernir aussi le chassis extéri
 ## Montage du circuit électronique
 ### Préparation des boutons
 - Étamer les boutons
-- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier . Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelques cm de plus
+- Mesurer la longueur de fil nécessaire entre chaque emplacement de bouton (trous des stations) jusqu'à l'emplacement de la carte clavier. Enlever la longueur de fil des fils des connecteurs pour avoir la bonne longueur. Prévoir quelques cm de plus
 - Souder le fil intermédiaire (rallonge) entre le connecteur et le bouton comme sur cette photo en ajoutant de la gaine thermo sur les connections à la soudure
 
 ![Préparation d'un bouton avec le fil de rallonge et le connecteur](IMG/prepa_bouton_connecteur_contraste_resized.jpg)
@@ -374,8 +387,19 @@ Une fois validé la position des étiquettes, les retirer et les conserver dans 
 *Domino d'alimentation*
 
 
+## Collage des étiquettes, légendes, et triangle
+- Vérifier une dernière fois que vous avez bien l'ensemble des étiquettes en les positionnant à leurs emplacements
+- Placer les légendes 
+- Prendre une photo lorsque l'ensemble est cohérent, essayer de mettre les étiquettes d'une même ligne du même côté quand cela est possible
+- Enlever les étiquettes
+- Avec la colle en spray, coller une à une les étiquettes  
+- Coller les légendes et ajouter les boutons en les reliant au circuit comme pour les stations, coller leur étiquette respective
+
+
 ## Vue d'ensemble du prototype final
-Le montage est terminé :)
+Le montage est terminé :) 
+
+Brancher le câble d'alimentation et expérimentez votre prototype avec des personnes déficientes visuelles ! Notez leurs retours et partagez-les nous !
 
 ![Vue d'ensemble du prototype final](/IMG/rennes.jpg)
 *Vue d'ensemble du prototype final*
