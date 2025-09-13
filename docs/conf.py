@@ -15,21 +15,21 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
 
 
 sys.path.append(os.path.abspath('_ext'))
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-	'sphinx.ext.autosectionlabel',
-    'sphinx_rtd_theme',
-    'myst_parser'
+# extensions = [
+#     'sphinx.ext.autodoc',
+#     'sphinx.ext.intersphinx',
+# 	'sphinx.ext.autosectionlabel',
+#     'sphinx_rtd_theme',
+#     'myst_parser'
     
-]
-templates_path = ['_templates']
+# ]
+#templates_path = ['_templates']
 
-source_suffix = ['.rst', '.md']
+#source_suffix = ['.rst', '.md']
 # source_parsers = {
     
 # }
-myst_enable_extensions = ["attrs_inline", "html_image"]
+#myst_enable_extensions = ["attrs_inline", "html_image"]
 
 #master_doc = 'index'
 #project = u'OpenStreetTangible'
@@ -37,9 +37,9 @@ myst_enable_extensions = ["attrs_inline", "html_image"]
 
 #version = '0.1.1'
 #release = '0.1.1'
-exclude_patterns = ['_build']
-default_role = 'obj'
-pygments_style = 'sphinx'
+# exclude_patterns = ['_build']
+# default_role = 'obj'
+# pygments_style = 'sphinx'
 
 #intersphinx_mapping = {
 #    'python': ('http://python.readthedocs.io/en/latest/', None),
@@ -57,34 +57,34 @@ latex_documents = [
 #     [u'Eric Holscher, Charlie Leifer, Bobby Grace'], 1)
 #]
 
-exclude_patterns = [
-    # 'api' # needed for ``make gettext`` to not die.
-]
+# exclude_patterns = [
+#     # 'api' # needed for ``make gettext`` to not die.
+# ]
 
-language = 'fr' 
+# language = 'fr' 
 
-locale_dirs = [
-    'locale/',
-]
-gettext_compact = False
-gettext_uuid = False
+# locale_dirs = [
+#     'locale/',
+# ]
+# gettext_compact = False
+# gettext_uuid = False
 
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
 #html_static_path = ['_static']
 #html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_theme_path = ["_themes"]
 #html_logo = 'IMG/logo.svg' 
 
-html_theme_options = {
-    'logo_only': False,
-    'display_version': True,
-}
+# html_theme_options = {
+#     'logo_only': False,
+#     'display_version': True,
+# }
 
 
 def setup(app):
     #app.add_stylesheet('css/custom.css')
     app.add_css_file('css/custom.css')
-    pass
+   
 
 
 
