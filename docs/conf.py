@@ -23,6 +23,7 @@ extensions = [
     'myst_parser'
     
 ]
+html_extra_path =['robots.txt','sitemap.xml']
 templates_path = ['_templates']
 
 source_suffix = ['.rst', '.md']
