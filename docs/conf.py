@@ -90,7 +90,8 @@ def setup(app):
 
 
 def add_google_tag(app, pagename, templatename, context, doctree):
-    metatag = '<meta name="google-site-test" content="abcdef" />'
+    metatag = '<meta name="google-site-verification" content="ZMkdTv3yP7NWK3wqkQMwbT6tY_VjSnMPlmmi_CfZhbE" />'
+    
     context['metatags'] = context.get('metatags', '') + metatag
 
 
