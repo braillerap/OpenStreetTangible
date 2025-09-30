@@ -84,7 +84,13 @@ html_theme_options = {
 def setup(app):
     #app.add_stylesheet('css/custom.css')
     app.add_css_file('css/custom.css')
-    pass
+    app.add_config_value('google-site-test', '', 'html')
+    app.connect('html-page-context', add_google_tag)
+    
 
+
+def add_google_tag(app, pagename, templatename, context, doctree):
+    metatag = '<meta name="google-site-test" content="abcdef" />'
+    context['metatags'] = context.get('metatags', '') + metatag
 
 

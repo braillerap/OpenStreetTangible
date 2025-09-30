@@ -229,11 +229,3 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-def setup(app):
-    app.add_config_value('google-site-test', '', 'html')
-
-def add_google_tag(app, pagename, templatename, context, doctree):
-    metatag = '<meta name="google-site-test" content="abcdef" />'
-    context['metatags'] = context.get('metatags', '') + metatag
-
-app.connect('html-page-context', add_google_tag)
