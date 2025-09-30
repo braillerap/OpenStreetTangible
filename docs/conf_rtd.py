@@ -230,7 +230,7 @@ texinfo_documents = [
 ]
 
 def setup(app):
-    app.add_config_value('google_site_verification', '', 'html')
+    app.add_config_value('google-site-test', '', 'html')
 
 def add_google_tag(app, pagename, templatename, context, doctree):
     metatag = '<meta name="google-site-test" content="abcdef" />'
