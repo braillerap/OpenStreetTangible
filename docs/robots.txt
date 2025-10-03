@@ -11,4 +11,4 @@ User-agent: *
 Disallow: /fr/doc/ # Hidden version
 Disallow: /en/doc/ # Hidden version
 
-Sitemap: https://openstreettangible.readthedocs.io/sitemap.xml
+Sitemap: https://openstreettangible.readthedocs.io/fr/latest/sitemap.xml
