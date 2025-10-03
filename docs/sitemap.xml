@@ -11,16 +11,101 @@ You can learn more about sitemaps, including how to customize them, in our docum
  -->
     <url>
         <loc>https://openstreettangible.readthedocs.io/fr/latest/</loc>
-        <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/" />
         <xhtml:link
-        rel="alternate"
-        hreflang="fr"
-        href="https://openstreettangible.readthedocs.io/fr/latest/" />
-      <xhtml:link
-        rel="alternate"
-        hreflang="en"
-        href="https://openstreettangible.readthedocs.io/en/latest/" />
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/" />
     </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/manuel_utilisateur.html" />
+    </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/building_step.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/building_step.html" />
+    </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/building_step.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/building_step.html" />
+    </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/rpi_config.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/rpi_config.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/fr/latest/rpi_config.html" />
+    </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/sourcecode.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/sourcecode.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/sourcecode.html" />
+    </url>
+    <url>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/licence.html</loc>
+          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+          <xhtml:link
+          rel="alternate"
+          hreflang="fr"
+          href="https://openstreettangible.readthedocs.io/fr/latest/licence.html" />
+        <xhtml:link
+          rel="alternate"
+          hreflang="en"
+          href="https://openstreettangible.readthedocs.io/en/latest/licence.html" />
+    </url>
+    
 </urlset>
