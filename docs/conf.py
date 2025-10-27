@@ -20,7 +20,8 @@ extensions = [
     'sphinx.ext.intersphinx',
 	'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'myst_parser'
+    'myst_parser',
+    'linkify'
     
 ]
 html_extra_path =['sitemap.xml', 'robots.txt']
