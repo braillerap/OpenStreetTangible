@@ -21,7 +21,7 @@ extensions = [
 	'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
     'myst_parser',
-    'linkify'
+    'linkify-it-py'
     
 ]
 html_extra_path =['sitemap.xml', 'robots.txt']
