@@ -20,16 +20,17 @@ extensions = [
      'sphinx.ext.intersphinx',
  	'sphinx.ext.autosectionlabel',
      'sphinx_rtd_theme',
-     'myst_parser'
+     'myst_parser',
+     'mystmd'
     
 ]
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
-#source_suffix = ['.rst', '.md']
-# source_parsers = {
+source_suffix = ['.rst', '.md']
+ source_parsers = {
     
 # }
-#myst_enable_extensions = ["attrs_inline", "html_image"]
+myst_enable_extensions = ["attrs_inline", "html_image"]
 
 #master_doc = 'index'
 #project = u'OpenStreetTangible'
