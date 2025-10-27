@@ -30,7 +30,11 @@ source_suffix = ['.rst', '.md']
 # source_parsers = {
     
 # }
-myst_enable_extensions = ["attrs_inline", "html_image"]
+myst_enable_extensions = [
+    "attrs_inline", 
+    "html_image",
+    "colon_fence"
+]
 
 master_doc = 'index'
 project = u'OpenStreetTangible'
