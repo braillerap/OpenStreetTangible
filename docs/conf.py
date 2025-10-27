@@ -33,7 +33,8 @@ source_suffix = ['.rst', '.md']
 myst_enable_extensions = [
     "attrs_inline", 
     "html_image",
-    "colon_fence"
+    "colon_fence",
+    "html_admonition"
 ]
 
 master_doc = 'index'

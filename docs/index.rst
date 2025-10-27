@@ -4,6 +4,7 @@ Bienvenue sur la documentation OpenStreetTangible
 .. image :: ./IMG/rennes.jpg 
   :width: 640px
   :align: center
+  
 |
 
 .. toctree::
