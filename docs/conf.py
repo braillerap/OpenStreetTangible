@@ -20,8 +20,7 @@ extensions = [
     'sphinx.ext.intersphinx',
 	'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'myst_parser',
-    'linkify-it-py'
+    'myst_parser'
     
 ]
 html_extra_path =['sitemap.xml', 'robots.txt']
@@ -31,9 +30,7 @@ source_suffix = ['.rst', '.md']
 # source_parsers = {
     
 # }
-myst_enable_extensions = [
-    "deflist"              
-]
+myst_enable_extensions = ["attrs_inline", "html_image"]
 
 master_doc = 'index'
 project = u'OpenStreetTangible'
