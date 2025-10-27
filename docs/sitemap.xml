@@ -25,7 +25,7 @@ You can learn more about sitemaps, including how to customize them, in our docum
     </url>
     <url>
         <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
-          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
+          <lastmod>2025-10-27T00:00:00.312642+00:00</lastmod>
           <changefreq>daily</changefreq>
           <priority>1.0</priority>
           <xhtml:link
@@ -38,7 +38,7 @@ You can learn more about sitemaps, including how to customize them, in our docum
           href="https://openstreettangible.readthedocs.io/en/latest/manuel_utilisateur.html" />
     </url>
     <url>
-        <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
+        <loc>https://openstreettangible.readthedocs.io/fr/latest/building_step.html</loc>
           <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
           <changefreq>daily</changefreq>
           <priority>1.0</priority>
@@ -51,20 +51,7 @@ You can learn more about sitemaps, including how to customize them, in our docum
           hreflang="en"
           href="https://openstreettangible.readthedocs.io/en/latest/building_step.html" />
     </url>
-    <url>
-        <loc>https://openstreettangible.readthedocs.io/fr/latest/manuel_utilisateur.html</loc>
-          <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
-          <changefreq>daily</changefreq>
-          <priority>1.0</priority>
-          <xhtml:link
-          rel="alternate"
-          hreflang="fr"
-          href="https://openstreettangible.readthedocs.io/fr/latest/building_step.html" />
-        <xhtml:link
-          rel="alternate"
-          hreflang="en"
-          href="https://openstreettangible.readthedocs.io/en/latest/building_step.html" />
-    </url>
+    
     <url>
         <loc>https://openstreettangible.readthedocs.io/fr/latest/rpi_config.html</loc>
           <lastmod>2025-09-30T00:00:00.312642+00:00</lastmod>
@@ -77,7 +64,7 @@ You can learn more about sitemaps, including how to customize them, in our docum
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="https://openstreettangible.readthedocs.io/fr/latest/rpi_config.html" />
+          href="https://openstreettangible.readthedocs.io/en/latest/rpi_config.html" />
     </url>
     <url>
         <loc>https://openstreettangible.readthedocs.io/fr/latest/sourcecode.html</loc>
