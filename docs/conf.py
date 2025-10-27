@@ -15,14 +15,14 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
 
 
 sys.path.append(os.path.abspath('_ext'))
-# extensions = [
-#     'sphinx.ext.autodoc',
-#     'sphinx.ext.intersphinx',
-# 	'sphinx.ext.autosectionlabel',
-#     'sphinx_rtd_theme',
-#     'myst_parser'
+extensions = [
+     'sphinx.ext.autodoc',
+     'sphinx.ext.intersphinx',
+ 	'sphinx.ext.autosectionlabel',
+     'sphinx_rtd_theme',
+     'myst_parser'
     
-# ]
+]
 #templates_path = ['_templates']
 
 #source_suffix = ['.rst', '.md']
