@@ -29,18 +29,18 @@ templates_path = ['_templates']
 source_suffix = ['.rst', '.md']
  source_parsers = {
     
-# }
+}
 myst_enable_extensions = ["attrs_inline", "html_image"]
 
-#master_doc = 'index'
-#project = u'OpenStreetTangible'
-#copyright = 'CERN-OHL-W V2.0'
+master_doc = 'index'
+project = u'OpenStreetTangible'
+copyright = 'CERN-OHL-W V2.0'
 
-#version = '0.1.1'
-#release = '0.1.1'
-# exclude_patterns = ['_build']
-# default_role = 'obj'
-# pygments_style = 'sphinx'
+version = '0.1.1'
+release = '0.1.1'
+exclude_patterns = ['_build']
+default_role = 'obj'
+pygments_style = 'sphinx'
 
 #intersphinx_mapping = {
 #    'python': ('http://python.readthedocs.io/en/latest/', None),
