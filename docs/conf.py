@@ -84,6 +84,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
+    'version_selector':False
 }
 
 
