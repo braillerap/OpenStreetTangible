@@ -7,10 +7,10 @@ Ce prototype , réalisé  avec le  programme  [OpenStreetTouch](https://github.c
 
 Il associe un plan en relief du métro avec des boutons pour chaque station permettant de vocaliser leur nom. Il est complété par des étiquettes en braille pour chacune d’elle, en surimpression du nom écrit de manière contrastée et en gros caractère.
 
-:::{iframe} https://www.youtube.com/watch?v=g61iP3ccKi4
-:width: 100%
-Get up and running with MyST in Jupyter!
-:::
+
+```{iframe} https://www.youtube.com/watch?v=g61iP3ccKi4
+Une vidéo du prototype
+```
 
 
 
