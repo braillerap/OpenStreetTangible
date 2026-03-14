@@ -9,22 +9,21 @@ msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-14 10:42+0000\n"
-"PO-Revision-Date: 2025-07-01 16:13+0000\n"
+"PO-Revision-Date: 2026-03-14 10:54+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
+"Language-Team: English <https://translate.codeberg.org/projects/"
+"openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
 "Language: en\n"
-"Language-Team: English "
-"<https://translate.codeberg.org/projects/openstreettangible_buildingmanual/manual_rpi_config/en/>"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../rpi_config.md:1
-#, fuzzy
 msgid "Configuration du Raspberry PI 5"
-msgstr "Raspberry PI setup"
+msgstr "Raspberry PI 5 setup"
 
 #: ../../rpi_config.md:2
 msgid "Création de l'image système"
@@ -71,11 +70,11 @@ msgstr ""
 " Raspberry PI imager"
 
 #: ../../rpi_config.md:16
-#, fuzzy
 msgid ""
 "Une fois toutes les options configurées, vous pouvez lancer la création "
 "de l'image sur la carte SD."
-msgstr "Once all the options are set, you can write the system image on SD card."
+msgstr ""
+"Once all the options are set, you can write the system image on SD card."
 
 #: ../../rpi_config.md:18
 msgid "Installation du système"
@@ -155,7 +154,7 @@ msgstr "Install TTS **espeack-ng**"
 
 #: ../../rpi_config.md:60
 msgid "Carte Son"
-msgstr ""
+msgstr "Sound board"
 
 #: ../../rpi_config.md:61
 msgid ""
@@ -165,6 +164,10 @@ msgid ""
 "uda1334a). La qualité sonore est grandement améliorée par rapport à la "
 "carte son native des Raspberry 3 ou 4."
 msgstr ""
+"Raspberry PI 5 does not provide any more an audio JACK 3.5. We have used an "
+"external sound board [Adafruit I2S - UDA1334A](https://learn.adafruit.com/"
+"adafruit-i2s-stereo-decoder-uda1334a). Sound quality is better than "
+"Raspberry PI 3 or 4 native audio output."
 
 #: ../../rpi_config.md:66
 msgid "Installation du logiciel speakerkeyboard"
@@ -287,4 +290,3 @@ msgstr "you can also restart it with the command:"
 
 #~ msgid "Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:"
 #~ msgstr "You can now test the speech synthesis with the following commands:"
-
