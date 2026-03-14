@@ -1,4 +1,4 @@
-## Configuration du Raspberry PI
+## Configuration du Raspberry PI 5
 ### Création de l'image système
 
 Avec l'outil [Raspberry Pi Imager](https://www.raspberrypi.com/software/) installer la dernière version de **Raspberry PI OS** en version **lite** sur une carte SD.
@@ -13,7 +13,7 @@ vous devez activer une installation personnalisée avec les options suivantes
 Pour terminer l'installation, vous aurez besoin de vous connecter au Raspberry PI par le réseau. De manière générale nous réalisons cette opération en connectant un câble ethernet, si vous souhaitez connecter le raspberry pi en wifi, vous devez configurer le wifi avant l'installation
 ```
 
-Une fois toute les options configurées, vous pouvez lancer la création de l'image sur la carte SD.
+Une fois toutes les options configurées, vous pouvez lancer la création de l'image sur la carte SD.
 
 ### Installation du système
 
@@ -47,27 +47,21 @@ Installer les logiciels avec les commandes :
 sudo apt update
 sudo apt upgrade
 sudo apt install git nano
+sudo apt install cmake build-essential python3-dev
+sudo apt install libportaudio2 libportaudiocpp0 portaudio19-dev
+
 ```
 
 Installer la synthèse vocale **espeack-ng**
 ```
-sudo apt install espeack-ng
+sudo apt install espeak-ng
 ```
 
-Installer l'extension **mbrola** avec les voix françaises.
-```
-mkdir contrib
-cd contrib
-wget https://raspberry-pi.fr/download/espeak/mbrola3.0.1h_armhf.deb -O mbrola.deb
-sudo dpkg -i mbrola.deb
-sudo apt install mbrola-fr1 mbrola-fr2 mbrola-fr3 mbrola-fr4
-```
+### Carte Son
+Le Raspberry PI 5 ne possède plus de sortie son au format JACK 3.5. Nous avons utilisé une carte son [Adafruit I2S - UDA1334A](https://learn.adafruit.com/adafruit-i2s-stereo-decoder-uda1334a). La qualité sonore est grandement améliorée par rapport à la carte son native des Raspberry 3 ou 4.
 
-Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:
-```
-espeak-ng -v mb-fr1 "Bonjour tout le monde"
-espeak-ng -v mb-fr4 "Bonjour tout le monde"
-```
+
+
 
 ### Installation du logiciel speakerkeyboard
 
@@ -113,7 +107,7 @@ Le fichier **configuration.json** pour la carte tactile du métro de Rennes est 
     "device": "",
     "speed": 100,
     "volume": 40,
-    "voice": "mb-fr4",
+    "voice": "-",
     "sync":0,
     "messages": {
 	"49":"J.F Kénnédy, ligne A",

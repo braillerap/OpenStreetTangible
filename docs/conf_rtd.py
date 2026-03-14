@@ -59,9 +59,9 @@ copyright = u'CERN-OHL-W V2.0'
 author = u'BrailleRAP team / My Human Kit'
 
 # The short X.Y version
-version = u'0.1.1'
+version = u'0.2.1'
 # The full version, including alpha/beta/rc tags
-release = u'0.1.1'
+release = u'0.2.1'
 
 
 # -- General configuration ---------------------------------------------------

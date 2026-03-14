@@ -39,6 +39,10 @@ Le matériau utilisé pour les étiquettes sont des feuilles transparentes pour 
 
 L’écriture braille ne permet pas de modifier la taille des caractères puisqu’il est indispensable de respecter un écart standard entre les points qui composent chaque caractère afin de rester lisible. C’est une contrainte majeure dans la mesure où le braille prend nécessairement une place importante et écarte d’emblée la réalisation de petits formats si l’on souhaite avoir l’ensemble de l’information sur un même support.
 
+Cette version utilise un nouveau moteur de synthese vocale [piper](https://github.com/OHF-Voice/piper1-gpl). La synthèse est nettement améliorée, par contre **piper** utilise beaucoup plus de ressources CPU pour la synthèse vocale et necessite une Raspberry PI 5 pour obtenir une installation réactive et confortable.
+
+Le Raspberry PI 5 ne possède plus de sortie son au format JACK 3.5. Nous avons donc utilisé une carte son [Adafruit I2S - UDA1334A](https://learn.adafruit.com/adafruit-i2s-stereo-decoder-uda1334a). La qualité sonore est grandement améliorée par rapport aux cartes son natives des Raspberry 3 ou 4.
+
 
 # Financement
 
