@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenStreetTangible 0.1.1\n"
+"Project-Id-Version: OpenStreetTangible 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-30 16:30+0000\n"
+"POT-Creation-Date: 2026-03-14 10:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,58 +36,66 @@ msgstr ""
 msgid "Il associe un plan en relief du métro avec des boutons pour chaque station permettant de vocaliser leur nom. Il est complété par des étiquettes en braille pour chacune d’elle, en surimpression du nom écrit de manière contrastée et en gros caractère."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:11
+#: ../../manuel_utilisateur.md:17
 msgid "Le  programme OpenStreetTouch permet non seulement d’extraire des plans de ville  mais aussi d’en extraire les données de transport (bus/car, tramway, métro, train, train interurbain, monorail, ferry, funiculaire) depuis OpenStreetMap, fonction que nous utilisons ici."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:13
+#: ../../manuel_utilisateur.md:19
 msgid "Les fichiers numériques ainsi récupérés permettent de produire des objets physiques avec des machines à commande numérique que l’on trouve notamment dans les fablabs."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:15
+#: ../../manuel_utilisateur.md:21
 msgid "Les personnes déficientes visuelles s’appuient principalement sur le toucher et la synthèse vocale pour compenser le sens de la vision. Elles peuvent alors se faire des représentations mentales de leur environnement et faciliter leur locomotion."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:17
+#: ../../manuel_utilisateur.md:23
 msgid "Compte tenu du panel très large que représente la déficience visuelle entre une vision totalement inexistante et une vue altérée, ainsi que les sensibilités et capacités de chacun que ce soit pour lire le braille ou préférer une information vocalisée, il nous a semblé pertinent de multiplier l’accessibilité en proposant 3 possibilités pour accéder à  l’information (synthèse vocale, écriture en gros caractère, et écriture en braille)."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:20
+#: ../../manuel_utilisateur.md:26
 msgid "En répondant aux exigences des uns et des autres à travers un seul objet, ce type de plan pourrait parfaitement avoir sa place dans une station de métro ou un centre de locomotion pour déficients visuels."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:22
+#: ../../manuel_utilisateur.md:28
 msgid "Il est composé d’un panneau de bois de 80 x 60 cm sur lequel les deux lignes du métro de Rennes , découpées à la laser,  y sont collées. L’une se caractérise par un toucher rugueux spécifique au papier de verre tandis que l’autre est très lisse grâce au PMMA,  elles sont ainsi immédiatement dissociables au toucher. Une légende en bas à gauche du plan est également présente afin d’identifier chacune des deux lignes."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:26
+#: ../../manuel_utilisateur.md:32
 msgid "Chaque station est représentée par un bouton que l’on peut cliquer pour vocaliser son nom.  Une étiquette est aussi associé à chacune d’elle avec son nom écrit en braille en surimpression du nom écrit en noir et gros caractère."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:28
+#: ../../manuel_utilisateur.md:34
 msgid "Pour l'impression des étiquettes, nous avons utilisé la police *Luciole*, spécialement crée pour les mal voyants. Cette police est disponible ici [https://www.luciole-vision.com](https://www.luciole-vision.com). La police *Luciole* est disponible sous licence libre CC BY 4.0."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:31
+#: ../../manuel_utilisateur.md:37
 msgid "Le matériau utilisé pour les étiquettes sont des feuilles transparentes pour impression laser. La transparence permet d'imprimer les étiquettes en contraste élevé. Ces feuilles fonctionnent correctement pour l'embossage Braille avec la BrailleRAP."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:34
+#: ../../manuel_utilisateur.md:40
 msgid "L’écriture braille ne permet pas de modifier la taille des caractères puisqu’il est indispensable de respecter un écart standard entre les points qui composent chaque caractère afin de rester lisible. C’est une contrainte majeure dans la mesure où le braille prend nécessairement une place importante et écarte d’emblée la réalisation de petits formats si l’on souhaite avoir l’ensemble de l’information sur un même support."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:37
+#: ../../manuel_utilisateur.md:42
+msgid "Cette version utilise un nouveau moteur de synthese vocale [piper](https://github.com/OHF-Voice/piper1-gpl). La synthèse est nettement améliorée, par contre **piper** utilise beaucoup plus de ressources CPU pour la synthèse vocale et necessite une Raspberry PI 5 pour obtenir une installation réactive et confortable."
+msgstr ""
+
+#: ../../manuel_utilisateur.md:44
+msgid "Le Raspberry PI 5 ne possède plus de sortie son au format JACK 3.5. Nous avons donc utilisé une carte son [Adafruit I2S - UDA1334A](https://learn.adafruit.com/adafruit-i2s-stereo-decoder-uda1334a). La qualité sonore est grandement améliorée par rapport aux cartes son natives des Raspberry 3 ou 4."
+msgstr ""
+
+#: ../../manuel_utilisateur.md:47
 msgid "Financement"
 msgstr ""
 
-#: ../../manuel_utilisateur.md:39
+#: ../../manuel_utilisateur.md:49
 msgid "Ce projet est financé grace à [NGI0 Entrust](https://nlnet.nl/entrust), un fond créé par [NLnet](https://nlnet.nl) avec le support du programme  [Next Generation Internet](https://ngi.eu) de la Commision Européene. Plus d'informations ici [NLnet project page](https://nlnet.nl/project/BrailleRAP)."
 msgstr ""
 
-#: ../../manuel_utilisateur.md:41
+#: ../../manuel_utilisateur.md:51
 msgid "[      <img src=\"./IMG/nlnetbanner.png\" alt=\"Le logo du programme NGI0\" width=\"25%\"> ](https://nlnet.nl)  [     <img src=\"./IMG/NGI0_tag.png\" alt=\"Le logo du programme NGI0\" width=\"25%\"> ](https://nlnet.nl)"
 msgstr ""
 
-#: ../../manuel_utilisateur.md:41
+#: ../../manuel_utilisateur.md:51
 msgid "Le logo du programme NGI0"
 msgstr ""

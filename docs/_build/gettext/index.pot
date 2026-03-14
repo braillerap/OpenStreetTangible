@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenStreetTangible 0.1.1\n"
+"Project-Id-Version: OpenStreetTangible 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-30 15:49+0000\n"
+"POT-Creation-Date: 2026-03-14 10:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,6 @@ msgstr ""
 msgid "Bienvenue sur la documentation OpenStreetTangible"
 msgstr ""
 
-#: ../../index.rst:20
+#: ../../index.rst:21
 msgid "Mise à jour: |today|"
 msgstr ""

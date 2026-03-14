@@ -8,21 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenStreetTangible 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-01 16:11+0000\n"
+"POT-Creation-Date: 2026-03-14 10:42+0000\n"
 "PO-Revision-Date: 2025-07-01 16:13+0000\n"
 "Last-Translator: crocsg <crocsg@noreply.codeberg.org>\n"
-"Language-Team: English <https://translate.codeberg.org/projects/"
-"openstreettangible_buildingmanual/manual_rpi_config/en/>\n"
 "Language: en\n"
+"Language-Team: English "
+"<https://translate.codeberg.org/projects/openstreettangible_buildingmanual/manual_rpi_config/en/>"
+"\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../rpi_config.md:1
-msgid "Configuration du Raspberry PI"
+#, fuzzy
+msgid "Configuration du Raspberry PI 5"
 msgstr "Raspberry PI setup"
 
 #: ../../rpi_config.md:2
@@ -70,9 +71,10 @@ msgstr ""
 " Raspberry PI imager"
 
 #: ../../rpi_config.md:16
+#, fuzzy
 msgid ""
-"Une fois toute les options configurées, vous pouvez lancer la création de"
-" l'image sur la carte SD."
+"Une fois toutes les options configurées, vous pouvez lancer la création "
+"de l'image sur la carte SD."
 msgstr "Once all the options are set, you can write the system image on SD card."
 
 #: ../../rpi_config.md:18
@@ -147,23 +149,28 @@ msgstr "Connect on the Raspberry PI :"
 msgid "Installer les logiciels avec les commandes :"
 msgstr "Install software with commands:"
 
-#: ../../rpi_config.md:52
+#: ../../rpi_config.md:55
 msgid "Installer la synthèse vocale **espeack-ng**"
 msgstr "Install TTS **espeack-ng**"
 
-#: ../../rpi_config.md:57
-msgid "Installer l'extension **mbrola** avec les voix françaises."
-msgstr "Install **mbrola** extension for french voices."
+#: ../../rpi_config.md:60
+msgid "Carte Son"
+msgstr ""
+
+#: ../../rpi_config.md:61
+msgid ""
+"Le Raspberry PI 5 ne possède plus de sortie son au format JACK 3.5. Nous "
+"avons utilisé une carte son [Adafruit I2S - "
+"UDA1334A](https://learn.adafruit.com/adafruit-i2s-stereo-decoder-"
+"uda1334a). La qualité sonore est grandement améliorée par rapport à la "
+"carte son native des Raspberry 3 ou 4."
+msgstr ""
 
 #: ../../rpi_config.md:66
-msgid "Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:"
-msgstr "You can now test the speech synthesis with the following commands:"
-
-#: ../../rpi_config.md:72
 msgid "Installation du logiciel speakerkeyboard"
 msgstr "Setup speakerkeyboard software"
 
-#: ../../rpi_config.md:74
+#: ../../rpi_config.md:68
 msgid ""
 "Le logiciel [speakerkeyboard](https://github.com/crocsg/speakerkeyboard) "
 "permet de déclencher la lecture d'un message en synthèse vocale lors de "
@@ -177,7 +184,7 @@ msgstr ""
 "board, it is possible to simulate pressing a key on a keyboard by "
 "pressing one of the buttons on the touch board."
 
-#: ../../rpi_config.md:85
+#: ../../rpi_config.md:79
 msgid ""
 "Le logiciel est utilisable uniquement en mode **root** dans la mesure ou "
 "nous utilisons le module python **keyboard** pour intercepter les "
@@ -186,15 +193,15 @@ msgstr ""
 "The software can only be used with **root** user since we use the python "
 "**keyboard** module to intercept keyboard events."
 
-#: ../../rpi_config.md:87
+#: ../../rpi_config.md:81
 msgid "Pour lancer le logiciel"
 msgstr "To run the software"
 
-#: ../../rpi_config.md:95
+#: ../../rpi_config.md:89
 msgid "Configurer les noms des stations"
 msgstr "Edit station names"
 
-#: ../../rpi_config.md:97
+#: ../../rpi_config.md:91
 msgid ""
 "Pour réaliser la configuration, les boutons de la carte tactile doivent "
 "être branchés sur la carte **shapeless_rp2040_40keys** et la carte "
@@ -204,11 +211,11 @@ msgstr ""
 "**shapeless_rp2040_40keys** board and the **shapeless_rp2040_40keys** "
 "board must be connected via USB to the Raspberry PI."
 
-#: ../../rpi_config.md:99
+#: ../../rpi_config.md:93
 msgid "Lancer le logiciel"
 msgstr "Run the software"
 
-#: ../../rpi_config.md:106
+#: ../../rpi_config.md:100
 msgid ""
 "Lors de l'appui sur un bouton de la carte tactile, le logiciel affiche le"
 " **code clavier**, le texte associé. Si un texte est associé à la touche,"
@@ -218,17 +225,17 @@ msgstr ""
 "**keyboard code** and the associated text. If a text is associated with "
 "the key, the voice synthesizer is triggered and reads the text in audio."
 
-#: ../../rpi_config.md:108
+#: ../../rpi_config.md:102
 msgid ""
 "Pour configurer un message, arreter le logiciel avec `CTRL-C`, vous devez"
 " ensuite éditer le fichier **kspeaker.json** pour entrer le **code "
 "clavier** et le texte associé dans la section **messages**."
 msgstr ""
-"To configure a message, stop the software with `CTRL-C`, then you need to "
-"edit the **kspeaker.json** file to enter the **keyboard code** and "
+"To configure a message, stop the software with `CTRL-C`, then you need to"
+" edit the **kspeaker.json** file to enter the **keyboard code** and "
 "associated text in the **messages** section."
 
-#: ../../rpi_config.md:110
+#: ../../rpi_config.md:104
 msgid ""
 "Le fichier **configuration.json** pour la carte tactile du métro de "
 "Rennes est donné ici a titre d'exemple."
@@ -236,7 +243,7 @@ msgstr ""
 "The **configuration.json** file for the Rennes metro touch map is given "
 "here as an example."
 
-#: ../../rpi_config.md:151
+#: ../../rpi_config.md:145
 msgid ""
 "Vous pouvez remarquer que certains noms ont été modifiés pour mieux "
 "correspondre à la phonétique française et permettre une meilleure "
@@ -249,11 +256,11 @@ msgstr ""
 "**Kennedy** has been transformed into **Kénnédy**, **Le Blosne** has been"
 " transformed into **Le Blaune**."
 
-#: ../../rpi_config.md:153
+#: ../../rpi_config.md:147
 msgid "Lancement du logiciel au démarrage du système"
 msgstr "Running the software at system startup"
 
-#: ../../rpi_config.md:155
+#: ../../rpi_config.md:149
 msgid ""
 "Pour pouvoir utiliser la carte tactile de façon autonome, le logiciel "
 "**kspeaker** doit se lancer au démarrage du système. Pour installer le "
@@ -263,7 +270,7 @@ msgstr ""
 "software must be launched at system startup. To install the software as a"
 " system script, use the command:"
 
-#: ../../rpi_config.md:164
+#: ../../rpi_config.md:158
 msgid ""
 "Une fois le logiciel installé en service système, vous pouvez l'arrêter "
 "en utilisant la commande :"
@@ -271,6 +278,13 @@ msgstr ""
 "Once the software is installed as a system service, you can stop it using"
 " the command:"
 
-#: ../../rpi_config.md:169
+#: ../../rpi_config.md:163
 msgid "vous pouvez également le relancer avec la commande :"
 msgstr "you can also restart it with the command:"
+
+#~ msgid "Installer l'extension **mbrola** avec les voix françaises."
+#~ msgstr "Install **mbrola** extension for french voices."
+
+#~ msgid "Vous pouvez ensuite tester la synthèse vocale à l'aide des commandes:"
+#~ msgstr "You can now test the speech synthesis with the following commands:"
+
